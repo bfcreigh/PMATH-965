@@ -1,0 +1,154 @@
+\documentclass[10pt]{article}
+
+%%% ~~~ Packages ~~~ %%%
+
+% ~~~ Geometry and Visuals ~~~ %
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+
+\geometry{margin=0.5in}
+\setstretch{0.65}
+\pagestyle{fancy}
+
+\usepackage{changepage}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true}
+
+\def\hrulefill{\noindent\leavevmode\leaders\hrule height 1pt\hfill\kern\z}
+
+% ~~~ Mathematics Formatting ~~~ %
+
+\usepackage{tikz}
+\usepackage{tikz-cd}
+
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+
+% ~~~ Generic Packages ~~~ %
+
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{subfiles}
+
+%%% ~~~ Theorem Formatting ~~~ %%%
+
+\theoremstyle{definition}
+\newtheorem{exmp}{Example}[section]
+\newtheorem{defn}{Definition}[section]
+\newtheorem{prop}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{cor}{Corollary}[section]
+\newtheorem{thm}{Theorem}[section]
+\newtheorem*{note}{Note}
+\newtheorem*{notation}{Notation}
+\newtheorem*{rmk}{Remark}
+
+%%% ~~~ Custom Commands ~~~ %%%
+
+\newcommand\norm[1]{\left\| #1 \right\|}
+\newcommand\anorm[1]{\left| #1 \right|}
+\newcommand\inorm[1]{\left\| #1 \right\|_\infty}
+\newcommand\pnorm[2]{\left\| #1 \right\|_{#2}}
+\newcommand{\tnorm}[1]{|\!|\!|#1|\!|\!|}
+\newcommand\XX{\mathcal{X}}
+\newcommand\YY{\mathcal{Y}}
+\newcommand\R{\mathbb{R}}
+\newcommand\C{\mathbb{C}}
+\newcommand\N{\mathbb{N}}
+\newcommand\F{\mathbb{F}}
+\newcommand\Q{\mathbb{Q}}
+\newcommand\Z{\mathbb{Z}}
+\newcommand\floor[1]{\lfloor #1 \rfloor}
+\newcommand\rst[1]{\big|_{#1}}
+\newcommand\ot{\otimes}
+\newcommand\bigot{\bigotimes}
+\newcommand\bus{\bigoplus}
+\newcommand\Hom[2]{\text{Hom}_{#1}\left( #2 \right)}
+\newcommand\id[1]{\text{id}_{#1}}
+\newcommand\im{\text{im }}
+\newcommand\coker{\text{coker }}
+\newcommand\brc[1]{\left\{#1\right\}}
+\newcommand\gl[2]{\text{GL}\br{#1, #2}}
+\newcommand\s{ \ | \ }
+\newcommand\sect[1]{\Gamma\br{#1}}
+\newcommand\ol[1]{\overline{#1}}
+\newcommand\impliespf{($\implies$) \ }
+\newcommand\impliedpf{($\impliedby$) \ }
+
+
+\newcommand\mb[1]{\mathbb{#1}}
+\newcommand\mc[1]{\mathcal{#1}}
+
+\newcommand\al[1]{\begin{align*}#1\end{align*}}
+
+%%% --- Lecture note Additions --- %%% (organize!)
+
+
+\newcommand\lbl[1]{\noindent\textbf{#1.}}
+\newcommand\br[1]{\left( #1 \right)}
+
+% This is the command that formats everything properly. If this goes, everything goes!!!
+
+\newcommand\lecture[3]
+{
+    \hrulefill{}
+    \vspace{1em}
+    \begin{center}
+        \noindent \texttt{\Large Lecture #1 --- #2 #3, 2020} 
+    \end{center}
+    \vspace{0.55em}
+    \hrulefill{}
+    \vspace{1em}
+    \subfile{Subfiles/#2#3.tex}\\
+}
+% - The first input is the text to be emphasized and the second is the colour selection
+% - This is designed to be able to create custom emphasis commands more easily
+\newcommand\emphasis[2]{{\it{\color{#2}#1}}}
+
+\newcommand\empho[1]{{\it{\color{orange}#1}}}
+\newcommand\emphp[1]{{\it{\color{violet}#1}}}
+
+
+
+\usepackage[dvipsnames]{xcolor}
+
+
+
+
+%%% ~~~ Document Information ~~~ %%%
+
+
+\lhead{Gauge Theory --- PMATH 965}
+\rhead{Brennen Creighton-Young}
+
+\begin{document}
+
+\pagestyle{plain}
+
+\begin{center}
+    \hrulefill{} \\
+    \vspace{1.5em}
+    \texttt{ \LARGE Gauge Theory --- PMATH 965} \\
+    \vspace{0.5em}
+    \texttt{\Large Professor Ruxandra Moraru} \\ 
+    \vspace{0.5em}
+    \hrulefill{}
+\end{center}
+
+\tableofcontents
+\vspace{1em}
+
+\lecture{1}{January}{7}
+\lecture{2}{January}{9}
+\lecture{3}{January}{14}
+\lecture{4}{January}{16}
+\lecture{5}{January}{21}
+\lecture{6}{January}{23}
+
+\end{document}

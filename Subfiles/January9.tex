@@ -1,0 +1,147 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\lbl{Recall} A \emphp{fibre bundle} is a tuple $(E, B, \pi, F)$ with $\pi: E \to B$ a continuous surjection that satisfies 
+$\forall b \in B$ there is an open neighbourhood $U \subseteq B$ with $b \in U$ and a homeomorphism $\varphi: \pi^{-1}(U) \to U \times F$ such that the following diagram commutes:
+\[
+\begin{tikzcd}
+ \pi^{-1}(U) \arrow[dd, "\pi"'] \arrow[rr, "\varphi"] &  & U \times F \arrow[lldd, "\text{proj}_1"] \\
+                                                      &  &                                          \\
+U                                                     &  &                                         
+\end{tikzcd}
+\]
+
+\begin{notation}
+\begin{align*}
+    E &= \text{total space} \\
+    B &= \text{base space} \\
+    F &= \text{fibre} \\
+    \pi &= \text{projection map} \\
+    E_b &:= \pi^{-1}(b) = \text{fibre of $E$ at $b$} \cong F \\
+    E_U &= \pi^{-1}(U) \subset E
+\end{align*}
+A fibre bundle $(E, B, \pi, F)$ is also called an \emphp{$F$-bundle}.
+\end{notation}
+
+\begin{defn}\label{smoothfibre}
+A fibre bundle $(E, B, \pi, F)$ is called \emphp{smooth} if $E, B$ and $F$ are smooth manifolds and $\pi : E \to B$ is a smooth surjection and for all $b \in B$, there exists and open neighbourhood $U \subset B$ of $b$ and a diffeomorphism $\varephi: \pi^{-1}(U) \to U \times F$ such that $\text{pr}_1 \circ \varphi = \pi$.
+\end{defn}
+
+\begin{note}
+In Definition \ref{smoothfibre}, we just replace the continuity/homeomorphism by smooth/diffeomorphism.
+\end{note}
+
+\begin{rmk}
+Note that $\pi: E \to B$ is in fact a smooth submersion (i.e., the differential $\pi_* : TE \to TB$ is surjective at every point). This follows from the local triviality --- not every smooth surjection is a submersion.
+\end{rmk}
+
+\begin{exmp}
+\begin{enumerate}
+    \item All of the examples from lecture 1 are smooth fibre bundles.
+    \item \lbl{Tangent bundles} Let $M$ be a smooth manifold of dimension $n$. Then, $TM$ is a smooth $\R^n$-bundle. Indeed, let $\{(U_\alpha, \phi_\alpha) \}$ be a smooth atlas for $M$ so that $\phi_\alpha: U_\alpha \subset M \overset{\text{diffeo}}{\to} \phi_\alpha(U_\alpha) \subset \R^n$. Here, of course, $\phi_\alpha$ are the coordinate charts and $\phi_\alpha \circ \phi_\beta^{-1}$ are the coordinate transformations. In particular, $\phi_\alpha \circ \phi_\beta^{-1}$ is a diffeomorphism whenever $U_\alpha \cap U_\beta \neq \emptyset$ so that, $\forall p \in U_\alpha \cap U_\beta$,
+    \begin{align*}
+        (\phi_\alpha \circ \phi_\beta^{-1})_*(\phi_\beta(p)): T_{\phi_\beta(p)}\R^n \to T_{\phi_\alpha(p)}\R^n
+    \end{align*}is an isomorphism (of vector spaces).
+    
+    Recall that the \emphp{tangent bundle} $TM$ of $M$ is defined as
+    \[
+    TM = \coprod_{p \in M} T_pM
+    \]
+    then, $TM$ has the following smooth manifold structure: Let
+    \begin{align*}
+        \pi: TM &\to M \\
+            X_p \in T_pM &\mapsto p
+    \end{align*}
+    Suppose that
+    \begin{align*}
+        \phi_\alpha: U_\alpha &\to \R^n \\
+                        p &\mapsto (x_1(p), \dots, x_n(p)).
+    \end{align*}
+    Then, $\forall X \in T_pM$, $X = \sum_{i=1}^n a_i \frac{\partial}{\partial x_i}\rst{p}$ for some appropriate scalars $a_1, \dots, a_n$.
+    Denote by
+    \begin{align*}
+        \tilde{\phi}_\alpha: \pi^{-1}(U_\alpha) &\to U_\alpha \times \R^n \\ 
+                            \br{p, X = \sum_{i=1}^n a_i \frac{\partial}{\partial x_i}\rst{p}} &\mapsto \br{p = \pi(X), (a_1, \dots, a_n)}.
+    \end{align*}
+    Then $\{ \pi^{-1}(U_\alpha)\}$ is a basis for a topology on $TM$ with respect to which $\{(\pi^{-1}(U_\alpha), \tilde{\phi}_\alpha) \}$ is a smooth atlas for $TM$. Additionally, $\pi: TM \to M$ is smooth with respect to this smooth structure (see Lee's Introduction to Smooth Manifolds). Note that $\pi \circ \tilde{\phi}_\alpha = \text{pr}_1$ by the definition of $\tilde{\phi}_\alpha$. So $(TM, M, \pi, \R^n)$ is a smooth $\R^n$-bundle.
+    
+    \begin{note}
+    Using the notation from above, the coordinate transformations of $TM$ are given by
+    \[
+    \br{\tilde{\phi}_\alpha \circ \tilde{\phi}_\beta^{-1}}(p, v = (a_1, \dots, a_n)) = (p, (\phi_\alpha \circ \phi_\beta^{-1})_*(p)v)
+    \]
+    \end{note}
+\end{enumerate}
+\end{exmp}
+
+ \subsection{Bundle Maps}
+ 
+ \begin{defn}
+ Let $(E, B, \pi, F)$ and $(E^\prime, B, \pi^\prime, F^\prime)$ be two smooth fibre bundles over the same base space. A \emphp{bundle map} or a \emphp{bundle morphism} of these bundles is a smooth map $H: E \to E^\prime$ such that $\pi^\prime \circ H = \pi$ (*). Diagrammatically,
+ \[
+ \begin{tikzcd}
+E \arrow[rd, "\pi"'] \arrow[rr, "H"] &   & E^\prime \arrow[ld, "\pi^\prime"] \\
+                                     & B &                                  
+\end{tikzcd}
+ \]
+ A  \emphp{bundle isomorphism} is a bundle map which is a diffeomorphism. If such an isomorphism exists, then $E$ and $E^\prime$ are said to be \emphp{isomorphic}, denoted $E \cong E^\prime$.
+ \end{defn}
+ 
+ \begin{note}
+ The property (*) tells us that bundle maps are fibre-preserving: $\forall b \in B$, $H\rst{E_b} : E_b \to E^\prime_b$. Also, if $H$ is an isomorphism, then $H\rst{b}: E_b \to E^\prime_b$ is an isomorphism.
+ \end{note}
+ 
+ \begin{defn}
+ Fibre bundles isomorphic to the trivial bundle are called \emphp{trivial}. I.e., if there exists a diffeomorphism $H: E \to B \times F$ such that $\pi = \text{proj}_1 \circ H$ (with the typical notations).
+ \end{defn}
+ 
+ \begin{note}
+ If $E$ is a trivial bundle, then we have $E = \pi^{-1}(B)$ so that $H$ is a {\it global} trivialization. All fibre bundles are locally trivial (by definition), but may not be globally trivial (e.g. the Hopf fibration is an $S^1$-bundle over $S^2$ with total space $S^3$ which is not diffeomorphic (in fact, not even homeomorphic) to $S^1 \times S^2$).
+ \end{note}
+ 
+ \begin{exmp}
+ Let $S^1 = \brc{ (x, y) \in \R^2 \ | \ x^2 + y^2 = 1 }$. Then, $TS^1$ is trivial.
+ 
+ \begin{proof}
+ Let us show that $TS^1 \cong S^1 \times \R$. Define the following atlas for $S^1$: Let $U_1$ be the ``right half" of the circle with the top and bottom excluded. Then we define the map
+ \begin{align*}
+     \varphi_1 : U_1 &\to \br{-\pi/2, \pi/2} \\
+                 (x,y) &\mapsto \arctan\br{y/x}  =: \theta_1
+\end{align*} We then take the open top $U_2$ with the map
+\begin{align*}
+    \varphi_2 : U_2 &\to \br{0,\pi} \\
+         (x,y) &\mapsto \text{arccot}\br{x/y} =: \theta_2
+\end{align*}
+and the bottom half $U_3$ with
+\begin{align*}
+    \varphi_3: U_3 &\to \br{-\pi, 0} \\
+     (x, y) &\mapsto \text{arccot}(x/y) - \pi =: \theta_3
+\end{align*}
+and, lastly, the left open semicircle $U_4$ with 
+\begin{align*}
+    \varphi_4: U_4 &\mapsto \br{\pi/2, 3\pi/2} \\
+     (x,y) &\mapsto \arctan(y,x) + \pi =: \theta_4
+\end{align*}
+In all cases, $(\varphi_i \circ \varphi_j^{-1})_* = \id{}$. Thus, the coordinate transformations for $TS^1$ are 
+\[
+(\tilde{\varphi}_i \circ \tilde{\varphi}_j^{-1})_*(x, v) = \br{(\varphi_i \circ \varphi_j^{-1})(x), v}. 
+\]
+We can use the $\tilde{\varphi}_i$'s to construct an isomorphism $H$ between $TS^1$ and $S^1 \times \R$. Take the usual projection map $\pi: TS^1\to S^1$ and set 
+\[
+H\rst{\pi^{-1}(U_i)} = \tilde{\varphi}_i : TU_i \to U_i \times \R.
+\]
+Then, the $H\rst{\pi^{-1}(U_i)}$ glue together to give a bundle map $H: TS^1 \to S^1 \times \R$ where we use the atlas $\{\br{ \pi^{-1}(U_i), \tilde{\varphi}_i } \}$ and $\br{ (U_i \times \R, \varphi_i \times \id{}) }$, and $H$ is a diffeomorphism, and so $TS^1 \cong S^1 \times \R$.
+ \end{proof}
+ \end{exmp}
+ 
+ \begin{note}
+ Let $E = B \times F$ be the trivial bundle over $B$ with projection $\pi = \text{proj}_1: E \to B$. Then $E$ also admits a projection onto the fibre: $\text{proj}_2$. For a general fibre bundle, there may only exist a projection onto the fibre locally. We, however, have the following characteriszation of trivial bundles: 
+ \end{note}
+ 
+ \begin{prop}
+ $(E, B, \pi, F)$ is trivial if and only if there exists a smooth  map $\psi: E \to F$ such that the restrictions to each fibres $\psi\rst{E_b}$ are diffeomorphisms.
+ \end{prop}
+ 
+
+\end{document}

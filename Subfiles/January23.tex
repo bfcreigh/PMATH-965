@@ -1,0 +1,151 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+\lbl{Sections} $(E, B, \pi, F)$ a fibre bundle. A section is a smooth map $\sigma: B \to E$ such that $\pi \circ \sigma = \id{B}$. We denote by $\sect{E}$ the set of all sections of $(E, B, \pi, F)$. 
+
+Gien a bundle chart $\br{ E_U, \varphi_U}$ with $U \subseteq B$ open,
+\[
+\begin{tikzcd}
+\varphi_U \circ (\sigma \big|_U) : U \arrow[rd, "\sigma"'] \arrow[rr] &                              & U \times F \\
+                                                                      & E_U \arrow[ru, "\varphi_U"'] &           
+\end{tikzcd}
+\]
+with $\varphi_U \circ (\sigma\rst{U})(b) = (b, \overline{\sigma}(b))$ for some smooth $\overline{\sigma}: U \to F.$
+
+Let $\brc{U_\alpha}_{\alpha \in \mc{A}}$ be an open conver of $B$
+ and $\brc{ \br{E_{U_\alpha}, \varphi_\alpha} }_{\alpha \in \mc{A}}$ be
+ a bundle atlas for $(E, B, \pi, F)$. Let $\sigma \in \sect{E}$. Set 
+ \[
+ \sigma_\alpha := \sigma\rst{U_\alpha}: U_\alpha \longrightarrow E_{U_\alpha} = \coprod_{b \in U_\alpha} E_b
+ \]
+ Then 
+ \al{\varphi_\alpha \circ \sigma_\apha : U_\alpha &\to U_\alpha \times F \\
+ b &\mapsto (b, \overline{\sigma}_\alpha(b))}
+ 
+ for some smooth $\overline{\sigma}_\alpha: U_\alpha \to F$. How are the $\overline{\sigma}_\alpha$'s related? Suppose $U_\alpha \cap U_\beta \neq \emptyset$  and let $b \in U_\alpha \cap U_\beta$. Then
+ \al{
+ \br{ b, \overline{\sigma}_\alpha(b) } &= \varphi_\alpha \circ \sigma_\alpha(b) \\
+ &= \varphi_\alpha \circ \sigma_\beta(b) \\
+ &= \underbrace{\varphi_\alpha \circ \varphi_\beta^{-1}}_{g_{\alpha\beta}} \circ \varphi_\beta \circ \sigma_\beta(b) \\ 
+ &= \br{ b, \overline{g}_{\alpha\beta}(b)\br{ \overline{\sigma}_\beta(b) }}
+ }
+ which implies that 
+ \[
+    \overline{\sigma}_\beta(b) = \overline{g}_{\alpha\beta}(b)\br{\overline{\sigma}_\beta(b) } (***)
+ \] for all $b \in U_\alpha \cap U_\beta$.
+ 
+ So, given a bundle atlas $\brc{ \br{ E_{U_\alpha}, \varphi_\alpha }  }$ of $(E, B, \pi, \alpha)$, we can think of sections of the bundle as families of smooth maps $\brc{ \sigma_\alpha : U_\alpha \to F}$ that satisfy $(***)$. 
+ 
+ \subsection{Sections of Vector Bundles}
+ 
+ Let $(E, B, \pi, \R^r)$ be a vector bundle, which we will denote by $E$. Let $\brc{U_\alpha}$ be an open cover of $B$ and $\brc{ \br{ E_{U_\alpha}, \varphi_\alpha  }}$ be a vector bundle atlas of $E$. Then, the transition functions of the atlas are 
+ \al{
+ \overline{g}_{\alpha\beta}: U_\alpha \cap U_\beta &\to \gl{r}{\R} 
+ }
+ So, for all $b \in U_\alpha \cap U_\beta$, $\overline{g}_{\alpha\beta}(b) = \br{\text{invertible matrix} }$, and, for all $v \in \R^r$, 
+ \[
+ \overline{g}_{\alpha\beta}(b)(v) = \underbrace{\overline{g}_{\alpha\beta}(b) \cdot v}_{\text{matrix multiplication}}
+ \]
+ For this reason, $\overline{g}_{\alpha\beta}(b)$ are sometimes called \emphp{transition matrices}. 
+ 
+ Also, any section of $E$ is determined by a family \[
+ \brc{\overline{\sigma}_\alpha : U_\alpha \to \R^r}
+ \]
+ of smooth vector-valued functions such that
+ \[
+ \overline{\sigma}_\alpha(b) = \underbrace{\overline{g}_{\alpha\beta}(b) \cdot \sigma_\beta(b)}_{\text{matrix multiplication}}
+ \] by $(***)$.
+ 
+ \begin{note}
+ On a vector bundle, any local section can be extended globally (possibly by zero outside of the open set on which it is defined) by using bump functions (exercise).
+ \end{note}
+ 
+ \begin{defn}
+ Let $\sigma_1, \dots, \sigma_l \in \sect{E}$. We say that the set $\brc{\sigma_1, \dots, \sigma_l}$ is \emphp{linearly independent} if 
+ \[
+ \brc{\sigma_1(b), \dots, \sigma_l(b)} \subseteq E_b
+ \] is linearly independent for every $b \in B$. If $l = r$ (the rank of $E$), then $\brc{\sigma_1, \dots, \sigma_l}$ is called a \emphp{frame for $E$}.
+ \end{defn}
+ 
+ \begin{note}
+ \begin{enumerate}[(i)]
+     \item If $\brc{\sigma_1, \dots, \sigma_r }$ is a frame of $E$ so that $\brc{\sigma_1(b),\dots, \sigma_l(b)}$ is linearly independnet in $E_b$ for all $b \in B$, then $\brc{ \sigma_1(b), \dots, \sigma_l(b) }$ is a basis for $E_b$ for all $b \in B$. Then $\sigma_i(b)  \neq 0$ for all $i = 1, \dots, l$. So, the $\sigma_i$'s are nowhere-vanishing.
+     \item If $r=1$, then any frame of $E$ consists solely of a nowhere-vanishing section.
+ \end{enumerate}
+ \end{note}
+ 
+ \begin{exmp}
+ \begin{enumerate}[1)]
+     \item Let $S^{2n}$ be an even-dimensional sphere. Then, by the Hairy Ball theorem, any tangent vector field of $S^{2n}$ has at least one zero. Thus, $TS^{2n}$ does not admit nowhere-vanishing sections. So, $TS^{2n}$ does not admit any (global) frames.
+     \item $S^{2n+1} \subset \R^{2n+2} = \brc{ \br{x_1, \dots, x_{2n+2} }}$.
+     \begin{itemize}
+         \item $S^1 = \brc{(x_1, x_2) \in \R^2 \s x_1^2 + x_2^2 = 1}$. Then $X_{\br{x_1, x_2}} = (-x_2, x_1)$ is a nowhere-vanishing, tangent vector field of $S^1$. 
+         \item On $S^{2n+1} \subset \R^{2n+2}$, We define
+         \[
+         X_{\br{x_1, \dots, x_{2n+2}}} = \br{ -x_2, x_1, \dots, -x_{2k}, x_{2k+1}, \dots, -x_{2n-1}, x_{2n+2}}.
+         \]
+         \item On $S^3$, we have that
+         \al{
+         X_1(x_1, \dots x_4) &= (-x_2, x_1, -x_3, x_4) \\
+         X_2(x_1, \dots x_4) &= (-x_3, -x_4, x_1, x_2) \\
+         X_3(x_1, \dots x_4) &= (x_4, -x_3, -x_2, x_1) \\
+         } comprise a frame for $TS^3$. 
+         \item On $S^7$, one can use the octonions to construct a frame for $TS^7$
+         \item On $S^{2n+1}$ for $n \geq 4$, $TS^{2n+1}$ does not admit a global frame.
+     \end{itemize}
+     \item Let $E = B \times \R^r$ be the trivial vector bundle with $\pi(b, v) = b$. Then suppose that $\brc{e_1, \dots, e_r}$ is the standard basis for $\R^r$. Then a global frame is given by $\brc{\sigma_1, \dots, \sigma_r}$ where
+     \al{
+        \sigma_i : B &\to E \\
+                   b &\mapsto (b, e_i).
+     } We will refer to this as the \emphp{standard frame on the trivial bundle}. So, the trivial bundle admits at least one frame (in fact... many).
+ \end{enumerate}
+ \end{exmp}
+ 
+ In general, we have:
+ 
+ \begin{prop}
+ A vector bundle $E$ is trivial if and only if it admits a frame. 
+ \end{prop}
+ 
+ \begin{proof}
+    \impliespf If $E$ is trivial, then it is isomorphic to $B \times \R^r$. Thus, there exists a vector bundle isomorphism $H: B \times \R^r \to E$. In particular, $H\rst{\brc{b}\times \R^r} \to E_b$ is a linear isomorphism. Let $\brc{\sigma_1, \dots, \sigma_r}$ be the standard frame on $B \times \R^r$, and define 
+    \al{
+    \tilde{\sigma}_i : B &\to E \\
+                       b &\mapsto H \circ \sigma_i(b).    
+    }
+    Then each $\tilde{\sigma}_i$ is a section of $E$, because $\pi \circ \tilde{\sigma}_i = \pi \circ H \circ \sigma_i = \text{proj}_1 \circ \sigma_i = \id{B}$. Also, for all $b \in B$, \[\brc{\tilde{\sigma}_1(b), \dots, \tilde{\sigma}_r(b)} = \underbrace{H\rst{b} \br{\brc{\sigma_1(b), \dots, \sigma_r(b)}}}_{\text{linearly independent}}.\] So $\brc{\tilde{\sigma}_1, \dots, \tilde{\sigma}_r(b)}$ is a frame for $E$. \impliedpf Assume that $E$ admits the frame $\brc{\sigma_1, \dots, \sigma_r}$ and use it to construct an isomorphism given by
+    \al{
+        H: B \times \R^r &\to E \\
+        (b, (a_1, \dots, a_r)) &\mapsto \sum_{i=1}^r a_i \sigma_i(b) \in E_b,
+    } which is an isomorphism because $\brc{\sigma_1, \dots, \sigma_r}$ is a frame. So, $H$ is a vector bundle isomorphism.
+ \end{proof}
+ 
+ \begin{cor}
+ A line bundle is trivial if and only if it admits a nowhere-vanishing section. 
+ \end{cor}
+ 
+ \begin{cor}
+ $TS^k$ is trivial if and only if $k \in \brc{1,3,7}$.
+ \end{cor}
+
+\begin{defn}
+ A manifold $M$ is called \emphp{parallelizable} if its tangent bundle is trivial. 
+\end{defn}
+
+\begin{exmp}
+    \begin{enumerate}
+        \item $S^1, S^3, S^7$ are parallelizable.
+        \item Any Lie group $G$ is parallelizable.
+    \end{enumerate}
+\end{exmp}
+
+\begin{prop}
+ The tautological line bundle on $\mb{P}^n$ is not trivial.
+\end{prop}
+\begin{proof}
+The tautological line bundle on $\mb{P}^n$ does not admit any nowhere-vanishing sections.
+\end{proof}
+
+ 
+ \end{document} 
+ 

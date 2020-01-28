@@ -1,0 +1,127 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\begin{defn}
+A \emphp{smooth fibre bundle} is a tuple $(E, B, \pi, F)$ such that $E, B$ and $F$ are smooth manifolds and $\pi: E \to B$ is a smooth surjective map and for all $b \in B$, there is an open $U \ni b$ and a diffeomorphism $\varphi: \pi^{-1}(U) \to U \times F$ such that $\pi = \text{proj}_1 \circ \varphi$, where $\text{proj}_1 : U \times F \to U$ is the projection onto the first factor.
+\end{defn}
+
+\begin{note}
+From now on we will assume that all manifolds are smooth and all fibrre bundles are smooth.
+\end{note}
+
+\subsection{Bundle Atlases}
+
+\begin{defn}
+A \emphp{bundle atlas} for a fibre bundle $(E, B, \pi, F)$ is an open covering $\brc{ U_\alpha}_{\alpha \in \mathcal{A}}$ together with bundle charts $\varphi_\alpha:  E_\alpha =: \pi^{-1}(U_\alpha) \to U_\alpha \times F$ of $B$ such that $\pi^{-1}(U_\alpha) \cong U_\alpha \times F$.
+\end{defn}
+
+\begin{defn}
+Let $\brc{ \br{U_\alpha, \varphi_\alpha} }$ be a bundle atlas for $(E, B, \pi, F)$. If $U_\alpha \cap U_\beta \neq \emptyset$, we define the \emphp{transition functions} by 
+\[
+g_{\alpha\beta} := \varphi_\alpha \circ \varphi_\beta^{-1}\rst{U_\alpha \cap U_\beta} : \underbrace{(U_\alpha \cap U_\beta) \times F}_{\subset U_\beta \times F} \to \underbrace{(U_\alpha \cap U_\beta) \times F}_{\subset U_\alpha \times F}
+\] 
+
+\end{defn}
+
+Note that the $g_{\alpha\beta}$'s are all diffeomorphisms {\it and} they ``preserve the fibres", i.e., for all $b \in U_\alpha \cap U_\beta$, 
+\[
+g_{\alpha\beta}\rst{\brc{b}\times F}: \brc{b}\times F \overset{\cong}{\longrightarrow} \brc{b}\times F
+\]
+$\br{ \text{because } \varphi_\alpha \rst{\brc{b}\times F }: E_b \overset{\cong}{\longrightarrow}\brc{b} \times F}$. This implies that for all $b \in U_\alpha \cap U_\beta$, 
+\[
+\overline{g}_{\alpha\beta}(b) = g_{\alpha\beta}\rst{\brc{b}\times F} \in \text{Diff}\br{\brc{b}\times F} \cong \text{Diff}\br{ F} 
+\]
+The maps
+\begin{align*}
+    \overline{g}_{\alpha\beta} : U_\alpha \cap U_\beta &\to \text{Diff}(F) \\
+                    b &\mapsto \overline{g}_{\alpha\beta}(b)
+\end{align*}
+are also called the \emphp{transition functions} of $(E,B,\pi, F)$.
+
+\begin{exmp}
+\lbl{Hopf fibration} $(S^3, S^2, \pi, S^1)$ where
+\begin{itemize}
+    \item $S^3 = \brc{(z_0, z_1) \ | \ \anorm{z_0}^2 + \anorm{z_1}^2 = 1} \subset \C^2$
+    \item $S^2 = \brc{ (z,x) \ | \ \anorm{z}^2 + x^2 = 1 } \subset \C \times \R$
+    \item $S^1 = \brc{ \lambda \in \C \ | \ \anorm{\lambda} = 1}$
+\end{itemize}
+and 
+\begin{align*}
+    \pi: S^3 &\to S^2 \\
+    (z_0, z_1) &\mapsto \br{2z_0\overline{z}_1, \anorm{z_0}^2 - \anorm{z_1}^2}
+\end{align*}
+Set $U = \brc{(z,x) \in S^2 \ | \ z \neq 1} = S^2 \setminus \text{north pole}$ and $V = \brc{ (z,x) \in S^2 \ | \ x \neq -1 } = S^2 \setminus \text{south pole}$. $\brc{U, V}$ is an open cover of $S^2$. We have the bundle charts:
+
+    \begin{align*}
+    \varphi_U : \overbrace{\pi^{-1}(U)}^{\subset S^3} &\to \overbrace{U\times S^1}^{\in S^2 \times S^1} \\
+    (z_0, z_1) &\mapsto ((z, x), \lambda)
+    \end{align*} where $(z_0, z_1) = \lambda\br{\frac{z}{\sqrt{1(1-x)}}, \sqrt{\frac{1-x}{2}}}$, and
+    \begin{align*}
+        \varphi_V : \pi^{-1}(V) &\to V\times S^2 \\
+         (z_0, z_1) &\mapsto ((z, x), \lambda^\prime)
+     \end{align*} where $(z_0, z_1) = \lambda^\prime \br{ \sqrt{\frac{x+1}{2}}, \frac{\overline{z}}{\sqrt{2(x+1)}} }$.
+So $\brc{\br{U, \varphi_U}, \br{ V, \varphi_V}}$ is a bundle atlas with transition functions 
+\begin{align*}
+g_{UV} = \varphi_U \circ \varphi_V^{-1} : \overbrace{(U \cap V) \times S^1}^{\subset V \times S^1} &\to  \overbrace{(U \cap V) \times S^1}^{\subset U \times S^1} \\
+((z, x), \lambda^\prime) &\mapsto ((z,x), \lambda)
+\end{align*} with 
+\[
+\lambda^\prime \br{\sqrt{\frac{x+1}{2}}, \frac{\overline{z}}{\sqrt{2(x+1)}}} \underbrace{=}_{\varphi_V^{-1}} (z_0, z_1) \underbrace{=}_{\varphi_U}  \lambda \br{ \frac{z}{{\sqrt{2(x+1)}}}, \sqrt{\frac{1-x}{2} }}  
+\] This implies that
+\[
+\lambda = \lambda^\prime \br{ \frac{\sqrt{1-x^2}}{z}} \overbrace{=}^{\text{since $\anorm{z^2}+\anorm{x}^2 = 1$}} \lambda^\prime \frac{\anorm{z}}{z}.
+\]
+So 
+\begin{align*}
+    g_{UV} : (U \cap V) \times S^1 &\to (U \cap V) \times S^1 \\
+    ((z, x) \lambda^\prime ) &\mapsto ((z,x), \lambda^\prime \br{\frac{\anorm{z}}{z}})
+\end{align*}
+Thus $\overline{g}_{UV}(z,x) = \br{\text{multiplication in $S^1$ by $\frac{\anorm{z}}{z}$}} \in \text{Diff}(S^1)$.
+\end{exmp}
+
+It can often be difficult to check that a set we suspect is the total space of a fibre bundle is a manifold. One nonetheless has the following construction:
+
+\begin{defn}
+(\lbl{Formal bundle atlases}) Let $B$ and $F$ be manifolds, $E$ a set and $\pi: E \to B$ a surjective map.
+\begin{enumerate}
+    \item Suppose $U \subset B$ is open and 
+    \begin{align*}
+        \varphi_U : \pi^{-1}(U) \to U \times F \\
+    \end{align*}
+    is a bijection with $\text{proj}_1 \circ \varphi_U = \pi$. Then, we call $(U, \varphi_U)$ a \emphp{formal bundle chart for $E$}.
+    \item A family of bundle charts $\brc{\br{U_\alpha, \varphi_\alpha}}_{\alpha \in \mathcal{A}}$ where $\brc{U_\alpha}$ is an open cover of $B$ is called a \emphp{formal bundle atlas for $E$}.
+    
+    \item The charts in a formal bundle atlas $\brc{ \br{U_\alpha, \varphi_\alpha } }$ are called \emphp{smoothly compatible} iff all transition functions
+    \begin{align*}
+        g_{\alpha\beta}: \br{U_\alpha \cap U_\beta} \times F \to \br{U_\alpha \cap U_\beta} \times F
+    \end{align*} (for $U_\alpha \cap U_\beta \neq \emptyset$) are all diffeomorphisms.
+\end{enumerate}
+\end{defn}
+
+\begin{thm}
+(\lbl{Formal bundle atlases define fibre bundles}) Let $B$ and $F$ be smooth manifolds, $E$ a set and $\pi: E \to F$ a surjection. Suppose that $\brc{ \br{ U_\alpha, \varphi_\alpha }}_{\alpha \in \mathcal{A}}$ is a fomral bundle atlas for $E$ of smoothly compatible charts. Then there exists a unique topology and smooth manifold structure on $E$ such that $(E, B, \pi, F)$ is a smooth fibre bundle with bundle atlas $ \brc{ \br{U_\alpha, \varhi_\alpha} }_{\alpha \in \mathcal{A}}$. 
+\end{thm}
+
+Let $(E, B,\pi, F)$ be a fibre bundle with bundle atlas $\brc{ \br{ U_\alpha, \varphi_\alpha } }_{\alpha \in \mathcal{A}}$. Recall that the transition functions 
+\[
+g_{\alpha\beta} : (U_\alpha \cap U_\beta ) \times F \longrightarrow (U_\alpha \cap U_\beta) \times F.
+\]
+Then they satisfy:
+\begin{lemma}
+(\lbl{Cocycle conditions}): If $\overline{g}_{\alpha\beta} = g_{\alpha\beta}\rst{\brc{b}\times F}$ for all $b \in U_\alpha \cap U_\beta$,
+\begin{align*}
+    \overline{g}_{\alpha\alpha}(b) &= \id{F}, \forall b \in U_\alpha \\
+    \overline{g}_{\alpha\beta} \circ \overline{g}_{\beta_\alpha}(b) &= \id{F} , \forall b \in U_\alpha \cap U_\beta \\
+    \overline{g}_{\alpha\beta} \circ \overline{g}_{\beta\gamma} \circ \overline{g}_{\gamma \alpha}(b) &= \id{F} , \forall b \in U_\alpha \cap U_\beta \cap U_\gamma.
+\end{align*}
+\end{lemma}
+
+\begin{rmk}
+A fibre bundle can be (re)-constructed from its transition functions as a quotient using the equivalence relation induced by the cocycle condition:
+\[
+E \cong \br{\coprod_{\alpha \in \mathcal{A}} U_\alpha \times F}\Big/_\sim
+\] where $(b,v) \sim (b^\prime, v^\prime)$ if and only if $\exists \alpha, \alpha^\prime$ with $b= b^\prime = U_\alpha \cap U_{\alpha^\prime} \neq \emptyset$ and $v = \overline{g}_{\alpha\alpha^\prime }(b^\prime)v^\prime$.
+\end{rmk}
+
+\end{document}

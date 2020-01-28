@@ -1,0 +1,138 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\lbl{Recall} A \emphp{vector bundle} is a fibre bundle $(E, B, \pi, F)$ such that
+\begin{enumerate}[(i)]
+    \item $F$ is a finite-dimensional vector space of dimension $r$
+    \item For every $b \in B$, $E_b$ has the structure of a $r$-dimensional vector space
+    \item There exist bundle charts $\varphi_U : E_U \to U \times F$ such that $\varphi_U\rst{E_b} : E_b \overset{\cong}{\longrightarrow} \brc{b} \times F$ is a linear isomorphism.
+\end{enumerate}
+
+\begin{exmp}
+\lbl{Tautological line bundle over $\mathbb{P}^1$} $\mathbb{P}^1 = \br{\R^{n+1} \setmins \brc{0}} \Big/_\sim$ where $\br{x_1, \dots, x_n} \sim \br{\lambda x_1, \dots, \lambda x_n}$ for all $\lambda \in \R^*$. Let 
+\[
+E := \coprod_{[x] \in \mathbb{P}^n} \brc{[x]} \times L_{[x]}
+\] where $L_[x]$ is the line through $\R^{n+!}$ through $0$ and $x$.
+Then,
+\begin{align*}
+    \pi: E &\to \mb{P}^n \\
+        \br{[x], v \in L_{[x]} } &\mapsto [x]
+\end{align*}
+is a line bundle over $\mb{P}^n$ called the \emphp{tautological line bundle over $\mb{P}^n$}, with fibre $E_{[x]} \cong L_{[x]} \cong \R^1$ for every $[x] \in \mb{P}^n$.
+
+\begin{proof}
+let us construct a bundle atlas for $E$ that satisfy condition (iii) of the definition of a vector bundle and whose transition functions are smooth. Cover $\mb{P}^n$ by
+\[
+U_i := \brc{ [x] \in \mb{P}^n \ | \ x_i \neq 0 } \underbrace{\subset}_{\text{open}} \mb{P}^n.
+\] Then, for all $[x] \in U_i$ so that $x_i \neq 0$, and so
+\begin{align*}
+    [x] &= [x_1 : \dots, x_i: \dots : x_{n+1}] \\
+        &= \left[\frac{x_1}{x_i}: \dots : 1 : \dots \frac{x_{n+1}}{x_i}  \right]
+\end{align*}
+Then for all $v \in L_{[x]}$, $v = t\br{ \frac{x_1}{x_i}, \dots, 1, \dots, \frac{x_{n+1}}{x_i}}$ for some unique $t \in \R$. Set
+\begin{align*}
+   \varphi_i: E_{U_i} = \coprod_{[x] \in U_i} \brc{[x]} \times L_{[x]} &\longrightarrow U_i \times \R^1 \\ \br{[x], t\br{ \frac{x_1}{x_i}, \dots, 1, \dots, \frac{x_{n+1}}{x_i}}} &\mapsto (x, t)
+\end{align*}
+Then $\varphi_i$ is a bijection. The collection $\brc{ \br{U_i, \varphi_i}  }_{i=1}^{n+1}$ is a formal atlas for $E$. Also, if $U_i \cap U_j \neq \emptyset$, $[x] \in U_i \cap U_j$ and $v \in L_[x]$,
+\begin{align*}
+s\br{x_1/x_i, \dots, 1, \dots, x_{n+1}/x_i } = v &= t\br{x_1/x_j, \dots, 1, \dots, x_{n+1}/ x_j} \\
+&= t\frac{x_i}{x_j} \br{ x_1/x_i, \dots, 1, \dots,  x_{n+1}/x_i}
+\end{align*}
+And thus $s = \br{\frac{x_i}{x_j}}t$. Then $\varphi_i([x], v) = ([x], s)$ and $\varphi_j([x], v) = ([x], t)$ and $\varphi_{i} \circ \varphi_j^{-1}([x], t) = \br{ [x], \br{\frac{x_i}{x_j}}t }$, and so $\overline{\varphi}_{ij}([x]) \in \text{Diff}(\R^1)$. So $E$ is a fibre bundle over $\mb{P}^n$ with fibre $\R^1$. Finally, we need to check that, for $i = 1, \dots, n+1$,
+\[
+\varphi_i\rst{E_{[x]}} : E_{[x]} &\mapsto \brc{[x]} \times \R^1
+\]
+are linear isomorphisms. Here, $E_{[x]} = \brc{x} \times L_{[x]}$, with vector space structure:
+$\forall \alpha \in \R$ and $v, v^\prime \in L_{[x]}$, then $([x], v) + \alpha([x], v^\prime) = ([x], v + \alpha v^\prime)$. Also, one can write $v = t\br{x_1/x_i, \dots, x_{n+1}/x_i}$ and $v^\prime = t^\prime \br{ x_1/ x_i, \dots, x_{n+1}/ x_i}$ for some $t, t^\prime \in \R$. Then $v + \alpha v^\prime = (t+\alphat^\prime)\br{x_1/x_i, \dots, x_{n+1}/x_i}$ Then
+\al{
+\varphi_i\br{([x], v) + \alpha([x], v^\prime)  } &= \varphi_i\br{[x], v + \alpha v^\prime} \\
+                                                 &= \br{[x], t + \alpha t^\prime} \\
+                                                 &= \br{[x], t} + \alpha\br{[x], t^\prime} \\
+                                                 &= \varphi_i([x], v) + \alpha \varphi_i([x], v^\prime).
+}
+\end{proof}
+Since $\varphi_i\rst{E_{[x]}}$ is also a bijection, it is an isomorphism of vector spaces. This implies that, finally, $(E, \mb{P}^n, \pi, \R^1)$  is a vector bundle of rank $1$.
+\end{exmp}
+
+\begin{note}
+In the proof above, the transition functions of the bundle atlas we constructed were the $\overline{\varphi}_{}ij: U_i \cap U_j \longrightarrow \gl{1}{\R} \subset \text{Diff}(\R^1)$.
+\end{note}
+
+\begin{rmk}
+If $\brc{ \br{ U_\alpha, \varphi_\alpha }}_{\alpha \in \mc{A}}$ is a vector bundle atlas for the vector bundle $(E, B, \pi, \R^r)$ (or $(E, B, \pi, \C^r)$), the transition functions 
+\al{
+\overline{g}_{\alpha \beta} : U_\alpha \cap U_\beta \to \gl{r}{\R} \text{ or } \gl{r}{\C}
+} In particular, if $r=1$, then $\gl{1}{\R} = \R^\times$ and $\gl{1}{\C} = \C^\times$ so that $\overline{g}_{\alpha\beta}$ are just nowhere-vanishing scalar functions.
+\end{rmk}
+
+\begin{defn}
+Let $(E, B, \pi, \R^r)$ and $(E^\prime, B, \pi^\prime. \R^{r^\prime})$ be vector bundles. A map $H: E \to E^\prime$ is a \emphp{(bundle) map of vector bundles} if 
+\[
+H\rst{E_b} : E_b \to E_{b}^\prime
+\]
+is linear for all $b \in B$.
+\end{defn}
+
+\begin{note}
+Unless otherwise stated, we will always assume that bundle maps between vector bundles are {\it actually} bundle maps.
+\end{note}
+
+\subsection{Sections}
+
+\begin{defn}
+Let $(E, B, \pi, F)$ be a fibre bundle. A \emphp{section} of $(E, B, \pi, F)$ is a smooth map $\sigma: B \to E$ such that $\pi \circ \sigma = \id{B}$. 
+\end{defn}
+
+Then for all $b \in B$, $\sigma(b) \in E_b$, since $\pi(\sigma(b)) = b$. Also, $\sigma(B) \subset E$ is a smooth submanifold of $E$ diffeomorphic to $B$ (exercise).
+
+\begin{notation}
+We write $\sect{E} = \brc{ \text{set of {\it all} sections of $(E,B,\pi,F)$} }$.
+\end{notation}
+
+\begin{defn}
+If $U \subsetneq B$ is open, then a \emphp{local section of $E$ over $U$} is a smooth map $\sigma: U \to E_U$ such that $\pi \circ \sigma = \id{U}$.
+\end{defn}
+
+\begin{note}
+Again, $\sigma(b) \in E_b$ for all $b \in U$ if $\sigma: U \to E$ is a local section over $U$. We denote \[
+\sect{U,E} = \brc{ \text{ set of local sections of $E$ over $U$} }.
+\]
+\end{note}
+
+\begin{exmp}
+\begin{enumerate}[(i)]
+    \item $E = B \times F$ with $\pi = \text{pr}_1$. Let $\overline{\sigma}: B \to F$ be any smooth map, and then
+    \al{
+    \sigma: B & \to E \\
+            b &\mapsto (b, \overline{\sigma}(b))
+    }
+    Then $\sigma$ is smooth and $\pi \circ \sigma = \id{B}$, so $\sigma \in \sect{E}$.
+\end{enumerate}
+\end{exmp}
+
+In fact, sections of any fibre bundle look like this locally: Let $(U, \varphi_U)$ be a bundle chart for $(E, B, \pi, F)$ and $\sigma \in \sect{E}$. Then, $\pi \circ \sigma = \id{B}$ and 
+\al{\varphi_U \circ \sigma \rst{U} : U &\to U \times F. \\
+b &\mapsto (b, \overline{\sigma}_U(b))
+}for some $\overline{\sigma}_U : U \to F$ smooth. [Note: The first component of $\varphi_U \circ \sigma\rst{U}$ is $\id{U}$ because $\pi \circ \sigma\rst{U} = \id{U}$.] Thus, local sections of $E$ over $U$ are completely determined by the smooth functions $\overline{\sigma}: U$ In particular, local sections {\it always} exist.
+
+\begin{exmp}
+\begin{enumerate}[(i)]
+    \item Vector bundles always admit sections. For example, given any vector bundle $(E, B, \pi, \R^r)$, one can define the \emphp{zero section}
+    \al{
+    0: B &\to E \\
+        b &\mapsto 0 \in E_b
+    }
+    \item If $M$ is any smooth manifold, them $\sect{TM}$ is the collection of smooth vector fields on $M$, which always exist.
+    
+    \item Consider $S^2$ and $TS^2$. Sections of $TS^2$ are smooth, tangent vector fields on $S^2$. By the Hairy-Ball Theorem, any smooth vector field on $S^2$ has at least one zero.
+    
+    \item For an example of a fibre bundle that does not admit any global sections, take $E = TS^2 \setminus \brc{ \text{zero section}}$, which has fibre $\R^2 \setminus \brc{0}$ and whose projection is simply $\pi\rst{E}$ where $\pi: TS^2 \to S^2$ is the standard projection. This fibre bundle does not have a section because any smooth section $\sigma \in \sect{E}$ would be a smooth vector field on $S^2$ and thus must have a zero.
+\end{enumerate}
+\end{exmp}
+
+
+
+
+
+\end{document}

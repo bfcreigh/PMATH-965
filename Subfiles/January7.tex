@@ -1,0 +1,65 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Fibre Bundles}
+
+\begin{defn}
+A \emphp{fibre bundle} consists of the data $(E, B, \pi, F)$ where $E, B, F$ are (topological) manifolds and $\pi : E \to B$ is a continuous surjection that satisfies the \emphp{local triviality} condition: For every $p \in B$, there is an open neighbourhood $U \ni p$ such that $\varphi: \pi^{-1}(U)  \cong U \times F$ is a homeomorphism such that $\text{pr}_1 \circ \varphi = \pi$, where $\text{pr}_1 : U \times F \to U$ is the projection. The set of all $\{(U_\alpha, \varphi_\alpha) \}$ is called the \emphp{local trivialization} of the bundle.
+
+$E$ is called the \emphp{total space}, $B$ is the \emphp{base space} and $F$ is the \emphp{ fibre} and $\pi$ is the \emphp{projection map}.
+\end{defn}
+
+\begin{note}
+For all $b \in B$, the set $\pi^{-1}(b) = \{ p \in E \ | \ \pi(p) = b \}$ is called the \emphp{ fibre at $b$}, or the \emphp{ fibre over $b$}. Since $\text{pr}_1 \circ \varphi = \pi$, we have $\pi^{-1}(b) \cong \{ b\} \times F \cong F$. So we can think of $E$ as a family of manifolds homeomorphic to $F$, parametrized by $B$.
+\end{note}
+
+\begin{note}
+A fibre bundle $(E, B, \pi, F)$ is also called an $F$-bundle.
+\end{note}
+
+\noindent\begin{exmp} 
+\begin{enumerate} \hspace{1em} \\ 
+    \item  $E = B \times F$ with $\pi = \text{pr}_1$ is the \emphp{ trivial bundle}. Note that taking $\pi = \text{pr}_2$ gives a fibre bundle structure with base $F$ and fibre $B$.
+    \item $E = S^1 \times \R$. $E$ is a cylinder. In this case, $E$ has two trivial bundle structures (as above), but with space $B = S^1$ we also have a vector bundle structure, as the fibres are $\R$.
+    \item \lbl{Möbius strip} Example of a non-trivial $\R$-bundle on $S^1$. $M = I \times \R/_\sim$ where $(0,t) \sim (1, -t)$ for every $t \in \R$. 
+    
+    \item \lbl{Hopf fibration} Example of a non-trivial $S^1$-bundle over $S^2$. Here,
+    \begin{itemize}
+        \item $E = S^3 = \{(z_1, z_2) \in \C^2 \ | \ \anorm{z_1}^2 + \anorm{z_2}^2= 1 \}$
+        \item $B = S^2 = \{(z, x) \in \C \times \R \ | \ \anorm{z}^2 + x^2 = 1 \}$
+        \item $F = S^1 = \{ \lambda \in \C \ | \ \anorm{\lambda} = 1 \}$.
+    \end{itemize}
+    We take
+    \begin{align*}
+        \pi : S^3 &\to S^2 \\
+        (z_0, z_1) &\mapsto (2z_0\overline{z}_1, \anorm{z_0}^2 - \anorm{z_1}^2)
+    \end{align*}
+    is called the \emphp{ Hopf map}. Then $\anorm{2z_0z_1}^2 + (\anorm{z_0}^2 - \anorm{z_1}^2)^2 = 1$, so $\pi(S^3) \subset S^2$, and $\pi$ is well-defined and continuous. Also, $\pi$ is surjective with $\pi^{-1}(z, x) \cong S^1$ for every $(z, x) \in S^2$. Indeed, let $(z, x) \in S^2$ so that $\anorm{z}^2 + x^2 = 1$ so that $-1 \leq x \leq 1$. Also, if $z = 0$, then $x = \pm 1$. Moreover, one can cover $S^2$ by the following two open sets: 
+    \begin{align*}
+        U &= \{ (z, x) \in S^2 \ | \ x \neq 1 \} \\
+          &= S^2 \setminus \{(0, 1)\}, \text{ and } \\
+        V &= \{ (z, x) \in S^2 \ | \ x \neq -1\} \\
+          &= S^2 \setminus \{(0, -1)\}.
+    \end{align*}
+    Let us now show that $\pi^{-1}(U) \cong U \times S^1$. let $(z, x) \in U$. So that $x \neq 1$. In particular, $-1 \leq x < 1$. Pick $(z_0 z_1) \in \pi^{-1}(U)$. Then $2z_0\overline{z_1} = z$ and $\anorm{z_0}^2 - \anorm{z_1}^2 =x$.
+    \begin{itemize}
+        \item If $z = 0$, then $(z,x) = (0, -1) \implies z_0 = 0, \anorm{z_1}^2 = 1$. Thus $\pi^{-1}(z,x) = \{ (0, \lambda) \in \C^2 \ | \ \anorm{\lambda} = 1  \} \cong S_1$.
+        \item If $z \neq 0$, then $x \notin \{ \pm1\}$, so $-1 < x < 1$ and $z_0, z_1 \neq 0$ since $2z_0 \overline{z}_1 = z$. Then $z_0 = \frac{z}{2\overline{z}_1}$. Replacing $z_0$ by this in $\anorm{z_0}^2 - \anorm{z_1}^2 = 1$, one gets $4\anorm{z_1}^4 - \anorm{z_1}^2x - \anorm{z}^2 = 0$. There is only one positive solution, which is equal to $\anorm{z_1}^2 = \frac{1-x}{2}$. So $z_1 = \lambda \sqrt{\frac{1-x}{2}}, \lambda \in S^1$.  By the relationship $z_0 = \frac{z}{2\overline{z_1}}$, we have $z_0 = \lambda \frac{z}{\sqrt{2(1-x)}}$. So $\pi^{-1}(z,x) \cong S^1$, as
+        \[
+        (z_0, z_1) &= \lambda \br{ \frac{z}{\sqrt{2(1-x)}} , \sqrt{\frac{1-x}{2}} }
+        \]
+        And so $\pi^{-1}(z,x) = \{ \lambda\br{\frac{z}{\sqrt{2(1-x)}}, \sqrt{\frac{1-x}{2}} )} \ | \ \lambda \in S^1 \} \cong S^1$.
+    \end{itemize}
+    This gives the local trivialization
+    \begin{align*}
+        \varphi : \pi^{-1}(U) &\to U \times S^1 
+    \end{align*}
+    where if $\pi(z,x) = (z_0, z_1)$, $\varphi(z_0, z_0) =  \lambda\br{\frac{z}{\sqrt{2(1-x)}}, \sqrt{\frac{1-x}{2}} )}$. Finally, $\text{pr}_1 \circ \varphi (z_0, z_1) = \pi(z_0, z_1)$. So we have that $(E,B,\pi,F)$ is a $S^1$-bundle. This tells us that $S^3$ is an $S^1$-bundle over $S^2$. But, it cannot be a trivial bundle because $S^3$ is simply connected, but $S^3 \times S^1$ is not.
+\end{enumerate}
+
+
+
+\end{exmp}
+
+\end{document}

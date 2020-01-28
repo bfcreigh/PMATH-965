@@ -1,0 +1,115 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Comparison Between Manifolds and Fibre Bundles}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+    \hline
+   Manifolds  & Fibre bundles \\
+   \hline
+    coordinate charts $\varphi: U \overset{\text{open}}{\subseteq} M \overset{\text{diffeo.}}{\longrightarrow} \R^n$ & bundle charts / local trivializations $\varphi: \pi^{-1}(U) \to U \times F$ \\
+    Coordinate transformations & Transition functions \\
+    Atlas & Bundle atlas \\
+    Trivial manifold $U \subseteq \R^n$ & Trivial bundle $E = B \times F$ \\
+    Non-trivial manifold & Non-trivial bundle \\ 
+    \hline
+\end{tabular}
+\end{center}
+
+\begin{notation}
+$(E,B, \pi, F)$ is a fibre bundle
+\begin{itemize}
+\item $U \overset{\text{open}}{\subset} B$ --- $E_U := \pi^{-1}(U) \subset E$
+\item $b \in B$ --- $E_b := \pi^{-1}(b) \subset E$
+\item $\brc{ \br{U_\alpha, \varphi_\slpha } }$ a bundle atlas: if $U_\alpha \cap U_\beta \neq\emptyset$, the \emphp{transition functions}
+\begin{align*}
+    g_{\alpha\beta} = \varphi_\alpha \circ \varphi_\beta^{-1}\rst{U_\alpha \cap U_\beta} : (U_\alpha \cap U_\beta) \times F &\to (U_\alpha \cap U_\beta) \times F
+\end{align*}
+and for all $b \in U_\alpha \cap U_\beta $, 
+\begin{align*}
+    g_{\alpha\beta}\rst{\brc{b}\times F} : \brc{b}\times F &\to \brc{b}\times F \\
+                                            (b, v) &\mapsto (b, \overline{g}_{\alpha\beta}(b)(v)).
+\end{align*}
+The maps $\overline{g}_{\alpha\beta}: (U_\alpha \cap U_\beta) \times F \to \text{Diff}(F)$ are also called the \emphp{transition functions}.
+\end{itemize}
+\end{notation}
+
+\subsection{Bundle Maps Revisited}
+
+Let $(E, B, \pi, F)$ and $(E^\prime, B, \pi^\prime, F^\prime)$ be two fibre bundles over $B$. A \emphp{bundle map} is a smooth map $H : E \to E^\prime$ such that $\pi^\prime \circ H = \pi$. Recall that bundle maps are fibre-preserving: For all $b \in B$, $H\rst{E_b}: E_b \to E_b^\prime$. Thus, for all $U \subseteq B$, $H \rst{E_U}: E_U \to E^\prime_U$. Can one obtain a local description of bundle maps? Let $\brc{ U_\alpha}_{\alpha \in \mathcal{A}}$ be an open cover of $B$ with respect to which $E_{U_\alpha}$ and $E^\prime_{U_\alpha}$ are trivial for all $\alpha \in \mathcal{A}$. Suppose $\brc{\br{U_\alpha, \varphi_\alpha}}$ and $\brc{\br{U_\alpha, \varphi^\prime_\alpha }}$ are bundle atlases for $E$ and $E^\prime$ respectively, and set $H_\alpha = H\rst{E_{U_\alpha}} : E_{U_\alpha} \to E^\prime_{U_\alpha}$.
+\[
+\begin{tikzcd}
+E_{U_\alpha} \arrow[rr, "H_\alpha"] \arrow[dd, "\varphi_\alpha"]                              &  & E^\prime_{U_\alpha} \arrow[dd, "\varphi^\prime_\alpha"] \\
+                                                                                              &  &                                                         \\
+U_\alpha\times F \arrow[rr, "\varphi_\alpha^\prime \circ H_\alpha \circ \varphi_\alpha^{-1}"] &  & U_\alpha\times F^\prime                                       
+\end{tikzcd}
+\]
+Where 
+\begin{align*}
+    \varphi^\prime_\alpha \circ H_\alpha \circ \varphi_\alpha^{-1} : U_\alpha \times F &\to U_\alpha \times F^\prime \\
+    (b, v) &\mapsto (b, \overline{H}_\alpha(b)(v)).
+\end{align*}
+Note that $\overline{H}_\alpha(b): F \to F^\prime$ are smooth maps, as they are compositions of smooth maps.
+
+Also, if $U_\alpha\cap U_\beta \neq \emptyset$, then $H_\alpha\rst{U_\alpha \cap U_\beta} = H\rst{U_\alpha\capU_\beta} = H_\beta\rst{U_\alpha \cap U_\beta}$. Thus for any $b \in U_\alpha \cap U_\beta$, \[\overline{H}_\beta(b) = \overline{g}^\prime_{\beta\alpha}(b) \circ \overline{H}_\alpha(b) \circ \overline{g}_{\alpha\beta}(b) (*)\].
+
+Bundle maps are completely determined by smooth maps
+\[
+\overline{H}_\alpha : U_\alpha \to C^\infty(F, F^\prime)
+\]
+that satisfy (*). Also, if $H$ is a bundle isomorphism, then $\overline{H}_\alpha : U_\alpha \to \text{Diff}(F, F^\prime)$.
+
+\begin{note}
+When $H$ is a diffeomorphism, (*) can be rewritten as
+\[
+\overline{g}^\prime_{\alpha\beta}(b) = \overline{H}_\alpha(b) \circ \overline{g}_{\alpha\beta}(b) \circ \overline{H}_{\beta}(b)^{-1} (**).
+\]
+So, $(E, B, \pi, F)$ is isomorphic to $(E^\prime, B, \pi^\prime, F^\prime )$ if and only if there is a collection of maps $\brc{H_\alpha: U_\alpha  \to \text{Diff}(F, F^\prime) }$ which satisfies $(**)$.
+\end{note}
+
+\begin{cor}
+$(E, B, \pi, F)$ is trivial if and only if there is a bundle atlas $\brc{ \br{U_\alpha, \varphi_\alpha }}$ and smooth maps $\brc{\overline{H}_\alpha : U_\alpha \to \text{Diff}(F)}$ such that $\overline{g}_{\alpha\beta}(b) = \overline{H}_\alpha(b)^{-1} \circ \overline{H}_\beta(b)$ for all $b \in B$. I.e., the cocycle corresponding to the transition functions is a coboundary.
+\end{cor}
+
+\begin{thm}
+A bundle map $H : E \to E^\prime$ is an isomorphism if and only if $H\rst{E_b} : E_b \to E_b^\prime$ is a diffeomorphism.
+\end{thm}
+
+\subsection{Vector Bundles}
+
+\begin{defn}
+A fibre bundle $(E,B, \pi, F)$ is called a \emphp{vector bundle} (v.b.) if the following are satisfied:
+\begin{enumerate}[(i.)]
+    \item $F$ is a finite-dimensional vector space
+    \item For all $b \in B$, $\pi^{-1}(b)$ has the structure of an $r$-dimensional vector space (where $r = \dim F$)
+    \item The local trivializations $\varphi_U: E_U \to U \times F$ restrict to linear maps on the fibres of $E$. I.e., for all $b \in U$, $\varphi_U\rst{E_b} : E_b \to \brc{b} \times F \cong \brc{b} \times F$ is a linear isomorphism.
+\end{enumerate}
+$r$ is called the \emphp{rank} of the vector bundle. If $r=1$, $(E, B, \pi, F)$ is called a \emphp{line bundle}.
+\end{defn}
+
+\begin{note}
+Vector bundles are $\R^r$-bundles, or $\C^r$-bundles whose bundle charts preserve the linear structure on the fibres.
+\end{note}
+
+\begin{exmp}
+\begin{enumerate}
+    \item $E = B \times \R^r$ or $E = B \times \C^r$ is the trivial bundle of rank $r$.
+    \item the (infinite) Möbius bundle is a line bundle on $S^1$ that is non-trivial.
+    \item If $M$ is a manifold of dimension $n$, then $TM$ is a vector bundle of rank $n$.
+    \item \lbl{Tautological line bundle over $\mathbb{P}^n$} Recall that $\mathbb{P}^n = \R^{n+1} \setminus \brc{0} \big/_\sim$ where $x \sim \lambda x$ for all $\lambda \in \R\setminus \brc{0}$. I.e., it is the set of all lines in $\R^{n+1}$ through the orgin. Set 
+    \[
+    E = \coprod_{[x] \in \mathbb{P}^n} L_{[x]}
+    \]
+    where $L_[x]$ is the line in $\R^{n+1}$ through $x$ and $0$. Also,
+    
+    \begin{align*}
+        \pi: E &\to \mathbb{P}^n \\
+             v \in L_{[x]} &\mapsto [x]
+    \end{align*}
+    note that for every $x \in \mathbb{P}^n$, $\pi^{-1}([x])= L_{[x]} \cong \R.$ Then $(E, \mathbb{P}^n, \pi, \R)$ is a line bundle on $\mathbb{P}^n$.
+\end{enumerate}
+\end{exmp}
+
+\end{document}

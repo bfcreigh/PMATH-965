@@ -1,0 +1,164 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+  \lbl{Recall} Fix a vector bundle $(E, B, \pi, \R^r)$. We define
+  \al{
+    \Omega^k(E) &= \sect{\bigwedge^k B \ot E} \\
+    \Omega^k(\text{End}(E)) &= \sect{\bigwedge^k B \ot \text{End}(E)} \\
+  }
+  and if we have a connection $D: \Omega^0(E) \to \Omega^1(E)$, we extend $D$ to $\Omega^p(E)$ as follows:
+  \al{
+    D: \Omega^p(E) &\to \Omega^{p+1}(E) \\
+  }
+  is defined on elements of $\Omega^p(B)$ of the form $\omega \ot \sigma, \omega\ \in \Omega^p(E)$ and $\sigma \in \sect{E}$, then we take
+  \[
+  D(\omega \ot \sigma ) = d\omeg a\ot \sigma + (-1)^p \omega \wedge D(\sigma) \hspace{1em} (*).
+  \]
+  (where $(-1)^p$ s neceesary do ensure that $D(f\omega \ot \sigma) = D(\omega \ot f\sigma$) for all $f \in \ci{B}$. We extend $(*)$ $\R$-linearly.
+
+  Then $D$ satisfies a generalized Leibniz rule: For all $\tau \in \om{q}{E}$ and $\alpha \in \om{p}{B}$, then we have $\alpha \wedge \tau \in \om{p+q}{E}$ and
+  \al{
+    D(\alpha \wedge \tau) &= \underbrace{(d\alpha)}_{\in \om{p+1}{B}} \wedge \tau + (-1)^p \alpha \wedge D(\tau).
+  }
+\begin{proof}
+
+  Indeed, suppose that $\tau = \omega \wedge \sigma$ with $\omega \in \om{q}{B}$ and $\sigma \in \sect{E}$. Then,
+  \al{
+    \alpha \wedge \tau &= \alpha \wedge (\omega \ot \sigma) \\
+                      &= (\alpha \wedge \omega) \ot \sigma,
+  }
+  so that by $(*)$, we have
+  \al{
+  D(\alpha \wedge \tau) &= D\br{ (\alpha \wedge \omega) \ot \sigma } \\
+  &= d(a\lpha \wedge \omega )\ot \sigma + (-1)^{p+q} (\alpha \wedge \omega ) \wedge D(\sigma) \\
+  &= \br{d \alpha \wedge \omega + (-1)^p \alpha \wedge d\omega}\ot \sigma + (-1)^{p+q}(\alpha\wedge\omega)\wedge D(\sigma) \\
+  &= (d\alpha \wedge \omega) \ot \sigma + (-1)^p (\alpha \wedge d\omega) \ot \sigma + (-1)^{p+q} \alpha \wedge \omega \wedge D(\sigma) \\
+  &= d\alpha \wedge \tau + (-1)^p \alpha \wedge\br{ d\omega \ot\sigma + (-1)^q \omega\wedge D(\sigma) } \\
+  &= d\alpha \wedge \tau + (-1)^p \alpha \wedge D(\tau).
+  }
+  By $\R$-linearity, we get the formula for all elements in $\om{q}{E}$.
+\end{proof}
+
+By extending $D$ to $\om{p}{E}$, we get a chain
+\[
+  0 \overset{D}{\to} \Omega^0(E) \overset{D}{\to}  \Omega^1(E) \to  \dots \overset{D}{\to}  \Omega^{n-1}(E) \overset{D}{\to}  \Omega^n(E) \overset{D}{\to} 0
+\]
+where $n = \dim B$. In genereal, $D \circ D$ so that this is not a complex.
+
+\begin{defn}
+  Given a connection $D$ on $E$, we define $F_D = D \circ D$, which is called the \emphp{curvature of $D$}. Furthermore, $D$ is called \emphp{flat} if $F_D = 0$.
+\end{defn}
+
+\begin{exmp}
+  If $E = B \times \R^r$ is the trivial bundle and $D=d$ is the trivial connection on $E$, then $F_D = d \circ d = 0$, so the trivial connection is flat. We will see that, locally, any flat connection can be given by $d$ in an appropriate local frame.
+\end{exmp}
+
+What are some of the properties of
+\[
+F_D: \om{0}{E} \to \om{2}{E}?
+\]
+\begin{enumerate}[1)]
+  \item $F_D$ is $\ci{B}$-linear: For all $\sigma \in \sect{E}$ and $f \in \ci{B}$, we have
+  \[
+  F_D(f\sigma) := fF_D(\sigma).
+  \]
+  \begin{proof}
+    \al{
+    F_D(f\sigma) &= D(D(f\sigma)) \\
+                 &= D(df \ot \sigma + fD(\sigma)) \\
+                 &\overset{\text{defn}}{=} \br{d(df)\ot \sigma + (-1)^1 df \wedge D(\sigma)} + \br{df \wedge D(\sigma) + f D^2(\sigma)} \\
+                 &= fD(\sigma).
+    }
+  \end{proof}
+    In genereal,
+    \[
+    D \circ D : \om{p}{E} \to \om{p+1}{E}
+    \] is $\ci{B}$-linear.
+
+    \item Locally, in terms of local coordinates $(x_1, \dots, x_n)$ on $B$, we have seen that, for any local section $\sigma$ of $E$,
+\[
+D(\sigma) = \sum_{i=1}^n dx_i \ot D_{\partl{}{x_i}}(\sigma)
+\]
+(where $D_{\partl{}{x_i}}: \sect{E} \to \sect{E}$ is so that $D_{\partl{}{x_i}}$ are local sections of $E$). Given this, we also have
+\al{
+F_D(\sigma) &= \sum_{i,j} (dx_i \wedge dx_j) \ot \br{ D_{\partl{}{x_i}} \br{ D_{\partl{}{x_j}}(\sigma) } } \\
+\implies F_D\br{ \partl{}{x_k}, \partl{}{x_l}  } &= \sum_{i,j} (dx_i \wedge dx_j)\br{ \partl{}{x_k}, \partl{}{x_l} } \ot D_{ \partl{}{x_i} } \br{ D_{\partl{}{x_j}}(\sigma)  } \\
+&= D_{\partl{}{x_k}}\br{ D_{\partl{}{x_l}}(\sigma) } - D_{\partl{}{x_l}}\br{ D_{\partl{}{x_k}}(\sigma) }.
+}
+We then see that $F_D  = 0$ if and only if $D_\partl{}{x_l}\br{ D_{\partl{}{x_k}} }(\sigma) = D_\partl{}{x_k}\br{ D_{\partl{}{x_l}} }(\sigma)$ for all $k,l = 1, \dots, n$. So the connection is flat if and only if the covariant derivatives commute (with respect to the coordinate directions).
+\end{enumerate}
+
+As with connections, the curvature can be described as a matrix of $2$-forms in terms of a local frame as follows:
+
+\begin{exmp}
+    $E = B \times \R^r$ and frame $\brc{e_1,\dots, e_r}$ where $e_i(b) = (b, \vec{e}_i)$. Suppose that $D$ is a connection on $E$ with connection matrix $A = (a_{ij})$, where $D(e_j) = \sum_i a_{ij} \ot e_i$. Then
+    \al{
+    F_D(e_j) &= D(D(e_j)) \\
+             &= D\br{ \sum_{i} a_{ij} \ot e_j } \\
+             &= \sum_i D(a_{ij} \ot e_j) \\
+             &= \sum_i \br{ da_{ij} \ot e_i + (-1)^1 a_{ij} \wedge D(e_i) } \\
+             &= \sum_i da_{ij} \ot e_i - \sum_i a_{ij} \wedge D(e_i) \\
+             &= \sum_i d a_{ij} \ot e_i - \sum_i a_{ij} \br{ \sum_k a_{ki} e_k} \\
+             &= \sum_i d a_{ij} \ot e_i - \sum_{i,k} (a_{ij} \wedge a_{ki}) \ot e_k \\
+             &= \sum_i da_{ij} \ot e_i + \underbrace{\sum_k \br{ \sum_i a_{ki}\wedge a_{ij} }}_{(A \wedge A)_{kj}} \ot e_k \\
+             &= \sum_i (dA)_{ij} \ot e_i + \sum_k \br{ A \wedge A }_{kj} \ot e_k \\
+             &= \sum_i \br{ d A + A \wedge A }_{ij} \ot e_i \\
+             \implies F_D(e_j) &= \sum_{i} \br{ dA + A \wedge A }_{ij} \ot e_i.
+    }
+
+    In general, any local section $\sigma$ of $E$ can be written as $\sigma = \sum_{i=1}^r \ol{\sigma}_j e_j$ for some smooth functions $\ol{\sigma}_1, \dots, \ol{\sigma}_r$. By $\ci{B}$-linearity of $F_D$, we get:
+    \al{
+    F_D(\sigma) &= \sum_{j=1}^r \ol{\sigma}_j F_D(e_j) \\
+    &= \sum_{j=1}^r \ol{\sigma}_j \br{ \sum_i \br{dA + A \wedge A}_{ij} } \ot e_i. \\
+    \implies F_D(\sigma) &= \sum_{i=1}^r \br{ \sum_j \br{ dA + A \wedge A }_{ij} \ol{\sigma}_j} \ot e_i \\
+    &=: (dA + A \wedge A)\cdot \sigma.
+    }
+    Here, $F_A := dA + A \wedge A$ is the \emphp{curvature matris of $D$} with respect to $\brc{e_1, \dots e_r}$.
+
+    Also, if $\brc{e_1^\prime, \dots, e_r^\prime}$ is another form where
+    \[
+    e_j^\prime = \sum_i h_{ij} e_j
+    \]
+    where $h = (h_{ij}) : B \to \gl{r}{\R}$ is the change of basis matrix, and $A^\prime$ is the connection matrix of $D$ with respect to $\brc{e_1^\prime, \dots, e_r^\prime}$ then:
+    \[
+      A^\prime = h^{-1}Ah + h^{-1}dh
+    \]
+    and
+    \[
+    F_{A^\prime} = h^{-1} F_A h \acom{exercise.}
+    \]
+
+\end{exmp}
+
+\begin{note}
+  If $F_D = 0$, then $F_A = 0$ with respect to {\it any} local frame on $E$.
+\end{note}
+
+In general, for any vector bundle $E$ with vector bundle atlas $\brc{ (U_\alpha, \varphi_\alpha) }$ and corresponding local frames $\brc{e_1^\alpha, \dots, e_r^\alpha}$ where $e_i^\alpha = \varphi_\alpha^{-1}(-, \vec{e}_i)$. Suppose that the connection $D$ on $E$ is given by the connection matrices $A_{\alpha}$. Then $U_\alpha \cap U_\beta \neq \emptyset$,
+\[
+A_\beta = \ol{g}_{\alpha\beta}^{-1} A_\alpha \ol{g}_{\alpha\beta} + \ol{g}_{\alpha\beta}^{-1} d\ol{g}_{\alpha\beta}
+\]
+and
+\[
+F_{A_\beta} = \ol{g}_{\alpha\beta}^{-1} F_{A_\alpha} \ol{g}_{\alpha\beta}
+\]
+where $\ol{g}_{\alpha\beta}: U_\alpha \cap \beta \to \gl{r}{\R}$.
+
+\begin{thm}
+  A connection $D$ on $E$ is flat if and only if there exists a vector bundle atlas $\brc{ (U_\alpha, \varphi_\alpha) }_{\alpha \in \mc{A}}$ such that $A_\alpha = 0$ for all $\alpha \in \mc{A}$.
+\end{thm}
+
+\begin{rmk}
+    If $D$ is flat, then the vector bundle atlas $\brc{ (U_\alpha, \varphi_\alpha)}$ for which $A_\alpha = 0$ is such that $\ol{g}_{\alpha\beta} \equiv $ constant, because $d \ol{g}_{\alpha\beta} = 0$ for all $\alpha, \beta$.
+\end{rmk}
+
+\begin{defn}
+  A vector bundle $E$ is called \emphp{flat} if and only if there exists a vector bundle atlas on $E$ whose transition functions are constant.
+\end{defn}
+
+\begin{cor}
+  A vector bundle is flat if and only if it admits a flat connection.
+\end{cor}
+
+\end{document}

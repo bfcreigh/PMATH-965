@@ -1,0 +1,147 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\lbl{Recall} $(E, B, \pi, \R^r)$ the trivial bundle with $E = B \times \R^r$. Pick a frame $\brc{e_1, \dots, e_r}$ with $e_i(b) = (b, \vec{e}_i)$. Then any section looks like $\sigma = \sum_{i=1}^r \ol{\sigma}_i e_i$. One possible way of differentiating $\sigma$ is to set
+\[
+d\sigma(b):= (b, d \ol{\sigma}(b))
+\]
+where $d\ol{\sigma}(b) = \br{ d\ol{\sigma}_1(b), \dots, d \ol{\sigma}_r(b) }$. So we get 
+\[
+d \sigma := \sum_{i=1}^r  \overbrace{d\ol{\sigma}_i}^{\in \Omega^1(B)} \otimes \overbrace{e_i}^{\in \sect{E}}
+\]
+
+\begin{note}
+    \begin{itemize}
+        \item $d$ is $\R$-linear: for $\sigma, \tau \in \sect{E}$ so that $\sigma = \sum+{i=1}^r \ol{\sigma}_i e_i$ and $\tau = \sum_{i=1}^r \ol{\tau}_i e_i$. Then for any $c \in \R$, 
+        \[
+        d\br{ c\sigma + \tau } := \sum_{i=1}^r d\br{ c \ol{\sigma}_i + \ol{\tau}_i } \otimes e_i = cd\sigma + d\tau.
+        \]
+        \item $d$ satisfies the \emphp{Leibniz rule}: For any $\sigma = \sum_{i=1}^r \ol{\sigma}_i e_i$ and $f \in C^\infty(B)$, 
+        \[
+        d(f\sigma) = df \otimes \sigma + f d\sigma.
+        \]
+        Indeed,
+        \al{
+            d(f\sigma) &= d\br{ \sum_{i=1}^r \br{f\ol{\sigma}_i} \otimes e_i }  \\
+                       &= \sum_{i=1}^r d(f\ol{\sigma}_i) \otimes e_i \\
+                       &= \sum_{i=1}^r \br{\ol{\sigma}_i df + f d \ol{\sigma}_i} \otimes e_i \\
+                       &= df \otimes \br{\sum_{i=1}^r \ol{\sigma}_i e_i} + f \br{ \sum_{i=1}^r d \ol{\sigma}_i \otimes e_i } \\
+                       &= df \otimes \sigma + f d \sigma.
+        }
+    \end{itemize}
+\end{note}
+
+\begin{defn}
+A \emphp{connection on $E$} is an $\R$-linear map 
+\al{
+D : \sect{E} &to \sect{T^*B \otimes E}
+}
+that safisfies the \emphp{Leibniz rule}: For all $f \in C^\infty(B)$ and $\sigma \in \sect{E}$, we have
+\[
+D(f\sigma) = df \otimes \sigma + f D(\sigma).
+\]
+\end{defn}
+
+\begin{note}
+Connections generalize the notion of exterior derivative ``$d$" to sections of \it{any} vector bundle. 
+\end{note}
+
+\begin{exmp}
+    \begin{enumerate}
+        \item Take $E = B \times \R^r$.
+            \begin{itemize}
+                \item $D = d$ is called the \emphp{trivial connection.}
+                \item What do the others look like? Let $D : \sect{E} \to \sect{T^*B \otimes E}$ be a connection on $E =B \times \R^r$. Consider the frame $\brc{e_1, \dots, e_r}$ with $e_i(b) = (b, \vec{e}_i)$. Then, for all $j = 1,\dots, r$, $D(e_j) \in \sect{T^*B \otimes E}$. Then 
+                \al{
+                    D(e_j) &= \sum_{i=1}^r a_{ij} \otimes e_i
+                } for some $a_{ij} \in \sect{T^*B}$. If we pick $\sigma \in \sect{E}$, then $\sigma = \sum_{j=1}^r \ol{\sigma}_j e_j$ for $\ol{\sigma}_j \in C^\infty(B)$. Then
+                \al{
+                    D(\sigma) &= \sum_{j=1}^r D(\ol{\sigma}_j e_j) \\
+                              &= \sum_{j=1}^r \br{d \ol{\sigma}_j \otimes e_j + \ol{\sigma}_j D(e_j)} \\
+                              &= \sum_{j=1}^r d \ol{\sigma}_j \otimes e_j + \sum_{i, j = 1}^r \ol{\sigma}_j \br{ a_{ij} \otimes e_i } \\
+                              &= \sum_{j=1}^r d\ol{\sigma}_j \otimes e_j + \sum_{i=1}^r \br{ \sum_{j=1}^r a_{ij} \ol{\sigma}_j } \otimes e_i \\
+                              &=: d\sigma + A\sigma =: (d + A)\sigma
+                } where we set $A = [a_{ij}]_{i,j=1}^r$ is a $r \times r$ matrix of $1$-forms, called the \emphp{connection matrix of $D$} and $\ol{\sigma} = [\ol{\sigma}_i]_{i=1}^r$. Here, we mean
+                \[
+                A\sigma = \sum_i \br{ \sum_j a_{ij} \ol{\sigma}_j } \otimes e_i.
+                \]
+                
+                \begin{note}
+                The connection matrix depends on the frame $\brc{e_1, \dots, e_r}$: To br precise, if $\brc{e_1, \dots, e_r}$ and $\brc{e_1^\prime, \dots, e_r^\prime}$ are frames of $E = B \times \R^r$ and 
+                \[
+                e_i^\prime = \sum_k h_{ki} e_k
+                \]
+                so that $h = (h_{ij})_{i,j=1}^r$ is the change of basis matrix. Then: 
+                \al{
+                D(e_j) &= \sum_i a_{ij} \otimes e_i & D(e_j^\prime) = \sum_i a_{ij}^\prime \otimes e_i^\prime
+                }
+                Then $A^\prime = (a_{ij}^\prime)_{i,j=1}^r$ satisfies
+                \[
+                A^\prime = h^{-1}dh + h^{-1}A h \acom{exercise.}
+                \]
+                \end{note}
+            \end{itemize}
+            
+        \item $E$ is any vector bundle and $\brc{ \br{U_\alpha, \varphi_\alpha}}$ is a vector bundle atlas for $E$ with $\brc{U_\alpha}$ an open cover of $B$. Then, for all $\alpha$, $E_{U_\alpha} \cong U_\alpha \times \R^r$ and hence admits a local frame $\brc{ e_1^\alpha, \dots, e_r^\alpha }$ with 
+        \[
+        e_1^\alpha(b) = \varphi_\alpha^{-1}(b, \vec{e}_i).
+        \] Let $D$ be a connection on $E$. Then on $E_{U_\alpha}$, $D = d + A_\alpha$ where $A_\alpha$ is the connection matrix of $D\rst{E_{U_\alpha}}$ in terms of the frame $\brc{e_i^\alpha}$. Note that on $U_\alhpa \cap U_\beta$, the change of basis matrix from $\brc{e_1^\beta, \dots, e_r^\beta }$ to $\brc{ e_1^\alpha, \dots, e_r^\alpha }$ is $\ol{g}_{\alpha\beta}$ so that
+        \[
+        A_\alpha = \ol{g}_{\alpha\beta}^{-1}d\ol{g}_{\alpha\beta} + \ol{g}_{\alpha\beta}^{-1} A_\beta \ol{g}_{\alpha\beta}.
+        \]
+    \end{enumerate}
+    \end{exmp}
+    
+    \begin{prop}
+        Connections \it{always} exist.
+    \end{prop}
+    
+    \begin{proof}
+        Let $(E,B \pi, \R^r)$ be a vector bundle with the vector bundle atlas $\brc{\br{U_\alpha, \varphi_\alpha}}$ and corresponding local frames $\brc{e_1^\alpha, \dots, e_r^\alpha}$. Then, on every $E_{U_\alpha}$, we can pick the trivial connection $d_\alpha  = d\rst{E_{U_\alpha}}$ (i.e., $A_\alpha \equiv 0$). Let $\brc{\psi_\alpha: B \to \R }$ be a partition of unity subordinate to the open cover $\brc{U_\alpha}$. Then for every $b\in B$,
+        \begin{itemize}
+            \item $\supp{\psi_\alpha} \subset U_\alpha$, 
+            \item only a finite number of $\psi_\alpha$'s are nonzero at $b$, and
+            \item $\sum_\alpha \psi_\alpha(b) = 1$. 
+        \end{itemize}
+        Set $D = \sum_\alpha \psi_\alpha d_\alpha$ so that $D(\sigma) = \sum_\alpha \psi_\alpha d_\alpha \sigma$ for all $\sigma \in \sect{E}$. $D$ is a connection because it is $\R$ linear, and the Leibniz rule hols:
+        \al{
+            D\br{f \sigma} &= \sum_\alpha \psi_\alpha d_\alpha \br{ f \sigma} \\
+                           &= \sum_\alpha \psi_\alpha \br{ df \otimes \sigma + f d_\alpha \sigma  } \\
+                           &= \br{\sum_\alpha \psi_\alpha} df \otimes \sigma + f \br{ \sum_\alpha \psi_\alpha d_\alpha \sigma } \\
+                           &= df \otimes \sigma + f d \sigma.
+        }
+    \end{proof}
+    
+    Let $\mc{A}(E)$ be the set of all connections on $E$. This set is not closed under addition! Let $D, D^\prime \in \mc{A}(E)$ and define 
+    \al{
+        D + D^\prime : \sect{E} &\to \sect{T^*B \otimes E} \\
+           \sigma &\mapsto D(\sigma) + D^\prime(\sigma).
+    } Although $D + D^\prime$ is a well-defined map, it does not satisfy Leibniz: Let $\sigma \in \sect{E}$ and $f \in C^\infty(B)$. Then
+    \al{
+        (D + D^\prime)(f\sigma) &= D(f\sigma) + D^\prime (f \sigma) \\
+                                & df \otimes \sigma + f D(\sigma) + df \otimes \sigma + f D^\prime(\sigma) \\
+                                &= 2df \otimes \sigma + f(D+D^\prime)(\sigma) \\
+                                &\neq df \otimes \sigma + f(D + D^\prime)(\sigma).
+    }
+    However, if we had considered $a_1 D + a_2 D^\prime$ such that $a_1 + a_2 = 1$, then we would have a connection. So $\mc{A}(E)$ is convex: For all $D_1, \dots, D_l \in \mc{A}(E)$ and $a_1, \dots, a_l \in \R$ such that $\sum_{i=1}^l a_i = 1$, then $a_1D_1 + \dots + a_l D_l \in \mc{A}(E)$.
+    
+    $\mc{A}(E)$ is an affine space. To see this, we need to following notation:
+    
+    \begin{notation}
+    Let $(V, B, \tilde{\pi}, \R^m)$ be a vector bundle. We set
+    \[
+    \Omega^k(B) := \sect{\bigwedge^k T^*B \otimes V}.
+    \] In particular, 
+    \[
+    \Omega^1(V) = \sect{T^*B \otimes V}.
+    \]
+    \end{notation}
+
+    \begin{prop}
+    $\mc{A}(E)$ is an affine space modelled on $\Omega^1(\text{End }E)$. To be more precise, if $D_0$ is any connection on $E$, then
+    \[
+    \mc{A}(E) = \brc{ D_0 + a \s a \in \Omega^1(\text{End } E) }
+    \]
+    \end{prop}
+\end{document}

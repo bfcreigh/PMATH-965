@@ -20,6 +20,7 @@
 
 \def\hrulefill{\noindent\leavevmode\leaders\hrule height 1pt\hfill\kern\z}
 
+
 % ~~~ Mathematics Formatting ~~~ %
 
 \usepackage{tikz}
@@ -80,6 +81,9 @@
 \newcommand\ol[1]{\overline{#1}}
 \newcommand\impliespf{($\implies$) \ }
 \newcommand\impliedpf{($\impliedby$) \ }
+\newcommand\acom[1]{\hspace{1em}\text{(#1)}}
+\newcommand\supp[1]{\text{supp}(#1)}
+\newcommand\partl[2]{ \frac{ \partial #1 }{ \partial #2 } }
 
 
 \newcommand\mb[1]{\mathbb{#1}}
@@ -105,7 +109,8 @@
     \vspace{0.55em}
     \hrulefill{}
     \vspace{1em}
-    \subfile{Subfiles/#2#3.tex}\\
+    \subfile{Subfiles/#2#3.tex}
+    \newpage
 }
 % - The first input is the text to be emphasized and the second is the colour selection
 % - This is designed to be able to create custom emphasis commands more easily
@@ -150,5 +155,8 @@
 \lecture{4}{January}{16}
 \lecture{5}{January}{21}
 \lecture{6}{January}{23}
-
+\lecture{7}{January}{28}
+\lecture{8}{January}{30}
+\lecture{9}{February}{4}
+\lecture{10}{February}{6}
 \end{document}

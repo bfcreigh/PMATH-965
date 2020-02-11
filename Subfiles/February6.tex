@@ -1,0 +1,174 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\lbl{Recall} $(E, B, \pi, \R^r)$ a vector bundle and $D: \sect{E} \to \sect{T^*B \ot E}$ a connection on $E$. For any $X \in \sect{TB}$ and $\sigma \in \sect{E}$, we can define
+\al{
+D_X\sigma &= \br{ \text{covariant derivative on $\sigma$ in the direciton of $X$}} \\
+}
+where if, locally, $D(\sigma) = \sum_{i} \omega_i \ot e_i$ where $\brc{e_1, \dots, e_r}$ is a local frame of $E$ and $\omega_i$ are local $1$-forms, then 
+\al{
+    D_X \sigma &:= \sum_{i} \omega_i(X) e_i.
+}
+
+\begin{note}
+If $f \in C^\infty(B)$, $D_{fX}\sigma = fD_X\sigma$. So $D_X : \sect{E} \to \sect{T^*B \ot E}$ is such that $D_{fX}\sigma = f D_X\sigma$ (hence too $\R$-linear) and $D_X$ satisfies a Leibniz rule:
+\[
+D_X(f\sigma) = X(f)\sigma + fD_X(\sigma).
+\]
+\al{
+\nabla: \sect{TB} \times \sect{E} &\to \sect{E} \\
+        (X, \sigma) &\mapsto D_X\sigma
+} is called a linear connection.
+\end{note}
+
+\begin{note}
+The connection $D$ is completely determined by the $D_X$'s, for all $X \in \sect{TB}$. In particular, if $\brc{e_1, \dots, e_r}$ is a local frame of $E$ and $D = d + A$ with $A$ the connection matrix in this frame and $\brc{x_1, \dots, x_n}$ are local coordinates for $B$, then 
+\al{
+a_{ij} = \sum_k a_{ij}\br{\frac{\partial}{\partial x_k}} dx_k
+} and
+\al{
+D_{\partl{}{x_k}}(e_j) &= D(e_j)\br{ \partl{}{x_j}} \\
+                       &= \sum_i a_{ij}\br{\partl{}{x_k}} e_i.
+}
+So, the connection $D$ is completely determined (locally) by $D_\partl{}{x_k}(e_j)$ for $j = 1, \dots r$ and $k = 1,\dots, n$.
+\end{note}
+
+\begin{exmp}
+    
+    \begin{enumerate}
+        \item $M \subseteq \R^n$ a submanifold so that $TM \subset T\R^n \rst{M} \cong M \times \R^n$. Let $\sigma \in \sect{TM}$. Then we can think of it as
+        \al{
+            \sigma: M &\to TM \subseteq M \times \R^n \\
+                    x &\mapsto (x, \ol{\sigma}(x))
+        } for some smooth $\ol{\sigma} : M \to \R^n$ such that $\sigma(x) \in T_xM$ for each $x \in M$. Since $\ol{\sigma}: M \to \R^n$ is smooth with $M \subset \R^n$, there is an open $U \subset \R^n$ with $M \subset U$ and $\ol{\sigma} : U \to \R^n$ (i.e., $\ol{\sigma}$ extends to a smooth function on a neigbourhood of $M$). So, we can think of $\sigma$ as $\sigma: U \to T\R^n\rst{U}$, and we can apply the trivial connection $d$ on $T\R^n\rst{U}$ to it:
+        \[
+        d\sigma \in \sect{T^*U \ot TU}.
+        \]
+        But, $d\sigma(X) \in \sect{TU}$  for any $X \in \sect{TU}$. So, we may not have that $d\sigma(X) \in \sect{TM}$. So, we just take $\text{pr}_{TM}\br{d\sigma}$. Thus, we get the connection $D$ on $TM$: For every $\sigma \in \sect{TM}$ and every $X \in TM$,
+        \al{
+        D_X(\sigma) := \text{pr}_{TM}(d\sigma(X)),
+        }
+        where $\text{pr}_{TM}: TU\rst{TM} \to TM$.
+        
+        \item  Let $(E, B , \pi, \R^r)$ and $(E^\prime, B, \pi^\prime, \R^{r^\prime})$ be two vector bundles on $B$ with two connecitons $D, D^\prime$, respectively. Then there exist natural induced connections on $E \oplus E^\prime, E \ot E^\prime, E^*, \Hom{}{E, E^\prime} $ and $f^*E$ for all $f: N\to B$ smooth. 
+        
+        Let $\sigma \in \sect{E\rst{U}}$ and $\sigma^\prime \in \sect{E^\prime\rst{U}}$ and suppose that on $U$,
+        Let $D(\sigma) = \sum_{i} \omega_i \ot \sigma_i$ for $\omega_i \in \Omega^1(U)$ and $\sigma_i \in \sect{E\rst{U}}$ and $D^\prime(\sigma^\prime) = \sum_j \omega_j^\prime \ot \sigma_j^\prime$ for $\omega_j^\prime \in \Omega^1(U)$ and $\sigma_j \in \sect{E^\prime\rst{U}} $. Then 
+        
+        \begin{enumerate}[(i)]
+            \item \lbl{$E \oplus E^\prime$} Define a connection $\nabla$ by 
+            \al{
+            \nabla(\sigma \oplus \sigma^\prime) &=D(\sigma) \oplus D^\prime(\sigma^\prime) \\                                          &= \sum_{i} \omega_i \ot (\sigma_i \oplus 0 ) + \sum_j \omega_j^\prime \ot (0 \oplus \sigma_j^\prime).
+            }
+            
+            \item \lbl{$E \ot E^\prime$} 
+            \al{
+            \nabla(\sigma \ot \sigma^\prime) &= D(\sigma) \ot \sigma^\prime + \sigma \ot D^\prime(\sigma^\prime) \\
+            &= \sum_i \omega_i \ot \br{\sigma_i \ot \sigma^\prime} + \sum_{j} \omega_j^\prime \ot \br{ \sigma \ot \sigma_j^\prime  }
+            }
+            
+            \item \lbl{$E^*$} We have a natural connection on $E^*$ defined by:
+            \al{
+            D^*: \sect{E^*} &\to \sect{T^*B \ot E^*} 
+            }
+            where for all $\psi \in \sect{E^*}$, $D^*(\psi) \in \sect{T^*B \ot E^*}$ is completely determined by $D^*(\psi)(\sigma) \in \sect{T^*B}$ for all $\sigma \in \sect{E}$. So, we set 
+            \al{
+            D^*(\psi)(\sigma) &:= d\br{ \psi(\sigma) } - \psi\br{ D\br{\sigma}} 
+            }
+            where 
+            \[
+            \psi(D(\sigma)) = \underbrace{\sum_{i} \psi(\sigma_i) \omega_i}_{\in \sect{T^*B}}
+            \]
+            
+            \item \lbl{$\Hom{}{E, E^\prime}$} We have a natural connection $\nabla$ given by, for all $\psi \in \sect{\Hom{}{E, E^\prime}}$ and for all $\sigma \in \sect{E}$ we set
+            \[
+            \nabla(\psi)(\sigma) := D^\prime\br{ \psi(\sigma) } - \psi\br{D(\sigma)}.
+            \]
+            
+            \item If $f: N \to B$ is smooth and we have a local frame $\brc{e_1, \dots, e_r}$ of $E$ on $U$, and $D = d + A$, then on $f^{-1}(U)$, 
+            \[
+            f^*D: = d + f^*A
+            \]
+            is a connection matrix, where $f^*A = (f^*a_{ij})$ where $A = (a_{ij})$
+            
+        \end{enumerate}
+        
+        \end{enumerate}
+\end{exmp}
+        
+        \subsubsection{Curvature}
+        
+        \lbl{Recall} Suppose $M$ is a smooth manifold with local coordinates $(x_1 \dots, x_n)$. 
+        \al{
+        \Omega^0(M) &:= C^\infty(M) \\
+        \Omega^k(M) &= \br{\text{smooth $k$-forms on $M$}} = \sect{\bigwedge^k T^*M}, 1 \leq k \leq n \\
+        \Omega^k(M) &= 0, k > n.
+        }
+        \begin{note}
+            \begin{itemize}
+                \item For all $f \in C^\infty(M)$, $df = \sum_i \partl{f}{x_i} dx_i$.
+                \item For all $\omega = \sum_I a_I dx_I \in \Omega^k(M)$, $d\omega = \sum_I da_I \wedge dx_I$.
+                \item \lbl{Leibniz} For all $\eta \in \Omega^p(M)$ and $\omega \in \Omega^q(M)$, 
+                \[
+                d\br{\eta \wedge \omega } = d\eta \wedge \omega + (-1)^{p} \eta \wedge d \omega.
+                \]
+                \item \lbl{de Rham Complex}
+                \[
+                0 \overset{d}{\to} \Omega^0(M) \overset{d}{\to}  \Omega^1(M) \to  \dots \overset{d}{\to}  \Omega^{n-1}(M) \overset{d}{\to}  \Omega^n(M) \overset{d}{\to}  0
+                \] this is a complex {\it because} $d \circ d = 0$.
+            \end{itemize}
+         
+        \end{note}
+        
+    Now, fix a vector bundle $(E, B ,\pi, \R^r)$ with $n  = \dim B$. Set 
+    \al{
+    \Omega^0(E) &:= \sect{E}  \\
+    \Omega^k(E) &:= \sect{\bigwedge^k B \otimes E} = \br{ \text{bundle-valued $k$-forms} }, 1 \leq k \leq n \\
+    \Omega^k(E) &:= 0, k > n.
+    }
+    
+    If $\omega \in \Omega^p(B)$ and $\tau \in \Omega^q(E)$ so that locally
+        \[
+        \tau = \sum_i \eta_i \ot \sigma_i
+        \]
+        where $\eta_i$ are $k-$forms and $\sigma_i \in \sect{E}$. We define
+        \[
+        \omega \wedge \tau := \sum_i (\omega \wedge \eta_i) \ot \sigma_i \in \Omega^{p + q}(E\rst{U}).
+        \] Let $D$ be a connection on $E$ so that 
+        \[
+        D: \Omega^0(E) &\to \Omega^1(E)
+        \] is $\R$-linear and satisfies Leibniz. How can we extend this to a map
+        \[
+        D : \Omega^p(E) \to \Omega^{p+1}(E)?
+        \]
+        If $\omega$ is a local $p$-form on $B$ and $\sigma$ is a local section of $E$ so that $\omega \otimes \sigma \in \Omega^p(E\rst{U})$. We set
+        \[
+        D(\omega \ot \sigma) := d\omega \ot \sigma + (-1)^p \omega \wedge D(\sigma) \in \Omega^{p+1}(E\rst{U}),
+        \]
+        and extend this definition $\R$-linearly.
+    \begin{itemize}
+        \item If $k = 0$: $D(f\sigma) = df \ot \sigma + f D(\sigma)$. This is just the usual Leibniz.
+        \item If $k > 0$, then for all $f \in C^\infty(B)$, $(f \omega )\ot \sigma = \omega \ot (f \sigma)$.
+        \al{
+        D(f\omega \ot \sigma) &= d(f\omega)\ot \sigma + f\omega \wedge D(\sigma) \\
+                              &= df \wedge \omega \ot \sigma + f d \omega \otimes \sigma + (-1)^p f\omega \wedge D(\sigma)        }
+        and
+        \al{
+        D(\omega \ot (f\sigma)) &= d \omega \ot (f\sigma) + (-1)^p\omega D(f \sigma) \\         
+                                &= f d\omega \otimes \sigma + (-1)^p \omega \wedge df \otimes \sigma + (-1)^p f \omega \wedge D(\sigma)
+        }
+    \end{itemize}
+    
+    We get 
+    \[
+                0 \overset{d}{\to} \Omega^0(E) \overset{d}{\to}  \Omega^1(E) \to  \dots \overset{d}{\to}  \Omega^{n-1}(E) \overset{d}{\to}  \Omega^n(E) \overset{d}{\to}  0
+                \]
+    but we may not have $D \circ D = 0 $. 
+    
+    \begin{defn}
+    $F_D := D \circ D$ is the \emphp{curvature of $D$}. We say that $D$ is \emphp{flat} if and only if $F_D = 0$.
+    \end{defn}
+    
+
+\end{document}

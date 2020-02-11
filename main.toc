@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Fibre Bundles}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Bundle Maps}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Bundle Atlases}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Comparison Between Manifolds and Fibre Bundles}{7}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Bundle Maps Revisited}{7}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Vector Bundles}{8}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Sections}{10}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Sections of Vector Bundles}{11}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Linear Algebraic Constructions for Vector Bundles}{14}{subsection.1.8}
+\contentsline {section}{\numberline {2}Connections}{15}{section.2}
+\contentsline {subsection}{\numberline {2.1}Connections on Vector Bundles}{15}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Definition and Properties}{15}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Curvature}{23}{subsubsection.2.1.2}

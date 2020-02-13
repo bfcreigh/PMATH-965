@@ -1,0 +1,183 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+Let $(E, B, \pi, \R^r)$ be a vector bundle and $D$ a connection on $E$. If $\brc{e_1,\dots, e_r}$ is a local frame of $E$, then locally, if $\sigma$ is a local section of $E$ given by $\sigma = \sum_i \ol{\sigma}_i e_i$, then
+\[
+F_D(\sigma) = \sum_i (F_A)_{ij} \ol{\sigma}_j \ot e_i
+\]
+where $F_A := d A + A \wedge A$ is the curvature matrix (with respect to this local frame).
+
+Also, if $\brc{e_1^\prime, \dots, e_r^\prime}$ is another local frame with $e_j^\prime = \sum_i h_{ij} e_i$ (where $h: U \to \gl{r}{\R}$ is a smooth map with $h = (h_{ij})$), then if $A^\prime$ is the connection matrix of $D$ with respect ot $\brc{e_1^\prime, \dots, e_r^\prime}$, then:
+\[
+A^\prime = h^{-1} A h + ^{-1} d h
+\] and
+\[
+  F_{A^\prime} = h^{-1} F_A h.
+\]
+So, we have that $F_D = 0 \iff F_A = 0$ for every connection matrix $A$.
+
+\begin{prop}
+    $D$ is flat if and only if there exists a vector bundle atlas $\brc{\br{ U_\alpha, \varphi_\alpha}}$ on $E$ with respect to which every $A_\alpha = 0$ for all $\alpha \in \mc{A}$, where $A_\alpha$ is the connection matrix of $D$ with respect to the frame $\brc{ e_1^{\alpha}, \dots, e_r^\alpha }$.
+\end{prop}
+
+Before proving the proposition, we need some notation. Let $U \subset B$ be an open set with local coordinates $(x_1, \dots, x_n)$ and assume that $E$ admits a vector bundle chart for $U$ with associated local frame $\brc{e_i} = \brc{\varphi^{-1}(-, \vec{e}_i)}$. Let $A$ be the corresponding connection matrix of $D$. So
+\[
+A = \sum_{k=1}^n A_k dx_k
+\]
+where $A_k: U \to \mathfrak{gl}(r, \R)$ is a smooth map, and so
+\[
+F_A = dA + A \wedge A = \sum_{k < l} \br{ \partl{A_l}{x_k} - \partl{ A_k}{x_l} = [A_k, A_l]}dx_k \wedge dx_l.
+\]
+
+\begin{proof}
+    \al{
+      dA &= \sum_{k=1}^n dA_k \wedge dx_k \\
+         &= \sum_{k=1}^n \br{ \sum_{l=1}^n \partl{A_k}{x_l} dx_l } \wedge dx_k \\
+         &= \sum_{k < l} \br{ \partl{A_l}{x_k} - \partl{A_k}{x_l} } dx_k \wedge dx_l
+      }
+      and
+    \al{
+      A \wedge A &= \br{\sum_{k=1}^n A_k dx_k} \wedge \br{ \sum_{l=1}^n A_l dx_l } \\
+      &= \sum_{k,l=1}^n A_kA_l dx_k \wedge dx_l \\
+      &= \sum_{k < l} (A_k A_l - A_l A_k) dx_k \wedge dx_l \\
+      &= \sum_{k < l} [A_k, A_l] dx_k \wedge dx_l.
+      }
+\end{proof}
+So, $F_D = 0$ iff $F_A = 0$ for all $A$ iff $\partl{A_l}{x_k} - \partl{A_k}{x_l} + [A_k, A_l] = 0$ for all $k < l$.
+
+Suppose that $\brc{e_1^\prime, \dots e_r^\prime}$ is related to $\brc{e_1,\dots, e_r}$ by $h: U \to \gl{r}{\R}$ so that its connection matrix is
+\[
+A^\prime = h^{-1} A h + h^{-1} dh
+\]
+If $A = \sum_{k=1}^n A_k dx_k$ and $A^\prime = \sum_{k=1}^n A_k^\prime dx_k$, then:
+\[
+A^\prime_k = h^{-1}A_k h + h^{-1}\partl{h}{x_k}.
+\]
+Therefore, if there exists a lcoal frame $\brc{e_1^\prime, \dots, e_r^\prime}$ with respect to which $A^\prime = 0$ then there exists $h: U \to \gl{r}{\R}$ such that
+\[
+h^{-1}A_k h + h^{-1}\partl{h}{x_k}.
+\]
+
+\begin{proof}
+  \impliedpf If there is a vector bundle atlas such that $A_\alpha = 0$ for all $\alpha$, then $F_{A_\alpha} = d A_\alpha + A_\alpha \wedge A_\alpha = 0$. \impliespf Suppose that $F_D = 0$, so that $F_A = 0$ for any connection matrix $A$. Let us first assume that $B$ is a hypercube: $B = \brc{ x = (x_1,\dots, x_n) \in \R^n \s \anorm{x_i} \leq 1 }$. Then $E$ is trivial on $B$, so there exists a global vector bundle chart $ \varphi: E \to B \times \R^r$ and a corresponding global frame $\brc{ e_i = \varphi^{-1}(-, \vec{e}_i) }_{i=1}^r$. Let $A$ be the connection matrix of $D$ with respect to theis frame and lets us write it:
+  \[
+    A = \sum_{k=1}^n A_k dx_k
+  \]
+  with each $A_k : U \to \mathfrak{gl}(r, \R)$ smooth for all $k = 1,\dots, n$. Then $F_A = 0$, which implies
+  \[
+    \partl{A_k}{x_l} - \partl{A_l}{x_k} + [A_k, A_l] = 0 \hspace{1em} (*).
+  \]
+  We want to fund $h : B \to \gl{r}{\R}$ smooth such that
+  \[
+  h^{-1}A_k h + h^{-1} \partl{h}{x_k}.
+  \]
+  We do this in several steps by finding smooth maps $B \to \gl{r}{\R}$ that take $A$ to a connection matrix $\tilde{A}$ with $\tilde{A}_1 = 0$, then $\tilde{A}_2 = 0$, etc.
+
+\begin{itemize}
+
+  \item Can we find $h: B \to \gl{r}{\R}$ smooth such Mathematics
+  \[
+    \tilde{A}_1 = h^{-1}A_1 h + h^{-1}\partl{h}{x_1} \iff A_1 h + \partl{h}{x_1} = 0.
+  \]
+  This is a linear ODE for $h$ in the variable $x_1$ with $x_2, \dots, x_n$ fixed (but also with the equation varying smoothly in $x_2, \dots, x_n$)). So there exists a smooth solution by the ODE theorem (exercise)
+
+  \item Suppose that there is $h:  \to \gl{r}{\R}$ smooth taking $A$ to a connection matrix $\tilde{A}$ with $\tilde{A}_1,\dots, \tilde{A}_p = 0$. Let us show that there is a new $\tilde{h}: B \to \gl{r}{\R}$ taking $\tilde{A}$ to $\tilde{\tilde{A}}$ with
+  \[
+  \tilde{\tilde{A}}_1,\dots, \tilde{\tilde{A}}_p = 0.
+  \]
+  Then $\tilde{h}$ much satisfy
+  \al{
+  \tilde{\tilde{A}}_k &= \tilde{h}^{-1} \tilde{A}_k \tilde{h} + \tilde{h}^{-1}\partl{\tilde{h}}{x_k} = 0, \forall k = 1,\dots, p+1 \\
+   &\iff \begin{cases}
+            \partl{\tilde{h}}{x_k} = 0 & \forall k=1,\dots,p \ (**) \\
+            \tilde{A}_{p+1}\tilde{h} + \partl{\tilde{h}}{x_{p+1}} = 0 & (***)
+          \end{cases}
+  }
+  As before, by the ODE theorem, there exists a solution $\tilde{h}$ to $(***)$. Also, since $F_{\tilde{A}} = 0$ by $(*)$, for all $k < p+1$, since $D$ is flat we have
+  \al{
+  \partl{\tilde{A}_{p+1}}{x_k} - \underbrace{\partl{\tilde{A}_k}{x_{p+1}}}_{ = 0} + [\tilde{A}_k, \underbrace{\tilde{A}_{p-1}}_{=0}] &= 0 \\
+    \iff \partl{\tilde{A}_{p+1}}{x_k} &= 0 \hspace{1em} \forall k = 1,\dots, p.
+  }
+  So $\tilde{A}_{p+1}$ does not depend on $x_1,\dots, x_p$. So $\tilde{h}$ satisfies $(**)$.
+
+  \item Now for a general vector bundle, start with a vector bundle atlas whose open cover of $B$ consists of open sets diffeomorphic to hypercubes, and replace every vector bundle chart by a chart with respect to which the connection matrix is $0$, as above.
+
+\end{itemize}
+\end{proof}
+
+We will end with a few more facts about curvature:
+\begin{itemize}
+
+\item We have see that if $D_0$ is a fixed connection on $E$, then the set of all connections on $E$ is
+\[
+\mc{A}(E) = \brc{ D_0 + a \s a \in \om{1}{\text{End}(E)} }.
+\]
+One can show that
+\[
+F_{D_0 + a} = F_{D_0} + D_0(a) + a \wedge a
+\]
+for every $a \in \om{1}{\text{End}(E)}$, where $D_0$ also denotes the induced connection on $\text{End}(E)$.
+
+\item \lbl{Bianchi identity} Let $D$ be a connection on $E$. Then,
+\[
+F_D : \sect{E} \to \om{2}{E}
+\]
+and is $\ci{B}$-linear. We can therefore think of $F_D$ as an element of $\om{2}{\text{End}(E)}$.
+
+As an aside: In general, if $E_1$ and $E_2$ are vector bundles on $B$, then $\sect{\Hom{}{E_1, E_2}}}$ is identified with the set
+\[
+  \brc{ \ci{B}-\text{linear maps }\sect{E_1} \to \sect{E}_2 }
+\] Indeed, given $\psi \in \sect{\Hom{}{E_1, E_2}}$ so that
+\[
+  \psi: B \to \Hom{}{E_1, E_2} = \bigsqcup_{b \in B} \Hom{}{(E_1)_b, (E_2)_b}
+\]
+so that $\psi(b): (E_1)_b \to (E_2)_b$ is $\R$-linear. Then $\psi$ induces
+\al{
+\tilde{\psi}: \sect{E_1} &\to \sect{E_2} \\
+            \sigma &\mapsto \tilde{\psi}(\sigma)
+}
+where
+\al{
+  \tilde{\psi}(\sigma): B &\to E_2 \\
+                        b &\mapsto \psi(b)(\sigma(b)) \in (E_2)_b.
+}
+Conversely, let $\tilde{\psi}: \sect{E_1} \to \sect{E_2}$ be $\ci{B}$-linear. Set
+\al{
+  \psi: B &\to \Hom{}{E_1, E_2} \\
+        b &\mapsto \psi(b) \in \Hom{}{(E_1)_b, (E_2)_b}
+}
+where, for all $b \in B$,
+\al{
+  \psi(b) : (E_1)_b &\to (E_2)_b \\
+              e = \sigma(b) &\mapsto \tilde{\psi}(\sigma)(b)
+}
+for some local section $\sigma$. One can show that this definition of $\psi(b)$ is independent of the choice of $\sigma$ by the $\ci{B}$-lineaity of $\tilde{\psi}$ and $\psi(b)$ is $\R$-linear.
+
+\begin{prop}
+    For any connection $D$ on $E$,
+    \[
+    D(F_D) = 0
+    \] where $D$ also denotes the induced connection on $\text{End}(E)$.
+\end{prop}
+
+\begin{proof}
+    $F_D \in \om{2}{\text{End}(E)}$ and for all $\psi \in \sect{\text{End}(E)}$, then induced connection on $\text{End}(E)$is such that for all $\sigma \in \sect{E}$,
+    \[
+    D(\psi)(\sigma) := D(\psi(\sigma)) - \psi(D(\sigma)).
+    \]
+    In general if $\tau \in \om{k}{\text{End}(E)}$, for all $\sigma \in \sect{E}$,
+    \[
+    D(\tau)(\sigma) = D(\tau(\sigma)) - \tau(D(\sigma)).
+    \]
+    So we have
+    \al{
+      D(F_D)(\sigma) &= D(F_D(\sigma)) - F_D(D(\sigma)) \\
+                     &= D \circ D \circ D (\sigma) - D \circ D \circ D(\sigma) \\
+                     &= 0.
+    }
+\end{proof}
+
+\end{itemize}
+
+\end{document}

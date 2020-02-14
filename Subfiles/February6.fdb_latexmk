@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1581639570 "February6.tex" "February6.pdf" "February6" 1581639570
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls" 1480098839 1668 72b0756be37b3cb3f28b12a13569c109 ""
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty" 1480098841 7264 cf839ee7f0c2bfc711b0b88970764569 ""
+  "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
+  "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
+  "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
+  "February6.aux" 1581639570 8 a94a2480d3289e625eea47cd1b285758 ""
+  "February6.tex" 1581639545 8946 579f44b8360ce4e0883d31c070070a2e ""
+  "main.tex" 0 -1 0 ""
+  (generated)
+  "February6.pdf"
+  "February6.log"

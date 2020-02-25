@@ -1,0 +1,10 @@
+PWD /Users/Brennen/Documents/GitHub/PMATH-965/Subfiles
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February25.tex
+OUTPUT February25.log
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty

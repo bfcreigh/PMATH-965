@@ -1,0 +1,142 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsubsection{Affine Connections}
+
+Let $M$ be a smooth manifold. An affine connection is a linear connection on $TM$:
+\al{
+\nabla: \sect{TM}\times\sect{TM} &\to \sect{TM} \\
+(X, Y) &\mapsto \nabla_X Y
+} such that it
+\begin{itemize}
+  \item is $\ci{M}$-linear in $X$
+  \item satisfies Leibniz in $Y$: For all $f \in \ci{M}$, $\nabla(X, fY) = X(f)Y + f \nabla_X Y$.
+\end{itemize}
+
+\begin{note}
+  If we think of the connection as $D: \sect{TM} \to \om{1}{TM}$ such that $D$ is $\R$-linear and satisfies Leibniz: for all $Y \in \sect{TM}$ and for every $f \in \ci{M}$, we have that
+  \[
+    D(fY) = df \ot Y + f D(Y),
+  \] then
+  \[
+    \nabla(X, Y) = D_X(Y) = D(Y)(X).
+  \]
+\end{note}
+
+
+\begin{enumerate}[(i)]
+  \item \lbl{Torsion} For all $X, Y \in \sect{TM}$,  \[T^\nabla(X, Y) = \nabla_X Y - \nabla_Y X - [X, Y].\]  This is $\ci{M}$-linear in $X$ and $Y$, and also is skew. We say that $\nabla$ is \emphp{torsion-free} if $T^\nabla \equiv 0$ iff
+  \[
+  \nabla_X Y - \nabla_Y X = [X, Y] \ \forall X, Y \in \sect{TM} \acom{*}.
+  \] $(*)$ is very useful in formulae and in proofs.
+
+  Torsion-free connections are `symmetric': Let $x_1, \dots, x_n$ be local coordinates on $M$ so that $\brc{ \partl{}{x_1}, \dots, \partl{}{x_n}}$ is a local frame of $TM$. Them for all $i,j$, we have
+  \al{
+  \nabla_{\partl{}{x_i}}\partl{}{x_j} &\in \sect{TM\rst{U}}  \\
+  \implies \nabla_\partl{}{x_i} \partl{}{x_j} &= \sum_{k=}^n \Gamma_{ij}^k \partl{}{x_k}.
+  }
+  If $T^\nabla \equiv 0$, then by (*),
+  \al{
+  &\nabla_\partl{}{x_i} \partl{}{x_j} - \nabla_\partl{}{x_j} \partl{}{x_i} = \left[ \partl{}{x_i} \partl{}{x_k} \right] = 0 \\
+  \iff &\nabla_\partl{}{x_i} \partl{}{x_j} = \nabla_\partl{}{x_j}\partl{}{x_i} \\ \iff&
+  \sum_{k=1}^n \Gamma_{ij}^k \partl{}{x_k} = \sum_{k=1}^n\Gamma_{ji}^k \partl{}{x_k} \\
+  \iff& \Gamma_{ij}^k = \Gamma_{ji}^k
+  }
+  So the \emphp{Christoffel symbols $\Gamma_{ij}^k$} are symmetric in $i,j$.
+
+  \item \lbl{Curvature} For all $X, Y, Z \in \sect{TM}$,
+  \al{
+  R^\nabla_{X, Y}(Z) = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z.
+  }
+  \begin{itemize}
+    \item $R^\nabla$ is $\ci{M}$-linear in $X, Y$ and $Z$.
+    \item It is also skew in $X, Y$.
+  \end{itemize}
+  A direct computation gives that
+  \al{
+  \underbrace{F_D(Z)}_{\in \om{2}{TM}}(X, Y) &= R^\nabla_{X, Y}(Z)
+  } for every $X, Y, Z \in \sect{TM}$. Note that $F_D$ is zero if and only if $R^\nabla$ is zero. We say that  $\nabla$ is flat if and only if $R^\nabla \equiv 0$, which happen if and only if $F_D \equiv 0$, so $\nabla$ is flat if and only if $D$ is flat.
+
+\end{enumerate}
+
+\subsection{Connections on a Fibre Bundle}
+
+Let $(E, B, \pi, F)$ be a fibre bundle. Here, the notion of a connection is given by an appropriate splitting of $TE$.
+
+For all $e \in E$, set
+\al{
+V_e &:= \brc{ \text{ the set of tangent vectors to $E$ at $e$ that are tangent to $E_{\pi(e)}$ }} \\
+    &= \text{\emphp{vertical tangent space at $e$}.}
+}
+Recall that $\pi_* : TE \to TB$ is a submersion so that $E_b \subset E$ is a submanifold for all $b \in B$. and
+\[
+\pi_{*, e} : T_e E \to T_{\pi(e)}B
+\]
+is surjective for all $e \in E$. set
+\[
+V_e = \ker\br{ \pi_{*, e}: T_e E \to T_{\pi(e)}B}.
+\]This is a vector space of dimension $\dim E - \dim B = \dim F$.
+
+Let $(U, \varphi)$ be a bundle chart of $E$ with $e \in U$ so that
+\[
+  \varphi: E_U \to U \times F
+\]
+Then $\pi_* = (\text{pr}_1)_* \circ \varphi_*.$ For all $e \in E_U$, set $\varphi(e) = (\pi(e), \ol{\varphi}(e))$ with $\ol{\varphi}(e) \in F$. Then,
+\al{
+T_{\ol{\varphi}(e)} F &= \ker\br{(\text{pr}_1)_{*, (\pi(e), \ol{\varphi}(e))}} \\
+&\cong \ker(\pi_{*, e})
+}
+So we have a subspace $V_e \subseteq T_e E$ of dimension $\dim F$. If we set
+\[
+VE = \bigsqcup_{e \in E} V_e
+\]
+is a smooth vector bundle on $E$. This bundle is called the \emphp{vertical bundle of $E$}.
+
+\begin{defn}
+  An \emphp{(Ehnresmann) connection} or a \emphp{fibre bundle connection} on $(E, B, \pi, F)$ is a collection $\brc{H_e \s e \in E}$ with each $H_e$ a subspace of $T_e E$ of dimension $\dim B$ for all $e \in E$, called the \emphp{horizontal subspaces}, such that
+  \begin{itemize}
+    \item the assignment $e \mapsto H_e$ depends smoothly on $e \in E$, and
+    \item for all $e \in E$, $T_eE = V_e \oplus H_e$.
+  \end{itemize}
+\end{defn}
+
+\begin{note}
+  In other words,
+  \[
+  HE = \bigsqcup_{e \in E} H_e
+  \] is a smooth vector bundle on $E$ called the \emphp{horizontal bundle of $E$}.
+\end{note}
+
+In other words, an Ehnresmann connection on $E$ is a smooth distribution on $E$ such that $E = VE \oplus HE$.
+
+\begin{exmp}
+  $E = B \times F$. In this case, suppose that $\brc{ x_1, \dots, x_n }$ are local coordinates on $B$ and $\brc{ y_1, \dots, y_r}$ local coordinates on $F$. Then:
+  \[
+  T_e = \text{span}\brc{\partl{}{x_1}, \dots, \partl{}{x_n}, \partl{}{y_1}, \dots, \partl{}{y_m}}
+  \]
+and
+  \[
+  V_e = \brc{ \partl{}{x_1},\dots, \partl{}{x_n}}.
+  \]
+  If we set $H_e = \text{span}\brc{\partl{}{y_1}, \dots, \partl{}{y_m}}$, then $T_e E = V_e \oplus H_e$ for all $e \in E$ and the corresponding Ehnresmann conneciton is called the \emphp{trivial connection}.
+
+\end{exmp}
+
+\begin{defn}
+  An Ehnresmann connection is called \emphp{flat} if it is given by an integrable smooth distribution $HE$ on $E$.
+\end{defn}
+(By Frobenius, this means that $[H_e, H_e] \subset H_e$ for all $e \in E$). This means that $H_e$ are tangent to submanifolds of $E$.
+
+\begin{note}
+  An Ehnresmann connection is flat if and only if for all $e \in E$, there is a chart $(U, \varphi)$ such that $\varphi$ takes $HE$ on $E_U$ to the trivial connection on $U \times F.$
+\end{note}
+
+Finally, let us give an equivalent way of defining an Ehresmann connection: An Ehresmann connection can be defined as a vector bundle map \al{
+K: TE &\to TE
+} such that $K \circ K = K$  and such that $K(T_eE) = V_e$. We recover the previous definition by setting $H_e = \ker K\rst{T_eE}$ for every $e \in E$.
+
+\begin{rmk}
+  If $(E, B, \pi, F)$ is a vector bundle, we will see that any linear connection $D : \sect{E} \to \om{1}{E}$ gives rise to an Ehresmann connection, but not all Ehresmann connections on $E$ come from linear connections.
+\end{rmk}
+\end{document}

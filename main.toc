@@ -11,3 +11,5 @@
 \contentsline {subsection}{\numberline {2.1}Connections on Vector Bundles}{15}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Definition and Properties}{15}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Curvature}{23}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Affine Connections}{31}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Connections on a Fibre Bundle}{32}{subsection.2.2}

@@ -2,17 +2,17 @@
 
 \begin{document}
 
-\lbl{Recall} 
+\lbl{Recall}
 \begin{itemize}
     \item  A \emphp{connection} on a vector bundle $(E, B, \pi, \R^r)$ is a map $D : \sect{E} \to \sect{T^*B \otimes E}$ that is $\R$-linear and satisfies $D(f\sigma) = df \otimes \sigma + fD(\sigma)$ for any $f \in C^\infty(B)$ and $\sigma \in \sect{E}$.
 
-    \item Given an atlas $\brc{ \br{U_\alpha, \varphi_\alpha} }$ of $E$ and local frames $e_i^\alpha = \varphi_{\alpha}^{-1}(-, \vec{e}_i)$, 
+    \item Given an atlas $\brc{ \br{U_\alpha, \varphi_\alpha} }$ of $E$ and local frames $e_i^\alpha = \varphi_{\alpha}^{-1}(-, \vec{e}_i)$,
     \[
     D(e_j^\alpha) = \sum_i \alpha_{ij}^\alpha \ot e_i
     \]
     where $a_{ij}^\alpha \in \Omega^1(U_\alpha)$, so that $A_\alpha = (a_{ij}^\alpha)$ is a matrix of $1$-forms, called the connection matrix of $D$ over $U_\alpha$.
-    
-    \lbl{Claim} For all $b \in U_\alpha \cap U_\beta \neq \emptyset$, 
+
+    \lbl{Claim} For all $b \in U_\alpha \cap U_\beta \neq \emptyset$,
 \[
 e_j^\beta(b) = \sum_i \br{\ol{g}_{\alpha\beta}(b)}_{ij}e_i^\alpha(b).
 \]
@@ -29,7 +29,7 @@ e_j^\beta(b) = \sum_i \br{\ol{g}_{\alpha\beta}(b)}_{ij}e_i^\alpha(b).
 A_\beta = \ol{g}_{\alpha\beta}^{-1} d \ol{g}_{\alpha\beta} + \ol{g}_{\alpha\beta} A_\alpha \ol{g}_{\alpha\beta}.
 \]
 
-\item $\mc{A}(E) = \brc{ \text{all connections on $E$ }}$ is not closed under addition. Nonetheless, it is convex: For all $D_1, \dots, D_l \in \mc{A}(E)$ and $a_1, \dots, a_l \in \R$ such that $\sum_{j=1}^l a_j = 1$, we have that 
+\item $\mc{A}(E) = \brc{ \text{all connections on $E$ }}$ is not closed under addition. Nonetheless, it is convex: For all $D_1, \dots, D_l \in \mc{A}(E)$ and $a_1, \dots, a_l \in \R$ such that $\sum_{j=1}^l a_j = 1$, we have that
 \[
     a_1D_1 + \dots + a_lD_l \in \mc{A}(E).
 \]
@@ -45,12 +45,12 @@ Let $(V, B, \pi, \R^r)$ be a vector bundle and set $\Omega^k(V) := \sect{\bigwed
 \tau(X_1, \dots, X_k) &:= \sum_{i=1}^m \omega_i(X_1, \dots, X_k) \ot e_i \\
                       &= \sum_{i=1}^m \omega_i(X_1, \dots, X_k) e_i \in \sect{V}.
 }
-Note that the definition of $\tau(X_1,\dots, X_k)$ is independent of the local description of $\tau$. 
+Note that the definition of $\tau(X_1,\dots, X_k)$ is independent of the local description of $\tau$.
 \end{note}
 
 \begin{proof}
-    
-    Let $D_0 \in \mc{A}(E)$. It is enough to show that 
+
+    Let $D_0 \in \mc{A}(E)$. It is enough to show that
 \[
 \mc{A}(E) = \brc{ D_0 + a \s a \in \Omega^1\br{\text{End}(E)}  }
 \]
@@ -63,7 +63,7 @@ so
 a: \sect{E} &\to \sect{T^*B \ot E} \\
   \sigma &\mapsto a(\sigma).
 }
-So $a$ is $C^\infty(B)$-linear because, for any $f \in C^\infty(B)$, 
+So $a$ is $C^\infty(B)$-linear because, for any $f \in C^\infty(B)$,
 \al{
 a(f\sigma) &= \sum_i a_ \ot \psi_i(f\sigma) \\
            &= \sum_i a_i \ot f\psi_i(\sigma) \\
@@ -73,16 +73,16 @@ a(f\sigma) &= \sum_i a_ \ot \psi_i(f\sigma) \\
 So any $a \in \Omega^1(\text{End}(E))$ induces a $C^\infty(B)$-linear map $a : \sect{E} \to \sect{T^*B \ot E}$. Conversely, any $C^\infty(B)$-linear map $a: \sect{E} \to \sect{T^*B\ot E}$ induces an element of $\Omega^1(\text{End}(E))$.
 
 Let $D, D^\prime \in \mc{A}(E)$. Let us check that \[
-D - D^\prime \in \Omega^1(\text{End}(E)).  
+D - D^\prime \in \Omega^1(\text{End}(E)).
 \]
-It is enough to check that the induced map 
+It is enough to check that the induced map
 \al{D - D^\prime : \sect{E} &\to \sect{T^*B \ot E} \\
 \sigma &\mapsto D(\sigma) - D^\prime(\sigma)
 }is $C^\infty(B)$-linear. let $\sigma, \sigma^\prime \in \sect{E}$ and $f \in C^\infty(B)$. Then
 \al{
 (D - D^\prime)(f\sigma + \sigma^\prime) &= \br{ D(f\sigma) + D(\sigma^\prime) } - \br{ D^\prime(f\sigma) + D^\prime(\sigma^\prime) } \\
 &= \br{df \otimes \sigma + f D(\sigma) + D(\sigma^\prime) } - \br{ df \otimes \sigma + f D^\prime(\sigma) - D^\prime(\sigma^\prime) } \\
-&= f(D - D^\prime)(\sigma) + (D - D^\prime)(\sigma^\prime). 
+&= f(D - D^\prime)(\sigma) + (D - D^\prime)(\sigma^\prime).
 }
 and so $D - D^\prime \in \Omega^1(\text{End}(E))$.
 
@@ -90,7 +90,7 @@ and so $D - D^\prime \in \Omega^1(\text{End}(E))$.
 
 We have seen that connections generalize the exterior derivative.
 
-\lbl{Recall} Let $U \subset B$ be open with coordinates $(x_1, \dots, x_n)$. Then for any $f \in C^\infty(U)$, then 
+\lbl{Recall} Let $U \subset B$ be open with coordinates $(x_1, \dots, x_n)$. Then for any $f \in C^\infty(U)$, then
 \[
 df = \sum_{i=1}^n \frac{\partial f}{\partial x_i} dx_i.
 \]
@@ -98,16 +98,16 @@ In particular, if for any $i \in \{1, \dots, n\}$, we geta
 \[
 df \br{\frac{\partial}{\partial x_i}} = \frac{\partial f}{\partial x_i}.
 \]
-In general, for any $X = \sum_{i} a_i \frac{\partial}{\partial x_i}$, then 
+In general, for any $X = \sum_{i} a_i \frac{\partial}{\partial x_i}$, then
 \[
-df(X) = \sum_i a_i \frac{\partial f}{\partial x_i} = \nabla f \cdot (a_1, \dots, a_n). 
+df(X) = \sum_i a_i \frac{\partial f}{\partial x_i} = \nabla f \cdot (a_1, \dots, a_n).
 \]
-Also, for all $\omega \in \Omega^1(U)$, 
+Also, for all $\omega \in \Omega^1(U)$,
 \[
 \omega = \sum_i \omega\br{\frac{\partial}{\partial x_i}} dx_i.
 \]
 
-Lets go back to a connection $D \in \mc{A}(E)$. Let $U \subset B$ be an open set over which $B$ has coordinates $x_1, \dots, x_n$ and $E$ is trivial with local frame $\brc{e_1, \dots, e_r}$. Then for all $\sigma \in \sect{E\rst{U}}$, 
+Lets go back to a connection $D \in \mc{A}(E)$. Let $U \subset B$ be an open set over which $B$ has coordinates $x_1, \dots, x_n$ and $E$ is trivial with local frame $\brc{e_1, \dots, e_r}$. Then for all $\sigma \in \sect{E\rst{U}}$,
 \[
 D(\sigma) = \sum_{i=1}^r \omega_i \ot e_i
 \]
@@ -119,7 +119,7 @@ D(\sigma)(X) := \sum_{i=1}^r \omega_i(X) e_i \in \sect{E\rst{U}}.
 D_X : \sect{E} &\to \sect{E} \\
         \sigma &\mapsto D(\sigma)(X)
 }
-Note that $D_X$ is $\R$-linear and satisfies Leibniz in $\sigma$. We say that $D_X(\sigma)$ is the \emphp{covariant derivative of $\sigma$ in the direction $X$}. Also note that for any $f \in C^\infty(B)$, 
+Note that $D_X$ is $\R$-linear and satisfies Leibniz in $\sigma$. We say that $D_X(\sigma)$ is the \emphp{covariant derivative of $\sigma$ in the direction $X$}. Also note that for any $f \in C^\infty(B)$,
 \[
 D(\sigma)(fX) = f\br{ D(\sigma)(X) }, \text{ or } D_{fX}(\sigma) = f D_X(\sigma).
 \]
@@ -128,9 +128,9 @@ We then get a map
 \nabla : \sect{TB} \times \sect{E} &\to \sect{E} \\
             (X, \sigma) &\mapsto D_X(\sigma)
 }
-such that it is 
+such that it is
 \begin{itemize}
-    \item $C^\infty(B)$-linear in $X$ 
+    \item $C^\infty(B)$-linear in $X$
     \item $\R$ linear in $\sigma$
     \item Satisfies Leibniz in $\sigma$:
     \al{
@@ -154,7 +154,7 @@ A map $\nabla: \sect{TB}\times\sect{E} \to \sect{E} $ such that
 \begin{note}
     \begin{enumerate}
         \item Tu defines connections this way.
-        \item There is a one-to-one correspondence between elements of $\mc{A}(E)$ and linear connections  $\nabla: \sect{TM} \times \sect{E} \to \sect{E}$. We saw that any $D \in \mc{A}(E)$ induces a $\nabla$. Conversely, given a linear connection $\nabla$, we can define $D \in \mc{A}(E)$ by 
+        \item There is a one-to-one correspondence between elements of $\mc{A}(E)$ and linear connections  $\nabla: \sect{TM} \times \sect{E} \to \sect{E}$. We saw that any $D \in \mc{A}(E)$ induces a $\nabla$. Conversely, given a linear connection $\nabla$, we can define $D \in \mc{A}(E)$ by
         \al{
         D: \sect{E} &\to \sect{T^*B \ot E} \\
             \sigma &\mapsto \nabla(-, \sigma)
@@ -163,7 +163,7 @@ A map $\nabla: \sect{TB}\times\sect{E} \to \sect{E} $ such that
         \al{
         \nabla: \sect{TB} \times \sect{TB} \to \sect{TB}
         }
-        are called \emphp{affine connections}. In local coordinates $(x_1, \dots, x_n)$ on $B$ and a local frame $\brc{e_1, \dots, e_r}$ on $E$: 
+        are called \emphp{affine connections}. In local coordinates $(x_1, \dots, x_n)$ on $B$ and a local frame $\brc{e_1, \dots, e_r}$ on $E$:
         \al{
         D(\sigma) &= \sum_i \omega_i \ot e_i \acom{with $\omega_i \in \bigwedge^1 (U)$} \\
                   &= \sum_{i,j} \omega_i\br{\frac{\partial}{\partial x_j} dx_j \ot e_i} \\

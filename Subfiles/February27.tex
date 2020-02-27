@@ -1,0 +1,165 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+  \begin{defn}
+      Let $(E, B ,\pi, F)$ be a fibre bundle. For all $e \in E$, $V_e = \ker \br{ \pi_{*, e} : T_e E \to T_{\pi{e}}B } \subseteq T_e E$ is called the \emphp{vertical subspace}. A \emphp{horizontal subspace} at $e$ is a subspace $H_e \subseteq T_eE$ such that $T_e E = V_e \oplus H_e$. An \emphp{Ehresmann connection on $E$} is a connection $\brc{H_e \s e \in E}$ such that
+      \begin{itemize}
+        \item the assignment $e \mapsto H_e$ varies smoothly in $e$, and
+        \item for all $e \in E$, $H_e$ is a horizontal subspace.
+      \end{itemize}
+  \end{defn}
+
+  \begin{note}
+    $\dim V_e = \dim F$ and $\dim H_e = \dim B$ for all $e \in E$. $HE = \bigsqcup_{e \in E} H_e$ is a smooth distribution on $E$.
+  \end{note}
+
+  Another way of defining $H_e$ is as a vector bundle map $K: TE \to TE$ such that $K \circ K = K$ and such that $K(TE) = VE = \bigsqcup_{e \in E} V_e$. Then we set $HE = \bigsqcup_{e \in E} \ker\br{ \pi_{*, e}: T_e E \to T_e E}$.
+
+  This map $K$ can be interpreted as a $1$-form on $E$ with values in $TE$,  i.e., as an element of $\om{1}{TE}$, which is called the \emphp{connection $1$-form} of the Ehresmann connection $K$.
+
+  How can we see this explicitly? Let $(U, \varphi)$ be a bundle chart for $E$ so that $\varphi: E_U \to U \times F$ is a diffeomorphism with $U \subseteq B$ open and $\text{pr}_1 \circ \varphi = \pi$. Then, for all $e \in E_U$,
+  \al{
+    \varphi_{*, e} : T_e E &\to T_{\varphi(e)} (U \times F)
+  }
+  is an isomorphism. Pick local coordinates $\br{x_1, \dots, x_n}$ on $U$ and $\br{y_1, \dots, y_r}$ on $F$. (assume they are defined on some open set $W \subseteq U \times F$). Then,
+  \al{
+  T_{\varphi(e)} (U \times F) &= \text{span}\brc{\partl{}{x_1}\rst{\varphi(e)},\dots, \partl{}{x_n}\rst{\varphi(e)}, \partl{}{y_1}\rst{\varphi(e)},\dots, \partl{}{y_r}\rst{\varphi(e)} }.
+  }
+  so we set
+  \al{
+  \partl{}{x_i}\rst{e} &= \varphi_{*, e}^{-1} \br{ \partl{}{x_i}\rst{\varphi(e)} } \acom{and} \\
+  \partl{}{y_j}\rst{e} &= \varphi_{*, e}^{-1} \br{ \partl{}{y_j}\rst{\varphi(e)}}
+  }
+  so that $T_e E = \text{span}\brc{\partl{}{x_j}\rst{e}, \partl{}{y_j}\rst{e}}$. Also,
+  \al{
+    \pi_{*, e} \br{ \partl{}{x_i}\rst{e} } &= (\text{pr}_1)_{*, \varphi(e)} \br{ \varphi_{*, e } \br{\partl{}{x_i}\rst{\varphi(e)}}} \\
+    &= \partl{}{x_i}\rst{\pi(e)}
+    } and
+    \al{
+      \pi_{*, e} \br{ \partl{}{y_j}\rst{e} } = 0.
+    }
+    So $V_e = \text{span}\brc{ \partl{}{y_j}\rst{e} }$.
+
+    Recall that $K: TE \to TE$ is a vector bundle map such that
+    \begin{itemize}
+      \item $K \circ K = K$
+      \item $K(TE) = VE$
+    \end{itemize}
+
+    So for all $j=1,\dots, r$, since $\partl{}{y_j}\rst{e} \in V_e$,
+    \[
+    K\br{ \partl{}{y_j}\rst{e} } = \partl{}{y_j}\rst{e}
+    \]
+    and for all $i = 1,\dots, n$,
+    \al{
+      K\br{ \partl{}{x_i}\rst{e} } & \in V_e \\
+      \implies K\br{ \partl{}{x_i}\rst{e} } = \sum_{j=1}^r b_{ij}(e) \partl{}{y_j}\rst{e}
+    } for some $b_{ij}(e) \in \R$.
+
+    Thus, we have
+    \[
+    \begin{cases}
+      K\br{\partl{}{x_i} } = \sum_{j=1}^r b_{ij} \partl{}{y_j} & \text{ for some $b_{ij} \in \ci{\varphi^{-1}(W)}$} \\
+      K\br{ \partl{}{y_j} } = \partl{}{y_j}. &
+    \end{cases}
+    \]
+    Thus, $K$ correspondts to the $1$-form with values in $TE$ given by
+    \[
+      \tau := \sum_{j=1}^r \br{ \br{\sum_{i=1}^n b_{ij} dx_i} + dy_j } \ot \partl{}{y_j}.
+    \]
+    This is called the \emphp{connection $1$-form of $K$}. Also,
+    \al{
+    H_e &= \ker\br{ \pi_{*, e}: T_e E \to T_e E } \\
+        &= \text{span}\underbrace{\brc{\partl{}{x_i}\rst{e} - \sum_{j=1}^r b_{ij}(e) \partl{}{y_j}\rst{e}  }}_{\text{linearly independent}}.
+    }
+
+    \lbl{Curvature of an Ehresmann connection} Let $HE$ be an Ehresmann connection on $E$ so that $TE = HE \oplus VE$. So, for all $X \in \sect{E}$ we can uniquely write
+    \[
+    X = X_v + X_h
+    \]
+    with $X_v \in \sect{VE}$ and $X_h \in \sect{HE}$.
+
+    \begin{defn}
+      The \emphp{curvature} of $HE$ is a $2$-form on $E$ with values in $TE$ (i.e., an element of $\om{2}{TE}$) defined by: For all $X, Y \in \sect{TE}$,
+      \al{
+        R(X,Y) &= [X_h, Y_h]_v \in \sect{VE} \subset \sect{TE}.
+      }
+    \end{defn}
+
+    We see that
+    \al{
+    R \equiv 0 &\iff [X_h, V_h]_v = 0 \ \forall X, Y \in \sect{TE} \\
+               &\iff [X_h, V_h] \in HE \ \forall X, Y \in \sect{TE} \\
+               &\iff [HE, HE] \subset HE \\
+               &\iff HE \text{ is flat.}
+    }
+
+    \begin{exmp}
+      E = $\R^2 \times \R$, where the first factor is the base and the second is the fibre. Pick local coordinates $(x_1, x_2) \in \R^2$ and $y \in \R$. $T_e E = \text{span} \brc{ \partl{}{x_1}}\rst{e}, \partl{}{x_2}\rst{e} }$ and $V_e = \text{span}\brc{ \partl{}{y}\rst{e}}$.
+      \begin{enumerate}
+        \item Set $H_e = \text{span}\brc{ \partl{}{x_1}\rst{e}, \partl{}{x_2}\rst{e} }$. Then $[HE, HE] \subset HE$, so $HE$ is flat. Here, $HE$ is the trivial connection.
+        \item Set $HE = \text{span}_{\ci{E}} \brc{ \partl{}{x_1} + x_2 \partl{}{y}, \partl{}{x_2} }$. Since
+        \[
+        \left[ \partl{}{x_1} + x_2\partl{}{y}, \partl{}{x_2} \right] = -\partl{}{y} \notin HE,
+        \] $HE$ is not flat. Note that $R\br{\partl{}{x_1} + x_2 \partl{}{y}, \partl{}{x_2}} = -\br{\partl{}{y}}_v = -\partl{}{y} \neq 0$.
+      \end{enumerate}
+    \end{exmp}
+
+    How does this relate to linear connections where $E$ is a vector bundle?
+
+    Suppose that $(E, B, \pi, \R^r)$ is a vector bundle and $D: \sect{E} \to \om{1}{E}$ is a linear connection on $E$. Without loss of generality, assume that $E = B \times \R^r$ (otherwise, work with a vector bundle atlas on $E$) with frame $\brc{e_1, \dots, e_r}$ where $e_i(b) L= (b, \vec{e}_i)$. Also, suppse $D = d + A$ where $A = (a_{ij})$ is the connection matrix of $D$ with respect to the frame $\brc{e_1, \dots, e_r}$. Choose local coordinates $ \br{x_1, \dots, x_n}$ on $B$ and coordinates $\br{y_1, \dots y_r}$ on $\R^r$. Set
+    \al{
+    b_{ij}\br{ x_1, \dots, x_n, y_1, \dots, y_r } = \sum_{l=1}^r a_{jl}\br{\partl{}{x_i}} y_l.
+    }Here, $a_{jl}\br{\partl{}{x_i}} \in \ci{B}$ {\it and} note that $b_{ij}$ is a linear function in $y_j's$. Thus, we set
+    \al{
+    K: TE &\to TE \\
+      \partl{}{x_i} &\mapsto \sum_{k=1}^r b_{ij} \partl{}{y_j} \\
+      \partl{}{y_j} &\mapsto \partl{}{y_j}.
+    }
+
+    \lbl{IMPORTANT} Not all Ehresmann connections on the vector bundle $E$ come from a linear connection $D$, because the smooth functions $b_{ij}$ need not be linear in the $y_j$'s.
+
+    What is the geometric interpretation of the Ehresmann connection obtained from $D$?
+
+    \begin{defn}
+      Let $(E, B, \pi, \R^r)$ be a vector bundle and $D: \sect{E} \to \om{1}{E}$ be a linear conneciton on $E$. $\sigma \in \sect{E}$ is called \emphp{flat} or \emphp{covariantly constant} if $D \sigma = 0$.
+    \end{defn}
+
+    Note that $D \simga= 0$ if and only if $D_X \sigma = 0$ for all $X \in \sect{TB}$.
+
+    \begin{exmp}
+      Let $\pi: \R^2 \times \R \to \R$ be the trivial line bundle on $\R^2$. Choose coordinates $(x_1, x_2) \in \R^2$ and $y \in \R$ (the former being the base and the latter the fibre). Then
+      \al{
+      e: \R^2 &\to \R^2 \times \R \\
+      (x_1, x_2) &\mapsto (x_1, x_2, 1)
+      } is a frame for $E$. Then for any $\sigma \in E$, $\sigma = \ol{\sigma}  e$ for $\ol{\sigma}: \R^2 \to \R$ smooth.
+      \begin{itemize}
+        \item If $D = d =$ the trivial connection, then $D \sigma = d\ol{\sigma} \ot e$. So $D \sigma = 0$ if and only if $\ol{\sigma}$ is a constant function  on $\R^2$.
+        \item If $D = d + A$ where $A = (a_{11}) =  (dx_1)$ (remember, $A$ is $1 \times 1$). Then $D(e) = a_{11} \ot e = dx_1 \ot e$. Then
+        \al{
+        D(\sigma) &= D(\ol{\sigma} e) \\
+                  &= d\ol{\sigma} \ot e + \ol{\sigma} D(e) \\
+                  &= d \ol{\sigma} \ot e + \ol{\sigma} dx_1 \ot e \\
+          \implies D(\sigma) = 0 \iff& d \ol{\sigma} + \ol{\sigma }dx_1 = 0 \\
+          \iff& d \ol{\sigma} = - \ol{\sigma} dx_1.
+        } This has solution $\ol{\sigma} = Ce^{-x_1}$.
+      \end{itemize}
+    \end{exmp}
+
+    What about along a curve?
+
+    \begin{defn}
+       Let $\gamma: I = (-\varepsilon, \varepsilon) \subset \R \to B$ be smooth. Let $\sigma \in \sect{E}$. Then $\sigma$ is said to be \emphp{covariantly constant along $\gamma$} if
+      \[
+      D_{\dot{\gamma}(t)} \sigma = 0
+      \] for all $t \in I$.
+    \end{defn}
+
+    Given the linear connection $D$ and corresponding Ehresmann connection $HE \subset TE$, one can show that
+    \al{
+    H_e = \brc{ \dot{\xi}(0) \s \xi(t) = \sigma\br{\gamma(t)} \text{ for } \sigma \in \sect{E} \text{ such that }D\sigma = 0, \ \gamma: I \to \R \text{ smooth.} }
+    }
+
+
+\end{document}

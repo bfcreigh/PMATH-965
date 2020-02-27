@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2020-02-25T20:51:14.507Z
+    timeStamp: 2020-02-27T19:32:11.387Z
     jobNames: []
     value:
       severity: info
@@ -130,33 +130,31 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   main.tex:
-    timeStamp: 2020-02-25T20:51:13.580Z
+    timeStamp: 2020-02-27T20:49:46.791Z
     jobNames: []
-    hash: l5tc+LuDv7OkFwiq7E5X/E4MntYZqOg1IfIG5ky8iNI=
+    hash: 8bC/s1YJCeHgs1emNmcA4tpfgCnkQ0VKQf73aVQT8bQ=
     type: LaTeX
     subType: article
   /Users/Brennen/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2020-02-25T20:51:14.517Z
+    timeStamp: 2020-02-27T19:32:08.941Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   main.log:
-    timeStamp: 2020-02-25T20:49:44.901Z
+    timeStamp: 2020-02-27T20:47:45.352Z
     jobNames: []
-    hash: a+5dLQXryXAchNm0VZquFgGJ46vWv4gAKDkB9AjNqyU=
-    type: LaTeXLog
-    subType: pdfTeX
+    hash: WpTsVdgGRpBd56oaKyOzJfrxEkwMwYaOsOZMmMdBM+I=
   main.fls-ParsedFileListing:
     jobNames: []
     type: ParsedFileListing
   main.log-ParsedLaTeXLog:
-    timeStamp: 2020-02-25T20:51:16.088Z
+    timeStamp: 2020-02-27T20:36:15.815Z
     jobNames: []
     value:
       messages:
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: geometry 2010/09/12 v5.6 Page Geometry
           source:
@@ -166,7 +164,7 @@ files:
             range:
               start: 27
               end: 27
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: keyval 2014/10/28 v1.15 key=value parser (DPC)
           source:
@@ -176,7 +174,7 @@ files:
             range:
               start: 29
               end: 29
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
           source:
@@ -186,7 +184,7 @@ files:
             range:
               start: 32
               end: 32
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
           source:
@@ -197,7 +195,7 @@ files:
               start: 34
               end: 34
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package ifvtex
           text: VTeX not detected.
           source:
@@ -207,7 +205,7 @@ files:
             range:
               start: 35
               end: 35
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
           source:
@@ -217,7 +215,7 @@ files:
             range:
               start: 37
               end: 37
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amsmath 2016/11/05 v2.16a AMS math features
           source:
@@ -227,7 +225,7 @@ files:
             range:
               start: 52
               end: 52
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amstext 2000/06/29 v2.01 AMS text
           source:
@@ -237,7 +235,7 @@ files:
             range:
               start: 56
               end: 56
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amsbsy 1999/11/29 v1.2d Bold Symbols
           source:
@@ -247,7 +245,7 @@ files:
             range:
               start: 62
               end: 62
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amsopn 2016/03/08 v2.02 operator names
           source:
@@ -258,7 +256,7 @@ files:
               start: 65
               end: 65
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \frac
           source:
@@ -272,7 +270,7 @@ files:
               start: 68
               end: 68
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \overline
           source:
@@ -286,7 +284,7 @@ files:
               start: 71
               end: 71
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \ldots
           source:
@@ -300,7 +298,7 @@ files:
               start: 74
               end: 74
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \dots
           source:
@@ -314,7 +312,7 @@ files:
               start: 75
               end: 75
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \cdots
           source:
@@ -328,7 +326,7 @@ files:
               start: 76
               end: 76
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Redeclaring font encoding OML
           source:
@@ -342,7 +340,7 @@ files:
               start: 80
               end: 80
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Redeclaring font encoding OMS
           source:
@@ -356,7 +354,7 @@ files:
               start: 81
               end: 81
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: 'Redefining \['
           source:
@@ -370,7 +368,7 @@ files:
               start: 102
               end: 102
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: 'Redefining \]'
           source:
@@ -383,7 +381,7 @@ files:
             range:
               start: 103
               end: 103
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: >-
             fancyhdr 2016/09/06 3.8 Extensive control of page headers and
@@ -395,7 +393,7 @@ files:
             range:
               start: 105
               end: 105
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: setspace 2011/12/19 v6.7a set line spacing
           source:
@@ -405,7 +403,7 @@ files:
             range:
               start: 116
               end: 116
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: changepage 2009/10/20 v1.0c check page and change page layout
           source:
@@ -416,7 +414,7 @@ files:
             range:
               start: 118
               end: 118
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
           source:
@@ -426,7 +424,7 @@ files:
             range:
               start: 122
               end: 122
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: >-
             hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref
@@ -439,7 +437,7 @@ files:
             range:
               start: 124
               end: 125
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: 'hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)'
           source:
@@ -450,7 +448,7 @@ files:
             range:
               start: 127
               end: 127
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
           source:
@@ -461,7 +459,7 @@ files:
             range:
               start: 128
               end: 128
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
           source:
@@ -472,7 +470,7 @@ files:
             range:
               start: 129
               end: 129
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
           source:
@@ -483,7 +481,7 @@ files:
             range:
               start: 130
               end: 130
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
           source:
@@ -495,7 +493,7 @@ files:
               start: 131
               end: 131
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package ifluatex
           text: LuaTeX not detected.
           source:
@@ -507,7 +505,7 @@ files:
               start: 132
               end: 132
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hobsub
           text: Skipping package `ifvtex' (already loaded).
           source:
@@ -518,7 +516,7 @@ files:
             range:
               start: 133
               end: 133
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
           source:
@@ -530,7 +528,7 @@ files:
               start: 134
               end: 134
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hobsub
           text: Skipping package `ifpdf' (already loaded).
           source:
@@ -541,7 +539,7 @@ files:
             range:
               start: 135
               end: 135
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
           source:
@@ -553,7 +551,7 @@ files:
               start: 136
               end: 136
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package etexcmds
           text: >-
             Could not find \expanded. That can mean that you are not using
@@ -567,7 +565,7 @@ files:
             range:
               start: 137
               end: 140
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
           source:
@@ -578,7 +576,7 @@ files:
             range:
               start: 141
               end: 141
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
           source:
@@ -589,7 +587,7 @@ files:
             range:
               start: 142
               end: 142
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: >-
             pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX
@@ -603,7 +601,7 @@ files:
               start: 143
               end: 144
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package pdftexcmds
           text: LuaTeX not detected.
           source:
@@ -615,7 +613,7 @@ files:
               start: 145
               end: 145
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package pdftexcmds
           text: \pdf@primitive is available.
           source:
@@ -627,7 +625,7 @@ files:
               start: 146
               end: 146
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package pdftexcmds
           text: \pdf@ifprimitive is available.
           source:
@@ -639,7 +637,7 @@ files:
               start: 147
               end: 147
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package pdftexcmds
           text: \pdfdraftmode found.
           source:
@@ -650,7 +648,7 @@ files:
             range:
               start: 148
               end: 148
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
           source:
@@ -661,7 +659,7 @@ files:
             range:
               start: 149
               end: 149
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: >-
             bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers
@@ -674,7 +672,7 @@ files:
             range:
               start: 150
               end: 151
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
           source:
@@ -685,7 +683,7 @@ files:
             range:
               start: 152
               end: 152
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
           source:
@@ -697,7 +695,7 @@ files:
               start: 153
               end: 153
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hobsub
           text: Skipping package `hobsub' (already loaded).
           source:
@@ -708,7 +706,7 @@ files:
             range:
               start: 155
               end: 155
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
           source:
@@ -719,7 +717,7 @@ files:
             range:
               start: 156
               end: 156
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
           source:
@@ -730,7 +728,7 @@ files:
             range:
               start: 157
               end: 157
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: xcolor-patch 2016/05/16 xcolor patch
           source:
@@ -741,7 +739,7 @@ files:
             range:
               start: 158
               end: 158
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
           source:
@@ -753,7 +751,7 @@ files:
               start: 159
               end: 159
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package atveryend
           text: \enddocument detected (standard20110627).
           source:
@@ -764,7 +762,7 @@ files:
             range:
               start: 160
               end: 160
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
           source:
@@ -775,7 +773,7 @@ files:
             range:
               start: 161
               end: 161
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
           source:
@@ -786,7 +784,7 @@ files:
             range:
               start: 162
               end: 162
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
           source:
@@ -797,7 +795,7 @@ files:
             range:
               start: 163
               end: 163
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
           source:
@@ -807,7 +805,7 @@ files:
             range:
               start: 165
               end: 165
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
           source:
@@ -819,7 +817,7 @@ files:
               start: 167
               end: 167
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Hyper figures OFF
           source:
@@ -833,7 +831,7 @@ files:
               start: 179
               end: 179
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Link nesting OFF
           source:
@@ -847,7 +845,7 @@ files:
               start: 180
               end: 180
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Hyper index ON
           source:
@@ -861,7 +859,7 @@ files:
               start: 181
               end: 181
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Plain pages OFF
           source:
@@ -875,7 +873,7 @@ files:
               start: 182
               end: 182
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Backreferencing OFF
           source:
@@ -889,7 +887,7 @@ files:
               start: 183
               end: 183
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Implicit mode ON; LaTeX internals redefined.
           source:
@@ -900,7 +898,7 @@ files:
               start: 184
               end: 184
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Bookmarks ON
           source:
@@ -913,7 +911,7 @@ files:
             range:
               start: 185
               end: 185
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: 'url 2013/09/16 ver 3.4 Verb mode for urls, etc.'
           source:
@@ -924,7 +922,7 @@ files:
               start: 189
               end: 189
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \url
           source:
@@ -938,7 +936,7 @@ files:
               start: 191
               end: 191
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Hyper figures OFF
           source:
@@ -952,7 +950,7 @@ files:
               start: 196
               end: 196
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Link nesting OFF
           source:
@@ -966,7 +964,7 @@ files:
               start: 197
               end: 197
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Hyper index ON
           source:
@@ -980,7 +978,7 @@ files:
               start: 198
               end: 198
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: backreferencing OFF
           source:
@@ -994,7 +992,7 @@ files:
               start: 199
               end: 199
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Link coloring OFF
           source:
@@ -1008,7 +1006,7 @@ files:
               start: 200
               end: 200
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Link coloring with OCG OFF
           source:
@@ -1022,7 +1020,7 @@ files:
               start: 201
               end: 201
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: PDF/A mode OFF
           source:
@@ -1036,7 +1034,7 @@ files:
               start: 202
               end: 202
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \ref
           source:
@@ -1050,7 +1048,7 @@ files:
               start: 203
               end: 203
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \pageref
           source:
@@ -1063,7 +1061,7 @@ files:
             range:
               start: 204
               end: 204
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
           source:
@@ -1075,7 +1073,7 @@ files:
               start: 217
               end: 217
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package uniquecounter
           text: New unique counter `rerunfilecheck'
           source:
@@ -1089,7 +1087,7 @@ files:
             range:
               start: 218
               end: 219
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
           source:
@@ -1100,7 +1098,7 @@ files:
               start: 223
               end: 223
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: 'Driver file: pdftex.def'
           source:
@@ -1114,7 +1112,7 @@ files:
               start: 227
               end: 227
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `cmy' substituted by `cmy0'
           source:
@@ -1128,7 +1126,7 @@ files:
               start: 232
               end: 232
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `hsb' substituted by `rgb'
           source:
@@ -1142,7 +1140,7 @@ files:
               start: 233
               end: 233
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `RGB' extended
           source:
@@ -1156,7 +1154,7 @@ files:
               start: 234
               end: 234
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `HTML' substituted by `rgb'
           source:
@@ -1170,7 +1168,7 @@ files:
               start: 235
               end: 235
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `Hsb' substituted by `hsb'
           source:
@@ -1184,7 +1182,7 @@ files:
               start: 236
               end: 236
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `tHsb' substituted by `hsb'
           source:
@@ -1198,7 +1196,7 @@ files:
               start: 237
               end: 237
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `HSB' substituted by `hsb'
           source:
@@ -1212,7 +1210,7 @@ files:
               start: 238
               end: 238
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `Gray' substituted by `gray'
           source:
@@ -1226,7 +1224,7 @@ files:
               start: 239
               end: 239
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package xcolor
           text: Model `wave' substituted by `hsb'
           source:
@@ -1240,7 +1238,7 @@ files:
               start: 240
               end: 240
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Option `colorlinks' set `true'
           source:
@@ -1253,7 +1251,7 @@ files:
             range:
               start: 242
               end: 242
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
           source:
@@ -1263,7 +1261,7 @@ files:
             range:
               start: 257
               end: 257
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
           source:
@@ -1274,7 +1272,7 @@ files:
             range:
               start: 260
               end: 260
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
           source:
@@ -1285,7 +1283,7 @@ files:
             range:
               start: 262
               end: 262
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: 'graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)'
           source:
@@ -1295,7 +1293,7 @@ files:
             range:
               start: 265
               end: 265
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: 'graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)'
           source:
@@ -1305,7 +1303,7 @@ files:
             range:
               start: 267
               end: 267
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: trig 2016/01/03 v1.10 sin cos tan (DPC)
           source:
@@ -1316,7 +1314,7 @@ files:
               start: 269
               end: 269
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package graphics
           text: 'Driver file: pdftex.def'
           source:
@@ -1329,7 +1327,7 @@ files:
             range:
               start: 273
               end: 273
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
           source:
@@ -1340,7 +1338,7 @@ files:
             range:
               start: 467
               end: 467
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
           source:
@@ -1351,7 +1349,7 @@ files:
             range:
               start: 473
               end: 473
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
           source:
@@ -1362,7 +1360,7 @@ files:
             range:
               start: 480
               end: 480
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
           source:
@@ -1373,7 +1371,7 @@ files:
             range:
               start: 489
               end: 489
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: tikz-cd 2014/10/30 v0.9e Commutative diagrams with tikz
           source:
@@ -1383,7 +1381,7 @@ files:
             range:
               start: 525
               end: 525
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amsthm 2015/03/04 v2.20.2
           source:
@@ -1393,7 +1391,7 @@ files:
             range:
               start: 543
               end: 543
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
           source:
@@ -1404,7 +1402,7 @@ files:
               start: 554
               end: 554
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: >-
             Overwriting math alphabet `\mathfrak' in version `bold' U/euf/m/n
@@ -1419,7 +1417,7 @@ files:
             range:
               start: 557
               end: 558
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: amssymb 2013/01/14 v3.01 AMS font symbols
           source:
@@ -1429,7 +1427,7 @@ files:
             range:
               start: 560
               end: 560
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
           source:
@@ -1439,7 +1437,7 @@ files:
             range:
               start: 562
               end: 562
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: inputenc 2015/03/17 v1.2c Input encoding file
           source:
@@ -1450,7 +1448,7 @@ files:
               start: 565
               end: 565
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \cite
           source:
@@ -1464,7 +1462,7 @@ files:
               start: 880
               end: 880
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \nocite
           source:
@@ -1477,7 +1475,7 @@ files:
             range:
               start: 881
               end: 881
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: cite 2015/02/27 v 5.5
           source:
@@ -1487,7 +1485,7 @@ files:
             range:
               start: 882
               end: 882
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: subfiles 2012/05/23 Federico Garcia
           source:
@@ -1497,7 +1495,7 @@ files:
             range:
               start: 884
               end: 884
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
           source:
@@ -1508,7 +1506,7 @@ files:
               start: 886
               end: 886
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for OML/cmm/m/it ... okay
           source:
@@ -1522,7 +1520,7 @@ files:
               start: 900
               end: 901
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for T1/cmr/m/n ... okay
           source:
@@ -1536,7 +1534,7 @@ files:
               start: 902
               end: 903
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for OT1/cmr/m/n ... okay
           source:
@@ -1550,7 +1548,7 @@ files:
               start: 904
               end: 905
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for OMS/cmsy/m/n ... okay
           source:
@@ -1564,7 +1562,7 @@ files:
               start: 906
               end: 907
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for OMX/cmex/m/n ... okay
           source:
@@ -1578,7 +1576,7 @@ files:
               start: 908
               end: 909
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for U/cmr/m/n ... okay
           source:
@@ -1592,7 +1590,7 @@ files:
               start: 910
               end: 911
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Checking defaults for PD1/pdf/m/n ... okay
           source:
@@ -1606,7 +1604,7 @@ files:
               start: 912
               end: 913
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package hyperref
           text: Link coloring ON
           source:
@@ -1619,7 +1617,7 @@ files:
             range:
               start: 949
               end: 949
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
           source:
@@ -1629,7 +1627,7 @@ files:
             range:
               start: 951
               end: 951
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
           source:
@@ -1641,7 +1639,7 @@ files:
               start: 953
               end: 953
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \ref
           source:
@@ -1655,7 +1653,7 @@ files:
               start: 957
               end: 957
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \pageref
           source:
@@ -1669,7 +1667,7 @@ files:
               start: 958
               end: 958
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX
           text: Redefining \nameref
           source:
@@ -1682,7 +1680,7 @@ files:
             range:
               start: 959
               end: 959
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
           source:
@@ -1693,7 +1691,7 @@ files:
             range:
               start: 979
               end: 979
-        - name: pdfTeX
+        - name: LaTeX
           severity: info
           text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
           source:
@@ -1704,7 +1702,7 @@ files:
               start: 981
               end: 981
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package epstopdf-base
           text: Redefining graphics rule for `.eps'
           source:
@@ -1719,7 +1717,7 @@ files:
               start: 983
               end: 984
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package grfext
           text: >-
             Graphics extension search list:
@@ -1737,7 +1735,7 @@ files:
               start: 985
               end: 988
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -1750,7 +1748,7 @@ files:
               start: 135
               end: 135
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -1763,7 +1761,7 @@ files:
               start: 135
               end: 135
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -1776,7 +1774,7 @@ files:
               start: 135
               end: 135
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -1789,7 +1787,7 @@ files:
               start: 141
               end: 141
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -1802,7 +1800,7 @@ files:
               start: 141
               end: 141
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -1815,7 +1813,7 @@ files:
               start: 141
               end: 141
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Try loading font information for U+msa
           source:
@@ -1829,7 +1827,7 @@ files:
               start: 1064
               end: 1064
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Try loading font information for U+msb
           source:
@@ -1843,7 +1841,7 @@ files:
               start: 1068
               end: 1068
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -1856,7 +1854,7 @@ files:
               start: 147
               end: 147
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -1869,7 +1867,7 @@ files:
               start: 147
               end: 147
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -1882,7 +1880,7 @@ files:
               start: 147
               end: 147
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -1895,7 +1893,7 @@ files:
               start: 147
               end: 147
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -1908,7 +1906,7 @@ files:
               start: 147
               end: 147
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -1921,7 +1919,7 @@ files:
               start: 147
               end: 147
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Try loading font information for OMS+cmr
           source:
@@ -1935,7 +1933,7 @@ files:
               start: 1150
               end: 1150
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: >-
             Font shape `OMS/cmr/m/n' in size <10> not available Font shape
@@ -1951,7 +1949,7 @@ files:
               start: 1154
               end: 1155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Misplaced alignment tab character &
           log:
             file: main.log
@@ -1964,7 +1962,7 @@ files:
               start: 50
               end: 50
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -1977,7 +1975,7 @@ files:
               start: 148
               end: 148
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -1990,7 +1988,7 @@ files:
               start: 148
               end: 148
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2003,7 +2001,7 @@ files:
               start: 148
               end: 148
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2016,7 +2014,7 @@ files:
               start: 148
               end: 148
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2029,7 +2027,7 @@ files:
               start: 148
               end: 148
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2042,7 +2040,7 @@ files:
               start: 148
               end: 148
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2055,7 +2053,7 @@ files:
               start: 28
               end: 28
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2068,7 +2066,7 @@ files:
               start: 149
               end: 149
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2081,7 +2079,7 @@ files:
               start: 149
               end: 149
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2094,7 +2092,7 @@ files:
               start: 149
               end: 149
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2107,7 +2105,7 @@ files:
               start: 149
               end: 149
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2120,7 +2118,7 @@ files:
               start: 149
               end: 149
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2133,7 +2131,7 @@ files:
               start: 149
               end: 149
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2146,7 +2144,7 @@ files:
               start: 103
               end: 103
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2159,7 +2157,7 @@ files:
               start: 150
               end: 150
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2172,7 +2170,7 @@ files:
               start: 150
               end: 150
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2185,7 +2183,7 @@ files:
               start: 150
               end: 150
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2198,7 +2196,7 @@ files:
               start: 150
               end: 150
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2211,7 +2209,7 @@ files:
               start: 150
               end: 150
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2224,7 +2222,7 @@ files:
               start: 150
               end: 150
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2237,7 +2235,7 @@ files:
               start: 26
               end: 26
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing { inserted'
           log:
             file: main.log
@@ -2250,7 +2248,7 @@ files:
               start: 26
               end: 26
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing } inserted'
           log:
             file: main.log
@@ -2263,7 +2261,7 @@ files:
               start: 26
               end: 26
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2276,7 +2274,7 @@ files:
               start: 56
               end: 56
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Double subscript
           log:
             file: main.log
@@ -2289,7 +2287,7 @@ files:
               start: 56
               end: 56
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2302,7 +2300,7 @@ files:
               start: 151
               end: 151
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2315,7 +2313,7 @@ files:
               start: 151
               end: 151
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2328,7 +2326,7 @@ files:
               start: 151
               end: 151
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2341,7 +2339,7 @@ files:
               start: 151
               end: 151
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2354,7 +2352,7 @@ files:
               start: 151
               end: 151
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2367,7 +2365,7 @@ files:
               start: 151
               end: 151
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2380,7 +2378,7 @@ files:
               start: 13
               end: 13
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Misplaced alignment tab character &
           log:
             file: main.log
@@ -2393,7 +2391,7 @@ files:
               start: 44
               end: 44
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2406,7 +2404,7 @@ files:
               start: 47
               end: 47
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2419,7 +2417,7 @@ files:
               start: 152
               end: 152
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2432,7 +2430,7 @@ files:
               start: 152
               end: 152
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2445,7 +2443,7 @@ files:
               start: 152
               end: 152
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2458,7 +2456,7 @@ files:
               start: 152
               end: 152
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2471,7 +2469,7 @@ files:
               start: 152
               end: 152
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2484,7 +2482,7 @@ files:
               start: 152
               end: 152
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2497,7 +2495,7 @@ files:
               start: 23
               end: 23
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2510,7 +2508,7 @@ files:
               start: 23
               end: 23
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2523,7 +2521,7 @@ files:
               start: 153
               end: 153
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2536,7 +2534,7 @@ files:
               start: 153
               end: 153
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2549,7 +2547,7 @@ files:
               start: 153
               end: 153
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2562,7 +2560,7 @@ files:
               start: 153
               end: 153
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2575,7 +2573,7 @@ files:
               start: 153
               end: 153
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2588,7 +2586,7 @@ files:
               start: 153
               end: 153
         - severity: warning
-          name: pdfTeX
+          name: LaTeX
           category: Package amsmath
           text: >-
             Foreign command \atopwithdelims; \frac or \genfrac should be used
@@ -2601,7 +2599,7 @@ files:
               start: 1739
               end: 1741
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2614,7 +2612,7 @@ files:
               start: 154
               end: 154
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2627,7 +2625,7 @@ files:
               start: 154
               end: 154
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2640,7 +2638,7 @@ files:
               start: 154
               end: 154
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2653,7 +2651,7 @@ files:
               start: 154
               end: 154
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2666,7 +2664,7 @@ files:
               start: 154
               end: 154
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2679,7 +2677,7 @@ files:
               start: 154
               end: 154
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2692,7 +2690,7 @@ files:
               start: 89
               end: 89
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2705,7 +2703,7 @@ files:
               start: 155
               end: 155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2718,7 +2716,7 @@ files:
               start: 155
               end: 155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2731,7 +2729,7 @@ files:
               start: 155
               end: 155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2744,7 +2742,7 @@ files:
               start: 155
               end: 155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2757,7 +2755,7 @@ files:
               start: 155
               end: 155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2770,7 +2768,7 @@ files:
               start: 155
               end: 155
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: \mathcal allowed only in math mode
           log:
             file: main.log
@@ -2784,7 +2782,7 @@ files:
               end: 39
           category: LaTeX
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2797,7 +2795,7 @@ files:
               start: 156
               end: 156
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2810,7 +2808,7 @@ files:
               start: 156
               end: 156
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2823,7 +2821,7 @@ files:
               start: 156
               end: 156
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2836,7 +2834,7 @@ files:
               start: 156
               end: 156
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2849,7 +2847,7 @@ files:
               start: 156
               end: 156
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2862,7 +2860,7 @@ files:
               start: 156
               end: 156
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Misplaced alignment tab character &
           log:
             file: main.log
@@ -2875,7 +2873,7 @@ files:
               start: 140
               end: 140
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2888,7 +2886,7 @@ files:
               start: 157
               end: 157
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2901,7 +2899,7 @@ files:
               start: 157
               end: 157
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2914,7 +2912,7 @@ files:
               start: 157
               end: 157
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2927,7 +2925,7 @@ files:
               start: 157
               end: 157
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -2940,7 +2938,7 @@ files:
               start: 157
               end: 157
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -2953,7 +2951,7 @@ files:
               start: 157
               end: 157
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2966,7 +2964,7 @@ files:
               start: 16
               end: 16
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2979,7 +2977,7 @@ files:
               start: 39
               end: 39
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -2992,7 +2990,7 @@ files:
               start: 39
               end: 39
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -3005,7 +3003,7 @@ files:
               start: 158
               end: 158
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -3018,7 +3016,7 @@ files:
               start: 158
               end: 158
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -3031,7 +3029,7 @@ files:
               start: 158
               end: 158
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -3044,7 +3042,7 @@ files:
               start: 158
               end: 158
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -3057,7 +3055,7 @@ files:
               start: 158
               end: 158
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -3070,7 +3068,7 @@ files:
               start: 158
               end: 158
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: LaTeX Font
           text: Try loading font information for U+euf
           source:
@@ -3084,7 +3082,7 @@ files:
               start: 2172
               end: 2172
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Extra }, or forgotten $'
           log:
             file: main.log
@@ -3097,7 +3095,7 @@ files:
               start: 128
               end: 128
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -3110,7 +3108,7 @@ files:
               start: 159
               end: 159
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -3123,7 +3121,7 @@ files:
               start: 159
               end: 159
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -3136,7 +3134,7 @@ files:
               start: 159
               end: 159
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Undefined control sequence
           log:
             file: main.log
@@ -3149,7 +3147,7 @@ files:
               start: 159
               end: 159
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
@@ -3162,7 +3160,7 @@ files:
               start: 159
               end: 159
         - severity: error
-          name: pdfTeX
+          name: LaTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
@@ -3174,64 +3172,168 @@ files:
             range:
               start: 159
               end: 159
+        - severity: error
+          name: LaTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2258
+              end: 2259
+          source:
+            file: main.tex
+            range:
+              start: 160
+              end: 160
+        - severity: error
+          name: LaTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 2270
+              end: 2271
+          source:
+            file: main.tex
+            range:
+              start: 160
+              end: 160
+        - severity: error
+          name: LaTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 2280
+              end: 2281
+          source:
+            file: main.tex
+            range:
+              start: 160
+              end: 160
+        - severity: error
+          name: LaTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2293
+              end: 2294
+          source:
+            file: main.tex
+            range:
+              start: 160
+              end: 160
+        - severity: error
+          name: LaTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 2305
+              end: 2306
+          source:
+            file: main.tex
+            range:
+              start: 160
+              end: 160
+        - severity: error
+          name: LaTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 2315
+              end: 2316
+          source:
+            file: main.tex
+            range:
+              start: 160
+              end: 160
+        - severity: error
+          name: LaTeX
+          text: 'Extra }, or forgotten $'
+          log:
+            file: main.log
+            range:
+              start: 2329
+              end: 2330
+          source:
+            file: Subfiles/February27.tex
+            range:
+              start: 99
+              end: 99
+        - severity: error
+          name: LaTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2340
+              end: 2341
+          source:
+            file: Subfiles/February27.tex
+            range:
+              start: 129
+              end: 129
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package atveryend
           text: Empty hook `BeforeClearDocument'
           source:
             file: main.tex
             range:
-              start: 162
-              end: 162
+              start: 163
+              end: 163
           log:
             file: main.log
             range:
-              start: 2258
-              end: 2258
+              start: 2351
+              end: 2351
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package atveryend
           text: Empty hook `AfterLastShipout'
           source:
             file: main.tex
             range:
-              start: 162
-              end: 162
+              start: 163
+              end: 163
           log:
             file: main.log
             range:
-              start: 2259
-              end: 2259
+              start: 2352
+              end: 2352
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package atveryend
           text: Executing hook `AtVeryEndDocument'
           source:
             file: main.tex
             range:
-              start: 162
-              end: 162
+              start: 163
+              end: 163
           log:
             file: main.log
             range:
-              start: 2261
-              end: 2261
+              start: 2354
+              end: 2354
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package atveryend
           text: Executing hook `AtEndAfterFileList'
           source:
             file: main.tex
             range:
-              start: 162
-              end: 162
+              start: 163
+              end: 163
           log:
             file: main.log
             range:
-              start: 2262
-              end: 2262
+              start: 2355
+              end: 2355
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package rerunfilecheck
           text: >-
             File `main.out' has not changed. Checksum:
@@ -3241,31 +3343,31 @@ files:
           log:
             file: main.log
             range:
-              start: 2263
-              end: 2264
+              start: 2356
+              end: 2357
         - severity: info
-          name: pdfTeX
+          name: LaTeX
           category: Package atveryend
           text: Empty hook `AtVeryVeryEnd'
           source:
             file: main.tex
             range:
-              start: 162
-              end: 162
+              start: 163
+              end: 163
           log:
             file: main.log
             range:
-              start: 2265
-              end: 2265
+              start: 2358
+              end: 2358
       inputs: []
       outputs:
         - main.pdf
       calls: []
     type: ParsedLaTeXLog
   main.pdf:
-    timeStamp: 2020-02-25T20:51:16.018Z
+    timeStamp: 2020-02-27T20:49:48.591Z
     jobNames: []
-    hash: x+NSicL8dwZSgmK9w+7bm9oN98aFvFUoETLCginpCB0=
+    hash: Db0xKp3GwTYsV/5A6LgLmaPePq7osQSdSqHEI+IE2gI=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions

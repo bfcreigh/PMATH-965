@@ -17,11 +17,11 @@ The tautological line bundle over $\mb{P}^n$ is \textit{not} trivial.
 \end{prop}
 
 \begin{proof}
-    It is enough to show that the tautological line bundle $E$ over $\mb{P}^n$ does not admit any nowhere-vanishing sections. We do it by contradiction: Suppose instead that $E$ admits a nowhere-vanishing section $\sigma: \mb{P}^n \to E$ so that $\sigma([x]) \neq 0$ for every $[x] \in \mb{P}^n$. Recall that we constructed a vector bundle atlas for $E$ with open cover $\brc{U_i}_{i=1}^{n+1}$ where 
+    It is enough to show that the tautological line bundle $E$ over $\mb{P}^n$ does not admit any nowhere-vanishing sections. We do it by contradiction: Suppose instead that $E$ admits a nowhere-vanishing section $\sigma: \mb{P}^n \to E$ so that $\sigma([x]) \neq 0$ for every $[x] \in \mb{P}^n$. Recall that we constructed a vector bundle atlas for $E$ with open cover $\brc{U_i}_{i=1}^{n+1}$ where
     \[
     U_i := \brc{ [x_1 : \dots : x_{n+1}] \s x_i \neq 0 }
     \]
-    and transition functions 
+    and transition functions
     \al{
         g_{ij}:U_i\cap U_j &\to \gl{1}{\R} = \R^\times\\
         [x] &\mapsto \frac{x_i}{x_j}.
@@ -35,13 +35,13 @@ The tautological line bundle over $\mb{P}^n$ is \textit{not} trivial.
         \underbrace{\ol{\sigma}_i([x])}_{>0} &= \ol{g}_{ij}([x])\ol{\sigma}_j([x]) \\
                            &= \br{\frac{x_i}{x_j}}\underbrace{\ol{\sigma}_j([x])}_{>0}.
     }
-    but 
+    but
     \al{ U_i \cap U_j &\to \R^\times  \\
      [x] &\mapsto \frac{x_i}{x_j}
     } is surjective.
 \end{proof}
 
-Thus, not all vector bundles admit frames, but they ALL admit ``local frames": 
+Thus, not all vector bundles admit frames, but they ALL admit ``local frames":
 
 \begin{defn}
  Let $U \subseteq B$ be open and $e_1, \dots, e_r \in \sect{U, E}$. Then $\brc{e_1, \dots, e_r}$ is a \emphp{local frame of $E$ over $U$} if, for all $b \in U$, $\brc{ e_1(b), \dots, e_r(b)}$ is linearly independent.
@@ -69,12 +69,12 @@ b &\mapsto [h_{ij}(b)]_{i,j=1}^r
 } where $h(b)$ is the ``change of basis matrix" from $\brc{e_i(b)}$ to $\brc{e_1^\prime(b)}$.
 
 \begin{note}
-$\sect{U, E}$ has the following $C^\infty(U)$---module structure: For all $\sigma, \tau \in \sect{U, E}$ and $f \in C^\infty(U)$, set 
+$\sect{U, E}$ has the following $C^\infty(U)$---module structure: For all $\sigma, \tau \in \sect{U, E}$ and $f \in C^\infty(U)$, set
 \al{
 (f\sigma + \tau): U &\mapsto E_U \\
         b &\mapsto f(b)\sigma(b) + \tau(b).
 }
-Then, since $f(b) \in \R$ and $\sigma(b)$, $\tau(b) \in E_b$, so $f(b)\sigma(b) + \tau(b) \in E_b$. Thus $f\sigma + \tau \in \sect{U, E}$. In terms of a local frame $\brc{e_1, \dots, e_r}$ of $E$ over $U$, we have $\sigma = \sum_{j=1}^r \ol{\sigma}_je_j$, $\tau = \sum_{j=1}^r \ol{\tau} e_i$ and 
+Then, since $f(b) \in \R$ and $\sigma(b)$, $\tau(b) \in E_b$, so $f(b)\sigma(b) + \tau(b) \in E_b$. Thus $f\sigma + \tau \in \sect{U, E}$. In terms of a local frame $\brc{e_1, \dots, e_r}$ of $E$ over $U$, we have $\sigma = \sum_{j=1}^r \ol{\sigma}_je_j$, $\tau = \sum_{j=1}^r \ol{\tau} e_i$ and
 \[
 f \sigma + \tau = \sum_{j=1}^r (f\ol{\sigma}_j + \ol{\tau})e_j.
 \]
@@ -93,17 +93,17 @@ E \oplus E^\prime, \ E \otimes E^\prime, \ E^*, \bigwedge^k E, \ \Hom{}{E, E^\pr
     \varphi_\alpha \oplus \varphi_\alpha^\prime : \bigsqcup_{b \in B} E_b \oplus E_b^\prime &\to U_\alpha \times (\R^r \oplus \R^{r^\prime}) \\
     E_b \oplus E_b^\prime \ni (e, e^\prime) &\mapsto \br{ b, \br{ \varphi_\alpha(e), \varphi_\alpha^\prime(e^\prime)}  }.
     }
-    These are bundle charts for $E \oplus E^\prime$, for all $\alpha$. Then we get transition functions 
+    These are bundle charts for $E \oplus E^\prime$, for all $\alpha$. Then we get transition functions
     \[
     \ol{g}_{\alpha\beta} \oplus \ol{g}_{\alpha\beta}^\prime : U_\alpha \cap U_\beta \longrightarrow \gl{r + r^\prime}{\R}.
     \]
     \item  The tensor product is given (as a set) by \[E \otimes E^\prime = \bigsqcup_{b \in B} \underbrace{E_b \otimes  E^\prime_b}_{\text{rank }rr^\prime }\].
      \item  The dual bundle is given (as a set) by \[E^*= \bigsqcup_{b \in B} \underbrace{E_b^*}_{\text{rank } r}\].
-     \item The exterior power bundles are given (as sets) by 
+     \item The exterior power bundles are given (as sets) by
      \[
      \bigwedge^k E = \bigsqcup_{b \in B} \underbrace{\bigwedge^k E_b}_{\text{rank $n \choose r$}}
      \]
-     \item The hom bundles are given (as sets) by 
+     \item The hom bundles are given (as sets) by
      \[
      \Hom{E}{E^\prime} = \bigsqcup_{b \in B} \underbrace{\Hom{}{E_b, E^\prime_b}}_{\text{rank $r r^\prime$}}
      \]
@@ -111,12 +111,12 @@ E \oplus E^\prime, \ E \otimes E^\prime, \ E^*, \bigwedge^k E, \ \Hom{}{E, E^\pr
 
 \begin{exmp}
     \begin{enumerate}
-        \item 
+        \item
             \begin{itemize}
                 \item Let $M$ be a smooth manifold and $TM$ its tangent bundle. Then $(TM)^* = T^*M$ is the cotangent bundle. Smooth sections of this bundle are the smooth $1$-forms: $\sect{T^*M} = \Omega^1(M)$.
                 \item $\bigwedge^k T^*M =: \bigwedge^k M$ have the $k$-forms as sections: $\sect{\bigwedge^k T^*M} = \Omega^k(M)$.
             \end{itemize}
-        \item We will be interested in $\br{ \bigwedge^k M} \otimes E$ with $E$ a vector bundle on $M$. Locally, sections of $\br{\bigwedge^k M} \otimes E$ look like: Given a local frame $\brc{e_1, \dots, e_r}$ of $E$ over $U$, for all $s \in \sect{ \brc{\bigwedge^k M} \otimes E }$, 
+        \item We will be interested in $\br{ \bigwedge^k M} \otimes E$ with $E$ a vector bundle on $M$. Locally, sections of $\br{\bigwedge^k M} \otimes E$ look like: Given a local frame $\brc{e_1, \dots, e_r}$ of $E$ over $U$, for all $s \in \sect{ \brc{\bigwedge^k M} \otimes E }$,
         \[
         s\rst{U} = \sum_{i=1}^r \omega_i \otimes e_i
         \] for some $\omega_1, \dots, \omega_r \in \Omega^k(U)$.
@@ -129,12 +129,12 @@ E \oplus E^\prime, \ E \otimes E^\prime, \ E^*, \bigwedge^k E, \ \Hom{}{E, E^\pr
 
 \subsubsection{Definition and Properties}
 
-Fix $(E, B, \pi, \R^r)$ be a vector bundle of rank $r$. Our goal is to find a way of differentiating sections of $E$. Let us first assume that $E = B \times \R^r$. In this case, a seciton $\sigma \in \sect{E}$ is just 
+Fix $(E, B, \pi, \R^r)$ be a vector bundle of rank $r$. Our goal is to find a way of differentiating sections of $E$. Let us first assume that $E = B \times \R^r$. In this case, a seciton $\sigma \in \sect{E}$ is just
 \al{
     \sigma : B &\to B \times \R^r \\
              b &\mapsto (b, \ol{\sigma}(b))
 }
-for some smooth map $\ol{\sigma}: B \to \R^r$. In particular, 
+for some smooth map $\ol{\sigma}: B \to \R^r$. In particular,
 \al{
 \ol{\sigma} : B  &\to \R^r \\
               b &\mapsto \br{ \ol{\sigma}_1(b), \dots \ol{\sigma}_r(b) }
@@ -142,7 +142,7 @@ for some smooth map $\ol{\sigma}: B \to \R^r$. In particular,
 \[
 \sigma = \sum_{i=1}^r \ol{\sigma}_i e_i.
 \]
-So, one possible way of differentiating $\sigma$ is to differentiate $\ol{\sigma}$ component-wise: 
+So, one possible way of differentiating $\sigma$ is to differentiate $\ol{\sigma}$ component-wise:
 \[
 d \sigma(b) = (b, d \ol{\sigma}(b))
 \]

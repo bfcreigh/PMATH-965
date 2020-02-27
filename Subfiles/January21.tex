@@ -10,7 +10,7 @@
 \end{enumerate}
 
 \begin{exmp}
-\lbl{Tautological line bundle over $\mathbb{P}^1$} $\mathbb{P}^1 = \br{\R^{n+1} \setmins \brc{0}} \Big/_\sim$ where $\br{x_1, \dots, x_n} \sim \br{\lambda x_1, \dots, \lambda x_n}$ for all $\lambda \in \R^*$. Let 
+\lbl{Tautological line bundle over $\mathbb{P}^1$} $\mathbb{P}^1 = \br{\R^{n+1} \setmins \brc{0}} \Big/_\sim$ where $\br{x_1, \dots, x_n} \sim \br{\lambda x_1, \dots, \lambda x_n}$ for all $\lambda \in \R^*$. Let
 \[
 E := \coprod_{[x] \in \mathbb{P}^n} \brc{[x]} \times L_{[x]}
 \] where $L_[x]$ is the line through $\R^{n+!}$ through $0$ and $x$.
@@ -60,14 +60,14 @@ In the proof above, the transition functions of the bundle atlas we constructed 
 \end{note}
 
 \begin{rmk}
-If $\brc{ \br{ U_\alpha, \varphi_\alpha }}_{\alpha \in \mc{A}}$ is a vector bundle atlas for the vector bundle $(E, B, \pi, \R^r)$ (or $(E, B, \pi, \C^r)$), the transition functions 
+If $\brc{ \br{ U_\alpha, \varphi_\alpha }}_{\alpha \in \mc{A}}$ is a vector bundle atlas for the vector bundle $(E, B, \pi, \R^r)$ (or $(E, B, \pi, \C^r)$), the transition functions
 \al{
 \overline{g}_{\alpha \beta} : U_\alpha \cap U_\beta \to \gl{r}{\R} \text{ or } \gl{r}{\C}
 } In particular, if $r=1$, then $\gl{1}{\R} = \R^\times$ and $\gl{1}{\C} = \C^\times$ so that $\overline{g}_{\alpha\beta}$ are just nowhere-vanishing scalar functions.
 \end{rmk}
 
 \begin{defn}
-Let $(E, B, \pi, \R^r)$ and $(E^\prime, B, \pi^\prime. \R^{r^\prime})$ be vector bundles. A map $H: E \to E^\prime$ is a \emphp{(bundle) map of vector bundles} if 
+Let $(E, B, \pi, \R^r)$ and $(E^\prime, B, \pi^\prime. \R^{r^\prime})$ be vector bundles. A map $H: E \to E^\prime$ is a \emphp{(bundle) map of vector bundles} if
 \[
 H\rst{E_b} : E_b \to E_{b}^\prime
 \]
@@ -81,7 +81,7 @@ Unless otherwise stated, we will always assume that bundle maps between vector b
 \subsection{Sections}
 
 \begin{defn}
-Let $(E, B, \pi, F)$ be a fibre bundle. A \emphp{section} of $(E, B, \pi, F)$ is a smooth map $\sigma: B \to E$ such that $\pi \circ \sigma = \id{B}$. 
+Let $(E, B, \pi, F)$ be a fibre bundle. A \emphp{section} of $(E, B, \pi, F)$ is a smooth map $\sigma: B \to E$ such that $\pi \circ \sigma = \id{B}$.
 \end{defn}
 
 Then for all $b \in B$, $\sigma(b) \in E_b$, since $\pi(\sigma(b)) = b$. Also, $\sigma(B) \subset E$ is a smooth submanifold of $E$ diffeomorphic to $B$ (exercise).
@@ -111,7 +111,7 @@ Again, $\sigma(b) \in E_b$ for all $b \in U$ if $\sigma: U \to E$ is a local sec
 \end{enumerate}
 \end{exmp}
 
-In fact, sections of any fibre bundle look like this locally: Let $(U, \varphi_U)$ be a bundle chart for $(E, B, \pi, F)$ and $\sigma \in \sect{E}$. Then, $\pi \circ \sigma = \id{B}$ and 
+In fact, sections of any fibre bundle look like this locally: Let $(U, \varphi_U)$ be a bundle chart for $(E, B, \pi, F)$ and $\sigma \in \sect{E}$. Then, $\pi \circ \sigma = \id{B}$ and
 \al{\varphi_U \circ \sigma \rst{U} : U &\to U \times F. \\
 b &\mapsto (b, \overline{\sigma}_U(b))
 }for some $\overline{\sigma}_U : U \to F$ smooth. [Note: The first component of $\varphi_U \circ \sigma\rst{U}$ is $\id{U}$ because $\pi \circ \sigma\rst{U} = \id{U}$.] Thus, local sections of $E$ over $U$ are completely determined by the smooth functions $\overline{\sigma}: U$ In particular, local sections {\it always} exist.
@@ -124,9 +124,9 @@ b &\mapsto (b, \overline{\sigma}_U(b))
         b &\mapsto 0 \in E_b
     }
     \item If $M$ is any smooth manifold, them $\sect{TM}$ is the collection of smooth vector fields on $M$, which always exist.
-    
+
     \item Consider $S^2$ and $TS^2$. Sections of $TS^2$ are smooth, tangent vector fields on $S^2$. By the Hairy-Ball Theorem, any smooth vector field on $S^2$ has at least one zero.
-    
+
     \item For an example of a fibre bundle that does not admit any global sections, take $E = TS^2 \setminus \brc{ \text{zero section}}$, which has fibre $\R^2 \setminus \brc{0}$ and whose projection is simply $\pi\rst{E}$ where $\pi: TS^2 \to S^2$ is the standard projection. This fibre bundle does not have a section because any smooth section $\sigma \in \sect{E}$ would be a smooth vector field on $S^2$ and thus must have a zero.
 \end{enumerate}
 \end{exmp}

@@ -13,7 +13,7 @@
     Coordinate transformations & Transition functions \\
     Atlas & Bundle atlas \\
     Trivial manifold $U \subseteq \R^n$ & Trivial bundle $E = B \times F$ \\
-    Non-trivial manifold & Non-trivial bundle \\ 
+    Non-trivial manifold & Non-trivial bundle \\
     \hline
 \end{tabular}
 \end{center}
@@ -27,7 +27,7 @@ $(E,B, \pi, F)$ is a fibre bundle
 \begin{align*}
     g_{\alpha\beta} = \varphi_\alpha \circ \varphi_\beta^{-1}\rst{U_\alpha \cap U_\beta} : (U_\alpha \cap U_\beta) \times F &\to (U_\alpha \cap U_\beta) \times F
 \end{align*}
-and for all $b \in U_\alpha \cap U_\beta $, 
+and for all $b \in U_\alpha \cap U_\beta $,
 \begin{align*}
     g_{\alpha\beta}\rst{\brc{b}\times F} : \brc{b}\times F &\to \brc{b}\times F \\
                                             (b, v) &\mapsto (b, \overline{g}_{\alpha\beta}(b)(v)).
@@ -43,10 +43,10 @@ Let $(E, B, \pi, F)$ and $(E^\prime, B, \pi^\prime, F^\prime)$ be two fibre bund
 \begin{tikzcd}
 E_{U_\alpha} \arrow[rr, "H_\alpha"] \arrow[dd, "\varphi_\alpha"]                              &  & E^\prime_{U_\alpha} \arrow[dd, "\varphi^\prime_\alpha"] \\
                                                                                               &  &                                                         \\
-U_\alpha\times F \arrow[rr, "\varphi_\alpha^\prime \circ H_\alpha \circ \varphi_\alpha^{-1}"] &  & U_\alpha\times F^\prime                                       
+U_\alpha\times F \arrow[rr, "\varphi_\alpha^\prime \circ H_\alpha \circ \varphi_\alpha^{-1}"] &  & U_\alpha\times F^\prime
 \end{tikzcd}
 \]
-Where 
+Where
 \begin{align*}
     \varphi^\prime_\alpha \circ H_\alpha \circ \varphi_\alpha^{-1} : U_\alpha \times F &\to U_\alpha \times F^\prime \\
     (b, v) &\mapsto (b, \overline{H}_\alpha(b)(v)).
@@ -98,12 +98,12 @@ Vector bundles are $\R^r$-bundles, or $\C^r$-bundles whose bundle charts preserv
     \item $E = B \times \R^r$ or $E = B \times \C^r$ is the trivial bundle of rank $r$.
     \item the (infinite) Möbius bundle is a line bundle on $S^1$ that is non-trivial.
     \item If $M$ is a manifold of dimension $n$, then $TM$ is a vector bundle of rank $n$.
-    \item \lbl{Tautological line bundle over $\mathbb{P}^n$} Recall that $\mathbb{P}^n = \R^{n+1} \setminus \brc{0} \big/_\sim$ where $x \sim \lambda x$ for all $\lambda \in \R\setminus \brc{0}$. I.e., it is the set of all lines in $\R^{n+1}$ through the orgin. Set 
+    \item \lbl{Tautological line bundle over $\mathbb{P}^n$} Recall that $\mathbb{P}^n = \R^{n+1} \setminus \brc{0} \big/_\sim$ where $x \sim \lambda x$ for all $\lambda \in \R\setminus \brc{0}$. I.e., it is the set of all lines in $\R^{n+1}$ through the orgin. Set
     \[
     E = \coprod_{[x] \in \mathbb{P}^n} L_{[x]}
     \]
     where $L_[x]$ is the line in $\R^{n+1}$ through $x$ and $0$. Also,
-    
+
     \begin{align*}
         \pi: E &\to \mathbb{P}^n \\
              v \in L_{[x]} &\mapsto [x]

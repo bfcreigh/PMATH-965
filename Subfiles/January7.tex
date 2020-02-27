@@ -18,12 +18,12 @@ For all $b \in B$, the set $\pi^{-1}(b) = \{ p \in E \ | \ \pi(p) = b \}$ is cal
 A fibre bundle $(E, B, \pi, F)$ is also called an $F$-bundle.
 \end{note}
 
-\noindent\begin{exmp} 
-\begin{enumerate} \hspace{1em} \\ 
+\noindent\begin{exmp}
+\begin{enumerate} \hspace{1em} \\
     \item  $E = B \times F$ with $\pi = \text{pr}_1$ is the \emphp{ trivial bundle}. Note that taking $\pi = \text{pr}_2$ gives a fibre bundle structure with base $F$ and fibre $B$.
     \item $E = S^1 \times \R$. $E$ is a cylinder. In this case, $E$ has two trivial bundle structures (as above), but with space $B = S^1$ we also have a vector bundle structure, as the fibres are $\R$.
-    \item \lbl{Möbius strip} Example of a non-trivial $\R$-bundle on $S^1$. $M = I \times \R/_\sim$ where $(0,t) \sim (1, -t)$ for every $t \in \R$. 
-    
+    \item \lbl{Möbius strip} Example of a non-trivial $\R$-bundle on $S^1$. $M = I \times \R/_\sim$ where $(0,t) \sim (1, -t)$ for every $t \in \R$.
+
     \item \lbl{Hopf fibration} Example of a non-trivial $S^1$-bundle over $S^2$. Here,
     \begin{itemize}
         \item $E = S^3 = \{(z_1, z_2) \in \C^2 \ | \ \anorm{z_1}^2 + \anorm{z_2}^2= 1 \}$
@@ -35,7 +35,7 @@ A fibre bundle $(E, B, \pi, F)$ is also called an $F$-bundle.
         \pi : S^3 &\to S^2 \\
         (z_0, z_1) &\mapsto (2z_0\overline{z}_1, \anorm{z_0}^2 - \anorm{z_1}^2)
     \end{align*}
-    is called the \emphp{ Hopf map}. Then $\anorm{2z_0z_1}^2 + (\anorm{z_0}^2 - \anorm{z_1}^2)^2 = 1$, so $\pi(S^3) \subset S^2$, and $\pi$ is well-defined and continuous. Also, $\pi$ is surjective with $\pi^{-1}(z, x) \cong S^1$ for every $(z, x) \in S^2$. Indeed, let $(z, x) \in S^2$ so that $\anorm{z}^2 + x^2 = 1$ so that $-1 \leq x \leq 1$. Also, if $z = 0$, then $x = \pm 1$. Moreover, one can cover $S^2$ by the following two open sets: 
+    is called the \emphp{ Hopf map}. Then $\anorm{2z_0z_1}^2 + (\anorm{z_0}^2 - \anorm{z_1}^2)^2 = 1$, so $\pi(S^3) \subset S^2$, and $\pi$ is well-defined and continuous. Also, $\pi$ is surjective with $\pi^{-1}(z, x) \cong S^1$ for every $(z, x) \in S^2$. Indeed, let $(z, x) \in S^2$ so that $\anorm{z}^2 + x^2 = 1$ so that $-1 \leq x \leq 1$. Also, if $z = 0$, then $x = \pm 1$. Moreover, one can cover $S^2$ by the following two open sets:
     \begin{align*}
         U &= \{ (z, x) \in S^2 \ | \ x \neq 1 \} \\
           &= S^2 \setminus \{(0, 1)\}, \text{ and } \\
@@ -53,7 +53,7 @@ A fibre bundle $(E, B, \pi, F)$ is also called an $F$-bundle.
     \end{itemize}
     This gives the local trivialization
     \begin{align*}
-        \varphi : \pi^{-1}(U) &\to U \times S^1 
+        \varphi : \pi^{-1}(U) &\to U \times S^1
     \end{align*}
     where if $\pi(z,x) = (z_0, z_1)$, $\varphi(z_0, z_0) =  \lambda\br{\frac{z}{\sqrt{2(1-x)}}, \sqrt{\frac{1-x}{2}} )}$. Finally, $\text{pr}_1 \circ \varphi (z_0, z_1) = \pi(z_0, z_1)$. So we have that $(E,B,\pi,F)$ is a $S^1$-bundle. This tells us that $S^3$ is an $S^1$-bundle over $S^2$. But, it cannot be a trivial bundle because $S^3$ is simply connected, but $S^3 \times S^1$ is not.
 \end{enumerate}

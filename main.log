@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 FEB 2020 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2020 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2255,23 +2255,116 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 (/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February25.tex [31]) [32]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Undefined control seque
+nce.
+\hrulefill ...rs \hrule height 1pt\hfill \kern \z 
+                                                  
+l.160 \lecture{14}{February}{27}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Missing number, treated
+ as zero.
+<to be read again> 
+                   {
+l.160 \lecture{14}{February}{27}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Illegal unit of measure
+ (pt inserted).
+<to be read again> 
+                   {
+l.160 \lecture{14}{February}{27}
+                                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Undefined control seque
+nce.
+\hrulefill ...rs \hrule height 1pt\hfill \kern \z 
+                                                  
+l.160 \lecture{14}{February}{27}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Missing number, treated
+ as zero.
+<to be read again> 
+                   {
+l.160 \lecture{14}{February}{27}
+                                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Illegal unit of measure
+ (pt inserted).
+<to be read again> 
+                   {
+l.160 \lecture{14}{February}{27}
+                                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February27.tex [33]
+/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February27.tex:99: Extra }, 
+or forgotten $.
+l.99 ...rtl{}{x_1}}\rst{e}, \partl{}{x_2}\rst{e} }
+                                                  $ and $V_e = \text{span}\b...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[34]
+/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February27.tex:129: Undefine
+d control sequence.
+l.129     Note that $D \simga
+                             = 0$ if and only if $D_X \sigma = 0$ for all $X...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
 (/Users/Brennen/Documents/GitHub/PMATH-965/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 013F02D8BF78A181C24B2E99DC0AB117;1066.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 18325 strings out of 492995
- 349724 string characters out of 6132704
+ 18339 strings out of 492995
+ 349949 string characters out of 6132704
  419172 words of memory out of 5000000
  21352 multiletter control sequences out of 15000+600000
  9734 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,18n,82p,870b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,82p,870b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -2290,10 +2383,10 @@ ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (32 pages, 346530 bytes).
+Output written on main.pdf (35 pages, 362214 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 151 named destinations out of 1000 (max. 500000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 162 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

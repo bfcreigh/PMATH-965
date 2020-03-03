@@ -1,0 +1,161 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Metric Connections}
+
+\subsubsection{Metrics}
+
+Let $(E, B , \pi, \R^r)$ be a real vector bundle. Also, denote $\underline{\R} = B \times \R$ the trivial line bundle on $B$.
+
+\begin{defn}
+  A \emphp{Riemannian metric} on $E$ is a section
+  \[
+  g \in \sect{\Hom{}{E \ot E, \underline{\R}}}
+  \]
+  such that $g$ is symmetric and positive-definite. I.e., for every $b \in B$,
+  \al{
+  g_b = g(b) E_b \ot E_b &\to \underline{\R}_b = \brc{b} \times \R
+  }
+  such that, setting $g_b(e, e^\prime) = g_b(e\ot e^\prime)$ for all $e, e^\prime \in E_b$:
+  \begin{itemize}
+    \item $g_b : E_b \times E_b \to \R$ is bilinear
+    \item $g_b(e, e^\prime) = g_b(e^\prime, e)$
+    \item $g_b(e, e^\prime) \geq 0$ and $g_b(e, e) = 0 \iff e = 0$.
+  \end{itemize}
+  Moreover, a \emphp{Riemannian manifold} is a smooth manifold $M$ together with a Riemannian metric on its tangent bundle.
+\end{defn}
+
+\begin{rmk}
+  \begin{enumerate}
+
+    \item For each $b \in B$, $g_b: E_b \times E_b \to \R$ is an inner product on $E_b$. So, Riemannian metrics can be thought of as a smooth choice of inner products on the fibres of $E$.
+
+    \item A Riemannian metric $g$ can also be interpreted as a $\ci{B}$-linear map $g : \sect{E \ot E} \to \sect{\underline{\R}} = \ci{B}$. To be precise, given $\sigma_1, \sigma_2 \in \sect{E}$ so that $\sigma_1 \ot \sigma_2 \in \sect{E \ot E}$, and set
+    \[
+    g(\sigma_1, \sigma_2)(b) = g_b(\sigma_1(b), \sigma_2(b))
+    \] for all $b \in B$. In fact, we also denote by $g(\sigma, \sigma_2) := g(\sigma_1 \ot \sigma_2)$, which is a $\ci{B}$-bilinear map.
+
+    \item One can try to understand $g$ in terms of a local frame $\brc{e_1,\dots, e_r}$ on some open set $U \subseteq B$. For every $b \in U$, $\brc{e_1(b), \dots, e_r(b)}$ is a basis of $E_b$ so that $g_b: E_b \times E_b \to \R$ is completely determined by
+    \[
+    g_{ij}(b) = g_b(e_i(b), e_j(b)).
+    \]
+    Then $(g_{ij}(b))$ is an $r\times r$-matrix that is symmetric and positive-definite. Let $\brc{e_1^*, \dots, e_r^*}$ be the dual frame of $E^*$ over $U$ so that $\brc{e_1^*(b), \dots, e_r^*(b)}$ is the dual basis of $E_b^*$. We can then write
+    \[
+    g = \sum_{i,j=1}^r g_{ij} e^*_i \ot e_j^*
+    \] on $U$. Locally, $g$ is specified by a matrix $(g_{ij})$ where $g_{ij}: U \to \R$ and the matrix $(g_{ij}(b))$ is symmetric and positive-definite for all $b \in U$.
+
+  \end{enumerate}
+\end{rmk}
+
+\begin{exmp}
+  \\begin{enumerate}
+    \item $E = B \times \R^r$ and $\brc{e_1, \dots, e_r}$ is the standard frame. Then
+    \[
+    g = \sum_{i,j} g_{ij} e_i^* \ot e_j^*
+    \] where $g_{ij}(b)$ is positive-definite and symmetric for all $b \in B$.
+
+    \item $M$ is a smooth manifolds and $g$ is a Riemannian metric on $M$. In local coordinates $(x_1,\dots, x_n)$ on $M$. Then
+    \[
+    g = \sum_{i,j} g_{ij} dx_i \ot dx_j.
+    \] In particular, if $M = \R^n$ so that $TM = \R^n \times \R^n$, Then
+    \[
+      g = \sum_{i} dx_i \ot dx_i
+    \] is the Euclidean metric.
+
+    \item Let $M$ be a smooth manifold and $S$ an embedded submanifold of $M$ with inclusion map $\iota: S \to M$. Given any Riemannian metric $g$ on $M$, one defines the \emphp{induced metric} $g_S$ on $S$ by specifying for $p \in S$ and $X, Y \in T_pM$,
+    \[
+      g_{S, p}(X, Y) = g_{\iota(p)}(\iota_{*, p} X, \iota_{*, p} Y)
+    \]
+  \end{enumerate}
+\end{exmp}
+
+\begin{note}
+  One can think of the induced metric as the restriction of $g$ to tangent vectors to $S$.
+\end{note}
+
+\begin{prop}
+  For any vector bundle $E$, Riemannian metrics always exist.
+\end{prop}
+
+\begin{proof}
+  We have already seen that they exist locally. Use a partition of unity to construct one globally.
+\end{proof}
+
+\begin{note}
+  \begin{enumerate}[i.]
+    \item Can also define \emphp{pseudo-Riemannian metrics} where $g_b$ is symmetric but non-degenerate, not necessarily positive-definite. For example, the Minkowski metric on $\R^4$ given by
+    \[
+    g = \begin{bmatrix} -1 & 0 & 0 & 0 \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & 1 & 0\\
+    0 & 0 & 0 & 1 \end{bmatrix}.
+    \]
+
+    \item On a complex vector bundle $(E, B, \pi, \C^r)$, we conider \emphp{Hermitian metrics} which are a choice of Hermitian inner product on each fibre $E_b$ that varies smoothly with $b$. More on this later.
+  \end{enumerate}
+\end{note}
+
+
+  \begin{defn}
+    Let $g$ be a Riemannian metric on $E$. A set of sections $\brc{\sigma_1, \dots, \sigma_l}$ on $E$ is called \emphp{orthonormal} if, at every point $b \in B$, $\brc{\sigma_1(b), \dots, \sigma_l(b)}$ is an orthonormal set with respect to $g_b$. I.e.,
+    \[
+    g_{b}(e_i(b), e_j(b)) = \delta_{ij}
+    \] for all $i,j \in \brc{1,\dots, r}$ and $b \in B$. A frame is called an \emphp{orthonormal frame} if it is an orthonormal set of sections.
+  \end{defn}
+
+  \begin{note}
+    With respect to an orthonormal frame $\brc{e_1,\dots, e_r}$,
+    \[
+    g = \sum_{i=1}^r e_i^* \ot e_i^*.
+    \]
+  \end{note}
+
+  \begin{prop}
+    For any Riemannian metric $g$ on $E$ and any point $b \in B$, there exists an open neighbourhood $U \ni b$ on which there is an orthonormal frame of $E$ with respect to $g$.
+  \end{prop}
+
+  \begin{proof}
+    Start with any local frame, and then apply Gram-Schmidt.
+  \end{proof
+
+  \lbl{Warning} If $E = TM$, and $\brc{x_1,\dots, x_n}$ are local coordinates, then it may not be the case that $\brc{\partl{}{x_1}, \dots, \partl{}{x_n}}$ is an orthonormal frame.
+
+  \subsubsection{Metric Connections}
+
+  Let $(E, B, \pi, \R^r)$ be a real vector bundle and $g$ be a Riemannian metric on $E$. Then, for all $\sigma_1, \sigma_2 \in \sect{E}$, $g(\sigma_1, \sigma_2) \in \ci{B}$. It is natural to consider the rate of change of the smooth function $g(\sigma_1, \sigma_2)$:
+  $dg(\sigma_1, \sigma_2)$ {\it OR}$X(g(\sigma_1, \sigma_2))$ for all $X \in \sect{TB}$. Assume that $E = B \times \R^r$ and $g_b = I_{r \times r}$. Let $\sigma_1, \sigma_2 \in \sect{E}$ so that $\sigma_i(b) = (b, \ol{\sigma}_i(b))$ for some smooth $\ol{\sigma}_i : B \to \R$.
+  Then, for all $b \in B$,
+  \[
+    g(\sigma_1, \sigma_2)(b) = \ol{\sigma}_1(b) \cdot \ol{\sigma_2}(b).
+  \]
+  And if $x_1, \dots, x_n$ are local coordinates on $B$,
+  \[
+  \partl{}{x_i} \br{ g(\sigma_1, \sigma_2)} &= \partl{}{x_i}\br{\ol{\sigma}_1}\cdot \ol{\sigma}_2 + \ol{\sigma}_1 \cdot \partl{}{x_i}\br{ \ol{\sigma}_2 }.
+  \] In general, if $E$ is any vector bundle:
+
+  \begin{defn}  Let $E$ be a vector bundle with Riemannian metric $g$.   We say that a linear connection $D$ on $E$ is \emphp{compatible} with $g$ if, for all $X \in \sect{TM}$ and $\sigma_1, \sigma_2 \in \sect{E}$,  we have
+    \[
+    X(g(\sigma_1, \sigma_2)) = g\br{D_X \sigma_1, \sigma_2} + g(\sigma_1, D_X \sigma_2).
+    \]
+    If $D$ is compatible with $g$, then $D$ is called a \emphp{metric connection}.
+  \end{defn}
+
+  \begin{prop}
+    For any Riemannin metric $g$ on  $E$, there exists at least one linear connection $D$ compatible with it.
+  \end{prop}
+
+  \begin{proof}
+    Given any point $b \in B$, we know that there exists an orthonormal frame $\brc{e_1, \dots, e_r}$ of $E$ on an open neighbourhood of $b$. Suppose that there is a connection $D$ that is compatible with
+    $g$, and let $A = (a_{ij})$ be the connection matrix of $D$ with respect to this frame. This forces $a_{ij} = - a_{ji}$. Then, connections that are compatible with $g$ always exist locally. Then use a partition of unity to stitch it up to a global connection that is compatible with $g$.
+  \end{proof}
+
+  \begin{exmp}
+    Let $E = B \times \R^r$ with Riemannian metric $g$. Let $\brc{e_1, \dots, e_r}$ be an orthonormal frame with respect to this metric. Then $A = (a_{ij})$ with $a_{ij} \in \om{1}{B}$ and $a_{ij} = - a_{ji}$. Then the connection $D = d + A$ is compatible with $g$. So, there exist {\it many} connections which are compatible with $g$. But, if one imposes additional conditions on $D$, one can obtain uniqueness as well. For example, the Levi-Civita connection.
+  \end{exmp}
+
+  \begin{prop}
+    Let $M$ be a smooth manifold and let $g$ be a Riemannian metric on $M$. Then there exists a unique affine connection $\nabla: \sect{TM} \times \sect{TM} \to \sect{TM}$ that is compatible with $g$ and is torsion-free. This connection is called the \emphp{Levi-Civita} connection of $(M, g)$.
+  \end{prop}
+
+\end{document}

@@ -1,0 +1,146 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\lbl{Recall} Let $(E, B, \pi, \R^r)$ be a real vector bundle. $g \in \sect{\Hom{}{E \ot E, \underline{\R}}}$ (where $\underline{\R} = B \times \R $ is the trivial line bundle over $B$) is called a \emphp{Riemannian metric}.
+For all $b \in B$,
+\[
+g_b: E_b \times E_b \to \R
+\] is
+\begin{itemize}
+  \item bilinear
+  \item symmetric: $g_b(e,e^\prime) = g_b(e^\prime, e)$ for all $e, e^\prime \in E_b$
+  \item positive definite: $g_b(e, e) \geq 0$ for all $e \in E_b$ with equality iff $e = 0$.
+\end{itemize}
+
+Given a Riemannian metric $g$ on $E$, a connectino $D: \sect{E} \to \om{1}{E}$ is called a \emphp{metric connection} if it is \emphp{compatible} with $g$, in the sense that for all $\sigma_1, \sigma_2 \in \sect{E}$ and for all $X \in \sect{TB}$,
+\[
+X(g(\sigma_1, \sigma_2)) = g\br{ D_X \sigma_1, \sigma_2 } + g(\sigma_1, D_X \sigma_2)
+ \]
+
+\begin{prop}
+  Let $M$ be a smooth manifold and $g$ be a Riemannian metric on $M$. Then there exists a unique connection $\nabla$ on $TM$ that is compatible with $g$ and is torsion-free. This conneciton is called the \emphp{Levi-Civita connection} of $g$.
+\end{prop}
+
+\begin{proof}
+  Uniqueness: Let $\nabla$ be a conneciton on $TM$ that is torsion-free and compatible with $g$.
+  \begin{itemize}
+    \item Torsion-free:
+    \al{
+    T(X, Y) &= 0 \text{ for all $X, Y \in \sect{TM}$} \\
+    \iff \nabla_X Y - \nabla_Y X - [X, Y] &= 0 \text{ for all $X, Y \in \sect{TM}$}\\
+    \iff \nabla_X Y &= \nabla_Y X + [X, Y] \text{for all $X, Y \in \sect{TM}$}.
+    }
+    \item Compatibility with $g$: For all $X, Y, Z \in \sect{TM}$:
+    \al{X(g(Y,Z)) &= g\br{ \nabla_X Y, Z } + g\br{Y, \nabla_X Z}\\
+    Y(g(Z,X)) &= g\br{ \nabla_Y Z, Z } + g\br{Z, \nabla_Y X} \\
+    Z(g(X,Y)) &= g\br{ \nabla_Z X, Y } + g\br{Z, \nabla_Z Y} \\
+    }
+  \end{itemize}
+
+  \al{
+X(g(Y,Z)) + Y(g(Z, X)) + Z(g(X, Y)) &= 2g\br{ \nabla_X Y,Z} + g\br{ Y, [X,Z]} + g\br{Z, [Y,Z]} - g\br{ X, [Y,Z] }
+  }
+  Thus
+  \[
+  g\br{ \nabla_X Y,  Z} = \text{ expression that only involves $g, X, Y, Z$ .}
+  \]
+  Suppose that there exist two connections $\nabla^1$ and $\nabla^2$ that are torsion-free and compatible with $g$. Then, forall $X, Y, Z \in \sect{TM}$,
+  \al{
+    & g\br{\nabla^1_X Y, Z} = g\nr{ \nabla_X^2 Y, Z} \\
+    \implies & $g\br{ \nabla_X^1 Y - \nabla_X^2 Y, Z } = 0$ \\
+    \implies & \nabla^1 = \nabla^2
+  } as $X, Y, Z \in \sect{TM}$ were arbitrary, by the non-degeneracy of $g$.
+
+  Existence: Let $(x_1, \dots, x_n)$ be local coordinates on $M$ and consider the local frame $\brc{\partl{}{x_1}, \dots, \partl{}{x_n}}$. Then:
+  \[
+    g = \sum_{i,j} g_{ij} dx_i \ot dx_j
+  \]
+  where $g_{ij} = g\br{ \partl{}{x_i}, \partl{}{x_j} }$.
+  $(g_{ij})$ is invertible at every point and we denote the inverse by $(g^{ij})$. We set
+  \[
+  \Gamma^k_{ij} := \frac{1}{2}\sum_l g^{kl} \br{ \partl{}{x_i} g_{jl} + \partl{}{x_j} g_{il} - \partl{}{x_l}g_{ij} }
+  \]
+  This clearly satisfies $\Gamma^k_{ij} = \Gamma^k_{ji}$, so $\nabla$ is torsion-free. It patches well together when changing coordinate frames, and it is compatible with $g$.
+\end{proof}
+
+\subsubsection{Subbundles and Orthogonal Complements}
+
+\begin{defn}
+  A \emphp{subbundle} of a vector bundle $(E, B, \pi, \R^r)$ is a subset $V \subseteq E$ such that $\pi\rst{V}: V \to B$ is the projeciton map of a vector bundle with total space $V$ and base space $B$ and $V_b := \br{\pi\rst{V}}^{-1}(b)$ is a linear subspace of $E_b$ for all $b \in B$.
+\end{defn}
+
+\begin{note}
+  Since $\pi\rst{V} : V \to B$ is a vector bundle, $V_b$ has the same dimension for each $b \in B$.
+\end{note}
+
+\begin{exmp}
+  \begin{enumerate}
+    \item $E = B \times \R^3$, where we consider $\R^3 = \R^2 \oplus \R$, with coordinates $(x,y)$ on the first summand and $z$ on the second. Then $V = \brc{ (b, (x,y,0)) \s b \in B }$ is a subbundle of $E$.
+
+    \item If $E = B \times \R^r$ and $\brc{e_1, \dots, e_r}$ is any frame of $E$. Then picking
+    \[
+    V := \text{span}_{\ci{B}} \brc{e_{i_1}, \dots, e_{i_l} }
+    \]
+      is a subbundle of $E$ of rank $l$, where $\brc{i_1, \dots, i_l} \subset \brc{1, \dots, r}$ with $i_s \neq i_t$ if $s \neq t$.
+
+    \item If $E$ is a vector bundle and $V := \bigsqcup_{b \in B} V_b$ with $V_b \subset E_b$ for all $b \in B$, then $V$ is a subbundle of $E$ of rank $l$ if and only if for every $b \in B$, there exists an open neighbourhood $U \ni b$ and smooth local sections
+     $\brc{\sigma_1, \dots, \sigma_l} \subset \sect{U, E}$ such that $\text{\span}\brc{\sigma_1(q), \dots, \sigma_l(q)} = V_q$ for all $q \in U$.
+  \end{enumerate}
+\end{exmp}
+
+\begin{prop}
+  If $V$ is a subbundle of $E$, then $V$ is an embedded submanifold of $E$.
+\end{prop}
+
+\begin{proof}
+  One can show that the inclusion map $V \hookrightarrow E$ is an embedding.
+  Suppose that $\brc{e_1, \dots, e_l}$ is a local frame of $V$ on an open neighbourhood $U$ of some point $b \in B$. then, one can complete $\brc{e_1, \dots, e_l}$ to a local frame $\brc{e_1,\dots, e_r}$ of $E$ around $b$ as follows: $\brc{e_1(b), \dots, e_l(b)}$ is a basis for $V_b$, which is a linear subspace of $E_b$. So we can complete it to a basis $\brc{e_1(b), \dots, e_l(b), \tilde{e}_{l+1}, \dots, \tilde{e}_r }$.
+  Pick a local chart $\varphi$ of $E$ on an open neighbourood $\tilde{U}$ of $B$. Set
+  \[
+  e_i := \varphi^{-1} \br{-, \ol{\varphi}(\tilde{e}_i)}
+  \] for $i = l+1, \dots, k$. Thus $\brc{e_1(b), \dots, e_r{b}}$ is linearly independent, so that
+  \[
+  \det\br{ e_1(b) | \dots | e_r(b)  } \neq 0.
+  \]
+  By the property of the determinant function, we have that $\det\br{e_1|\dots |e_r}\neq 0 $ on a neighbourhood $W$ of $b$. In terms of this frame, we have the following local charts of $V$ and $E$:
+  \al{
+  \varphi_E : E_{U \cap W} &\to (U \cap W) \times \R^r \\
+   E_b\ni e = a_1 e_1(b) + \dots a_r e_r(b) &\mapsto (b, (a_1,\dots, a_r))
+  } and
+  \al{
+  \varphi_V: V_{U \cap W} &\to (U \cap W) \times \R^l \\
+  V_b \ni e = a_1e_1(b) + \dots+a_le_l(b) &\mapsto (b, (a_1, \dots, a_l))
+   }.
+   then
+   \al{
+   (U \cap W) \times \R^l \overset{\varphi_V^{-1}}{\longrightarrow} V_{U \cap V} \hookrightarrow E_{U \cap V} & \overset{\varphi_E}{\longrightarrow} (U \cap W) \times \R^r} with the maps
+   \al{
+   (b, (a_1,\dots, a_l)) \mapsto (a_1e_1(b) + \dots +)a_le_l(b) \mapsto a_1e_1(b) + \dots a_l e_l(b) + 0 \mapsto (b, (a_1, \dots, a_l, 0, \dots, 0))
+   }
+   The inclusion map is clearly an embedding.
+\end{proof}
+
+\begin{rmk}
+  A subbundle $V$ of $E$ is an embedded submanifold $V \subset E$ such that $V_b := V \cap E_b \subseteq E_b$ is a linear subspace. Some authors define subbundles this way.
+\end{rmk}
+
+\lbl{Orthogonal Complements}
+
+\begin{defn}
+ Let $(E, B, \pi, \R^r)$ be a real vector bundle and $V$ be a subbundle of $E$. Let $g$ be a Riemannian metric on $E$. We define the \emphp{orthogonal complement} $V^\perp$ of $V$ as
+ \[
+ V^\perp = \bigsqcup_{b \in B} V_b^\perp
+ \]
+ where $V_b^\perp = \brc{ e \in E_b \s g(e, v) = 0 \text{ for all $v \in V_b$}}$.
+\end{defn}
+
+\begin{prop}
+  $V^\perp$ is a subbundle of $E$ of rank $r - l$ and
+  \[
+  E = V \oplus V^\perp.
+  \]
+\end{prop}
+
+
+\end{document}

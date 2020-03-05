@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2020-03-03T19:27:25.898Z
+    timeStamp: 2020-03-05T20:51:35.548Z
     jobNames: []
     value:
       severity: info
@@ -130,29 +130,29 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   main.tex:
-    timeStamp: 2020-03-03T20:52:20.227Z
+    timeStamp: 2020-03-05T20:51:34.290Z
     jobNames: []
-    hash: 9rzu8P1J3EVAF6sUoCnjVKx6ZLne10UZObrXaAImipo=
+    hash: P2Mgg2Yk5A92pVNZIzAUp39WUBUWy2XLnao7fVUEa2k=
     type: LaTeX
     subType: article
   /Users/Brennen/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2020-03-03T19:27:09.105Z
+    timeStamp: 2020-03-05T20:51:35.560Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   main.log:
-    timeStamp: 2020-03-03T20:51:40.549Z
+    timeStamp: 2020-03-05T20:49:35.613Z
     jobNames: []
-    hash: 7k7czSR6SPbQ7mLnMK/ge2sryS463g2uCm+XH6O1iyI=
+    hash: ohoymTUcqU16oLz59NhrXZVjCH2Yv/HtRDMpFVfEc0M=
     type: LaTeXLog
     subType: pdfTeX
   main.fls-ParsedFileListing:
     jobNames: []
     type: ParsedFileListing
   main.log-ParsedLaTeXLog:
-    timeStamp: 2020-03-03T20:50:45.320Z
+    timeStamp: 2020-03-05T20:49:21.737Z
     jobNames: []
     value:
       messages:
@@ -1514,8 +1514,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1528,8 +1528,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1542,8 +1542,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1556,8 +1556,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1570,8 +1570,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1584,8 +1584,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1598,8 +1598,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1612,8 +1612,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1647,8 +1647,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1661,8 +1661,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1675,8 +1675,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 130
-              end: 130
+              start: 132
+              end: 132
           log:
             file: main.log
             range:
@@ -1747,8 +1747,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 135
-              end: 135
+              start: 137
+              end: 137
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -1760,8 +1760,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 135
-              end: 135
+              start: 137
+              end: 137
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -1773,8 +1773,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 135
-              end: 135
+              start: 137
+              end: 137
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -1786,8 +1786,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 141
-              end: 141
+              start: 143
+              end: 143
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -1799,8 +1799,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 141
-              end: 141
+              start: 143
+              end: 143
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -1812,8 +1812,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 141
-              end: 141
+              start: 143
+              end: 143
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1853,8 +1853,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 147
-              end: 147
+              start: 149
+              end: 149
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -1866,8 +1866,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 147
-              end: 147
+              start: 149
+              end: 149
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -1879,8 +1879,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 147
-              end: 147
+              start: 149
+              end: 149
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -1892,8 +1892,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 147
-              end: 147
+              start: 149
+              end: 149
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -1905,8 +1905,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 147
-              end: 147
+              start: 149
+              end: 149
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -1918,8 +1918,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 147
-              end: 147
+              start: 149
+              end: 149
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1974,8 +1974,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 148
-              end: 148
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -1987,8 +1987,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 148
-              end: 148
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2000,8 +2000,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 148
-              end: 148
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2013,8 +2013,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 148
-              end: 148
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2026,8 +2026,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 148
-              end: 148
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2039,8 +2039,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 148
-              end: 148
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2065,8 +2065,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2078,8 +2078,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2091,8 +2091,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2104,8 +2104,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2117,8 +2117,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2130,8 +2130,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2156,8 +2156,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2169,8 +2169,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2182,8 +2182,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2195,8 +2195,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2208,8 +2208,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2221,8 +2221,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2299,8 +2299,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2312,8 +2312,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2325,8 +2325,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2338,8 +2338,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2351,8 +2351,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2364,8 +2364,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2416,8 +2416,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2429,8 +2429,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2442,8 +2442,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2455,8 +2455,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2468,8 +2468,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2481,8 +2481,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2520,8 +2520,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2533,8 +2533,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2546,8 +2546,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2559,8 +2559,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2572,8 +2572,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2585,8 +2585,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 155
+              end: 155
         - severity: warning
           name: pdfTeX
           category: Package amsmath
@@ -2611,8 +2611,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2624,8 +2624,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2637,8 +2637,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2650,8 +2650,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2663,8 +2663,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2676,8 +2676,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2702,8 +2702,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2715,8 +2715,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2728,8 +2728,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2741,8 +2741,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2754,8 +2754,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2767,8 +2767,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: \mathcal allowed only in math mode
@@ -2794,8 +2794,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2807,8 +2807,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2820,8 +2820,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2833,8 +2833,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2846,8 +2846,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2859,8 +2859,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Misplaced alignment tab character &
@@ -2885,8 +2885,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2898,8 +2898,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2911,8 +2911,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -2924,8 +2924,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -2937,8 +2937,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -2950,8 +2950,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -3002,8 +3002,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3015,8 +3015,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3028,8 +3028,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -3041,8 +3041,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3054,8 +3054,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3067,8 +3067,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 160
+              end: 160
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -3107,8 +3107,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3120,8 +3120,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3133,8 +3133,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -3146,8 +3146,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3159,8 +3159,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3172,8 +3172,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -3185,8 +3185,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 162
+              end: 162
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3198,8 +3198,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 162
+              end: 162
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3211,8 +3211,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 162
+              end: 162
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -3224,8 +3224,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 162
+              end: 162
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3237,8 +3237,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 162
+              end: 162
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3250,8 +3250,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 162
+              end: 162
         - severity: error
           name: pdfTeX
           text: 'Extra }, or forgotten $'
@@ -3289,8 +3289,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 161
-              end: 161
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3302,8 +3302,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 161
-              end: 161
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3315,8 +3315,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 161
-              end: 161
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
@@ -3328,8 +3328,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 161
-              end: 161
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
@@ -3341,8 +3341,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 161
-              end: 161
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
@@ -3354,8 +3354,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 161
-              end: 161
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: There's no line here to end
@@ -3376,8 +3376,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2437
-              end: 2438
+              start: 2438
+              end: 2439
           source:
             file: Subfiles/March3.tex
             range:
@@ -3390,8 +3390,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2451
-              end: 2452
+              start: 2452
+              end: 2453
           source:
             file: Subfiles/March3.tex
             range:
@@ -3438,6 +3438,344 @@ files:
               start: 161
               end: 161
           category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2503
+              end: 2504
+          source:
+            file: main.tex
+            range:
+              start: 164
+              end: 164
+        - severity: error
+          name: pdfTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 2515
+              end: 2516
+          source:
+            file: main.tex
+            range:
+              start: 164
+              end: 164
+        - severity: error
+          name: pdfTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 2525
+              end: 2526
+          source:
+            file: main.tex
+            range:
+              start: 164
+              end: 164
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2538
+              end: 2539
+          source:
+            file: main.tex
+            range:
+              start: 164
+              end: 164
+        - severity: error
+          name: pdfTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 2550
+              end: 2551
+          source:
+            file: main.tex
+            range:
+              start: 164
+              end: 164
+        - severity: error
+          name: pdfTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 2560
+              end: 2561
+          source:
+            file: main.tex
+            range:
+              start: 164
+              end: 164
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2574
+              end: 2575
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: main.log
+            range:
+              start: 2586
+              end: 2587
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 2598
+              end: 2599
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: main.log
+            range:
+              start: 2607
+              end: 2608
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Extra }, or forgotten $'
+          log:
+            file: main.log
+            range:
+              start: 2617
+              end: 2618
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 2629
+              end: 2630
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: main.log
+            range:
+              start: 2638
+              end: 2639
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2650
+              end: 2651
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: main.log
+            range:
+              start: 2662
+              end: 2663
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 2674
+              end: 2675
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Extra }, or forgotten $'
+          log:
+            file: main.log
+            range:
+              start: 2683
+              end: 2684
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 2695
+              end: 2696
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Missing \endgroup inserted
+          log:
+            file: main.log
+            range:
+              start: 2704
+              end: 2705
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: main.log
+            range:
+              start: 2716
+              end: 2717
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \omit
+          log:
+            file: main.log
+            range:
+              start: 2728
+              end: 2729
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: main.log
+            range:
+              start: 2737
+              end: 2738
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 53
+              end: 53
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \span
+          log:
+            file: main.log
+            range:
+              start: 2748
+              end: 2749
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 88
+              end: 88
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \span
+          log:
+            file: main.log
+            range:
+              start: 2760
+              end: 2761
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 88
+              end: 88
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \span
+          log:
+            file: main.log
+            range:
+              start: 2772
+              end: 2773
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 88
+              end: 88
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \span
+          log:
+            file: main.log
+            range:
+              start: 2784
+              end: 2785
+          source:
+            file: Subfiles/March5.tex
+            range:
+              start: 88
+              end: 88
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3445,13 +3783,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 167
+              end: 167
           log:
             file: main.log
             range:
-              start: 2503
-              end: 2503
+              start: 2797
+              end: 2797
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3459,13 +3797,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 167
+              end: 167
           log:
             file: main.log
             range:
-              start: 2504
-              end: 2504
+              start: 2798
+              end: 2798
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3473,13 +3811,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 167
+              end: 167
           log:
             file: main.log
             range:
-              start: 2506
-              end: 2506
+              start: 2800
+              end: 2800
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3487,26 +3825,26 @@ files:
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 167
+              end: 167
           log:
             file: main.log
             range:
-              start: 2507
-              end: 2507
+              start: 2801
+              end: 2801
         - severity: info
           name: pdfTeX
           category: Package rerunfilecheck
           text: >-
             File `main.out' has not changed. Checksum:
-            CF57046F55BE7F5B8B65C561890327AB;1279.
+            140DEC9CF1714F18FA44125D76D4CB43;1376.
           source:
             file: main.tex
           log:
             file: main.log
             range:
-              start: 2508
-              end: 2509
+              start: 2802
+              end: 2803
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3514,22 +3852,22 @@ files:
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 167
+              end: 167
           log:
             file: main.log
             range:
-              start: 2510
-              end: 2510
+              start: 2804
+              end: 2804
       inputs: []
       outputs:
         - main.pdf
       calls: []
     type: ParsedLaTeXLog
   main.pdf:
-    timeStamp: 2020-03-03T20:52:22.593Z
+    timeStamp: 2020-03-05T20:51:37.441Z
     jobNames: []
-    hash: r/9xpXRbrSzFljY10qhyiSziIsE4o9fiV0Z1tObDwO8=
+    hash: iqsuDtaihvurPUgAQxACBmKzpRUorZFGRE5RJaAUtEg=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions

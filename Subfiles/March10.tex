@@ -1,0 +1,137 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+  Let $(E, B, \pi, \R^r)$ be a vector bundle and $g$ a Riemannian metric on $E$. For any subbundle $V$ of $E$,
+  \[
+    V^\perp = \bigsqcup_{b \in B} V_b^\perp \subset E
+  \]
+  where $V_b^\perp = \brc{ e \in E_b \s g(e, e^\prime) = 0 \text{ for all $e^\prime \in V_b$ } }. $
+
+  Then we have
+
+  \begin{prop}
+    $V^\perp$ is a subbundle of $E$ such that $E = V \oplus V^\perp$.
+  \end{prop}
+
+  \begin{exmp}
+    $M$ is a smooth manfiold and $S \subset M$ an embedded submanifold of $M$. Let $g$ be a Riemannian metric on $M$ (i.e., on $TM$). We define
+    \[
+    NS := (TS)^\perp
+    \]
+    is the \emphp{normal bundle of $S$ in $M$} , which is a subbundle of $TM\rst{S} = \bigsqcup_{x \in S} T_xM$. We have $TM\rst{S} = TS \oplus NS$. The metric $g$ gives a natural splitting of $TM\rst{S}$, with one component given by $TS$.
+  \end{exmp}
+
+  \section{Characteristic Classes}
+
+  Characteristic classes measure the extent to which a vector bundle fails to be trivial.
+
+  \subsection{Stiefel-Whitney Classes}
+
+  These are defined for real vector bundle and they take values in $\check{H}\br{B; \Z_2}$.
+
+  \lbl{Recall}
+  \begin{itemize}
+    \item $\Z_2$ is thought of as an additive group
+    \item $\brc{U_\alpha}$ open cover of $B$ such that $\U_\alpha \cap U_\beta$ is contractible whenever $U_\alpha \cap U_\beta \neq \emptyset$.
+  \end{itemize}
+
+  Define $C^k(B; \Z_2) = \brc{ \brc{ f_{\alpha_0\dots \alpha_k} } \text{ with $f_{\alpha_0\dots\alpha_k} \in \Z_2$, $\forall \alpha_0,\dots, \alpha_k$ such that $U_{\alpha_0} \cap \dots \cap U_{\alpha_k} \neq \emptyset$} }$.
+  These are the \emphp{k-cochains}. We have the following map on cochains, called the coboundary map.
+
+  \al{
+  \delta: C^k(B; \Z_2) &\to C^{k+1}(B; \Z_2) \\
+  \sigma = \brc{f_{\alpha_0\dots\alpha_k} } &\mapsto \delta\sigma
+  }
+  where
+  \[
+  (\delta \sigma)_{\beta_0\dots \beta_{k+1}} := \sum_{j=0}^{k+1} (-1)^jf_{\hat\beta_0\dots \hat{\beta}_j \dots \beta_{k+1}}.
+  \]
+  Here, the hat notation on the index means that we are removing the index $\beta_j$. Since each term in the above sum is in $\Z_2$, we have that $\delta \sigma = \sum_{j=0}^{k+1}f_{\hat\beta_0\dots \hat{\beta}_j \dots \beta_{k+1}}.$
+
+  \begin{note}
+    \hspace{1em}
+    \begin{enumerate}
+      \item $\delta \circ \delta = 0$. We then get a complex
+        \[
+        C^0(B;\Z_2) \overset{\delta}{\longrightarrow} C^1(B;\Z_2) \overset{\delta}{\longrightarrow} \dots
+        \]
+      \item One can add $2$ k-cochains component-wise. Furthermore, $\delta(\sigma + \sigma^\prime) = \delta(\sigma) + \delta(\sigma^\prime)$ for any k-cochains $\sigma, \sigma^\prime$.
+  \end{enumerate}
+  \end{note}
+
+  \begin{defn}
+    Z^k(B;\Z_2) = \brc{\sigma \in C^k(B; \Z_2) \s \delta \sigma = 0} is the set of \emphp{k-cocycles} for $k \geq 0$.
+    \[
+    B^k(B; \Z_2) =
+  \begin{cases}
+    \brc{0} & \text{ if $k = 0$} \\
+    \brc{\sigma \in C^k(B; \Z_2) \s \sigma = \delta \tau \text{ for some $\tau \in C^{k-1}(B; \Z_2)$}} & \text{ if $k > 0$}
+  \end{cases}
+    \] is the set of \emphp{k-coboundaries}.
+  \end{defn}
+
+  \begin{note}
+    \hspace{1em} \\
+    \begin{enumerate}
+      \item For all $\sigma \in B^k(B;\Z_2)$, $k \geq 1$, $\sigma = \delta\tau$ for some $\tau \in C^{k-1}(B; \Z_2)$. Hence $\delta\sigma = \delta^2\tau$, and hence $B^k(B, \Z_2) \subset Z^k(B; \Z_2)$ for all $k \geq 1$.
+      \item $Z^k(B; \Z_2)$ and $B^k(B; \Z_2)$ are closed under addition.
+      \item $Z^0(B;\Z_2) =$ ? Let $\sigma \in Z^0(B;\Z_2)$ so that $\sigma = \brc{f_\alpha}$. So
+      \al{
+      \delta \sigma = 0 &\iff (\delta\sigma)_{\alpha\beta} = f_\beta + f_\alpha = 0 \\
+      &\iff f_\alpha = f_\beta \text{ for all $\alpha, \beta$}.
+      } Thus, to each connected component of $B$ we associate a unique element in $\Z_2$. So
+      \[
+      Z^0(B;\Z_2) = \underbrace{\Z_2 \oplus \dots \oplus \Z_2}_{\text{ \# of connected components of $B$.}}
+      \]
+    \end{enumerate}
+  \end{note}
+
+  \begin{defn}
+      $\check{H}^k(B;\Z_2) = Z^k(B;\Z_2) / B^k(B; \Z_2)$, for all $k \geq 0$, is the \emphp{kth Čech cohomology group with coefficients in $\Z_2$}.
+  \end{defn}
+
+  \begin{note}
+    \hspace{1em} \\
+    \begin{enumerate}
+      \item $\check{H}^k(B;\Z_2) = Z^0(B;\Z_2) = \underbrace{\Z_2 \oplus \dots \oplus \Z_2}_{\text{ \# of connected components of $B$.}}$
+      \item If $B = \brc{\text{pt}}$, then $\check{H}^0(B; \Z_2) = \Z_2$ and $\check{H}^k(B; \Z_2) = 0$ for $k > 0$.
+      \item $\check{H}^k(B;\Z_2)$ is a group under addition, where $+$ is defined as follows: $[\sigma], [\sigma^\prime] \in \check{H}^k(B;\Z_2)$. Set
+      \[
+      [\sigma]+[\sigma^\prime] = [\sigma+\sigma^\prime].
+      \] This is independent of the representative. Indeed, suppose $[\sigma] = [w]$ and $[\sigma^\prime] = [w^\prime]$. Then $\sigma = w + \delta \tau$ and $\sigma^\prime = w^\prime + \delta \tau^\prime$ for some $\tau, \tau^\prime$ in $B^k(B; \Z_2)$. Then $\sigma + \sigma^\prime = w +
+       w^\prime + \delta(\tau + \tau^\prime)$. Hence $[\sigma + \sigma^\prime] = [w + w^\prime]$.
+    \end{enumerate}
+  \end{note}
+
+  \begin{defn}
+    Let $f: N \to B$ be a smooth map (where here, $N$ is a smooth manifold). Then, $\brc{\tilde{U}_\alpha = f^{-1}(U_\alpha)}$ is an open cover of $f$ such that $\tilde{U}_\alpha \cap \tilde{U}_\beta$ is a disjoint union of contractibles sets when it is nonempty. For every $\sigma \in C^k(B; \Z_1)$, we define $f^* \sigma \in C^k(N; \Z_2)$ by
+    \[
+    (f^*\sigma)_{\alpha_0\dots\alpha_k} := \sigma_{\alpha_0\dots \alpha_k}
+    \] for all $\alpha_0,\dots, \alpha_k$ such that $\tilde{U}_{\alpha_0} \cap \tilde{U}_{\alpha_k} \neq \emtpyset$.
+  \end{defn}
+
+  Note that $f^*(\sigma + \sigma^\prime) = f^{*}\sigma + f^* \sigma^\prime$ and
+  $f^*(\delta \sigma) = \delta(f^* \sigma)$ for all $\sigma, \sigma^\prime \in C^k(B; \Z_2)$. Therefore,
+  \[
+  f^*[\sigma] := [f^*\sigma]
+  \] is well-defined, giving us a map
+  \al{
+  f^* : \check{H}^k(B; \Z_2) &\to \check{H}^k(N; \Z_2) \\
+      [\sigma] &\mapsto [f^*\sigma]
+  } such that $f^*\br{[\sigma] + [\sigma^\prime] } = f^*[\sigma] + f^*[\sigma^\prime]$, i.e., $f^*$ is a homomorphism. If $f = \id{B}$, then $f^*[\sigma] = [\sigma]$ for all $\sigma \in \check{H}^k(B;\Z_2)$.
+
+  Let $(E, B ,\pi, \R^r)$ be a real vector bundle over $B$. Then there exist unique cohomology classes in $\check^i(B; \Z_2)$ satisfying the following four axioms:
+  \begin{enumerate}[\text{Axiom} 1:]
+    \item To each vector bundle $E$, there corresponds a sequence of cohomology classes \[ w_i(E) \in \check{H}^k(B; \Z_2)\] called the \emphp{Stiefel-Whitney classes of $E$} such that $w_0(E) = 1 \in \check{H}^0(B; \Z_2)$ and $w_i(E) = 0$ for all $i > r = \text{rank}(E)$.
+    \item (Naturality). If $f : N \to B$ is a smooth map then
+    \[
+    f^*w_i(E) = w_i(f^* E)
+    \] for every $i$.
+    \item (The Whitney product Theorem). For any vector bundles $E, E^\prime$ on $B$,
+    \[
+    w_i(E \oplus E^\prime) = \sum_{l+k = i} w_l(E)w_k(E^\prime)
+    \]
+    \item (Normalization). If $\gamm_1^1$ is the tautological line bundle on $\mathbb{P}^1$, then $w_1(\gamma_1^1) \neq 0$.
+  \end{enumerate}
+\end{document}

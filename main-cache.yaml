@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2020-03-05T20:51:35.548Z
+    timeStamp: 2020-03-10T18:45:09.394Z
     jobNames: []
     value:
       severity: info
@@ -130,29 +130,29 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   main.tex:
-    timeStamp: 2020-03-05T20:51:34.290Z
+    timeStamp: 2020-03-10T19:51:19.700Z
     jobNames: []
-    hash: P2Mgg2Yk5A92pVNZIzAUp39WUBUWy2XLnao7fVUEa2k=
+    hash: TbYJB97ggvIXl83iup2aPt7E/YIWqOi5mLSN33jR7sI=
     type: LaTeX
     subType: article
   /Users/Brennen/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2020-03-05T20:51:35.560Z
+    timeStamp: 2020-03-10T18:45:09.419Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   main.log:
-    timeStamp: 2020-03-05T20:49:35.613Z
+    timeStamp: 2020-03-10T19:51:09.546Z
     jobNames: []
-    hash: ohoymTUcqU16oLz59NhrXZVjCH2Yv/HtRDMpFVfEc0M=
+    hash: sk/Myr+P58AwRojourQ9PrU4Vx3arc9i+7DtWUAJT3Y=
     type: LaTeXLog
     subType: pdfTeX
   main.fls-ParsedFileListing:
     jobNames: []
     type: ParsedFileListing
   main.log-ParsedLaTeXLog:
-    timeStamp: 2020-03-05T20:49:21.737Z
+    timeStamp: 2020-03-10T19:51:09.710Z
     jobNames: []
     value:
       messages:
@@ -1441,14 +1441,3706 @@ files:
               end: 562
         - name: pdfTeX
           severity: info
+          text: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.sty
+          log:
+            file: main.log
+            range:
+              start: 565
+              end: 565
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \cdotp
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 25
+              end: 25
+          log:
+            file: main.log
+            range:
+              start: 570
+              end: 570
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \times
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 33
+              end: 33
+          log:
+            file: main.log
+            range:
+              start: 571
+              end: 571
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \div
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 34
+              end: 34
+          log:
+            file: main.log
+            range:
+              start: 572
+              end: 572
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \cdot
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 35
+              end: 35
+          log:
+            file: main.log
+            range:
+              start: 573
+              end: 573
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \circ
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 36
+              end: 36
+          log:
+            file: main.log
+            range:
+              start: 574
+              end: 574
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ast
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 38
+              end: 38
+          log:
+            file: main.log
+            range:
+              start: 575
+              end: 575
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \pm
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 41
+              end: 41
+          log:
+            file: main.log
+            range:
+              start: 576
+              end: 576
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \mp
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 42
+              end: 42
+          log:
+            file: main.log
+            range:
+              start: 577
+              end: 577
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ltimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 43
+              end: 43
+          log:
+            file: main.log
+            range:
+              start: 578
+              end: 578
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rtimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 44
+              end: 44
+          log:
+            file: main.log
+            range:
+              start: 579
+              end: 579
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \diamond
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 45
+              end: 45
+          log:
+            file: main.log
+            range:
+              start: 580
+              end: 580
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \bullet
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 46
+              end: 46
+          log:
+            file: main.log
+            range:
+              start: 581
+              end: 581
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \star
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 47
+              end: 47
+          log:
+            file: main.log
+            range:
+              start: 582
+              end: 582
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \amalg
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 51
+              end: 51
+          log:
+            file: main.log
+            range:
+              start: 583
+              end: 583
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \dotplus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 58
+              end: 58
+          log:
+            file: main.log
+            range:
+              start: 584
+              end: 584
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \square
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 63
+              end: 63
+          log:
+            file: main.log
+            range:
+              start: 585
+              end: 585
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \divideontimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 71
+              end: 71
+          log:
+            file: main.log
+            range:
+              start: 586
+              end: 586
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \bigstar
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 75
+              end: 75
+          log:
+            file: main.log
+            range:
+              start: 587
+              end: 587
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \equiv
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 83
+              end: 83
+          log:
+            file: main.log
+            range:
+              start: 588
+              end: 588
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 84
+              end: 84
+          log:
+            file: main.log
+            range:
+              start: 589
+              end: 589
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \approx
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 85
+              end: 85
+          log:
+            file: main.log
+            range:
+              start: 590
+              end: 590
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \simeq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 86
+              end: 86
+          log:
+            file: main.log
+            range:
+              start: 591
+              end: 591
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \asymp
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 89
+              end: 89
+          log:
+            file: main.log
+            range:
+              start: 592
+              end: 592
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 97
+              end: 97
+          log:
+            file: main.log
+            range:
+              start: 593
+              end: 593
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ncong
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 100
+              end: 100
+          log:
+            file: main.log
+            range:
+              start: 594
+              end: 594
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \risingdotseq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 118
+              end: 118
+          log:
+            file: main.log
+            range:
+              start: 595
+              end: 595
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \fallingdotseq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 119
+              end: 119
+          log:
+            file: main.log
+            range:
+              start: 596
+              end: 596
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \circeq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 125
+              end: 125
+          log:
+            file: main.log
+            range:
+              start: 597
+              end: 597
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \eqcirc
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 126
+              end: 126
+          log:
+            file: main.log
+            range:
+              start: 598
+              end: 598
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \triangleq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 127
+              end: 127
+          log:
+            file: main.log
+            range:
+              start: 599
+              end: 599
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \neg
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 134
+              end: 134
+          log:
+            file: main.log
+            range:
+              start: 600
+              end: 600
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ll
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 136
+              end: 136
+          log:
+            file: main.log
+            range:
+              start: 601
+              end: 601
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gg
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 137
+              end: 137
+          log:
+            file: main.log
+            range:
+              start: 602
+              end: 602
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \vdash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 139
+              end: 139
+          log:
+            file: main.log
+            range:
+              start: 603
+              end: 603
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \dashv
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 140
+              end: 140
+          log:
+            file: main.log
+            range:
+              start: 604
+              end: 604
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nvdash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 141
+              end: 141
+          log:
+            file: main.log
+            range:
+              start: 605
+              end: 605
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \vDash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 143
+              end: 143
+          log:
+            file: main.log
+            range:
+              start: 606
+              end: 606
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nvDash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 145
+              end: 145
+          log:
+            file: main.log
+            range:
+              start: 607
+              end: 607
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Vdash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 147
+              end: 147
+          log:
+            file: main.log
+            range:
+              start: 608
+              end: 608
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nVdash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 149
+              end: 149
+          log:
+            file: main.log
+            range:
+              start: 609
+              end: 609
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \flat
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 158
+              end: 158
+          log:
+            file: main.log
+            range:
+              start: 610
+              end: 610
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \natural
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 159
+              end: 159
+          log:
+            file: main.log
+            range:
+              start: 611
+              end: 611
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sharp
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 160
+              end: 160
+          log:
+            file: main.log
+            range:
+              start: 612
+              end: 612
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \infty
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 161
+              end: 161
+          log:
+            file: main.log
+            range:
+              start: 613
+              end: 613
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \propto
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 162
+              end: 162
+          log:
+            file: main.log
+            range:
+              start: 614
+              end: 614
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \dagger
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 163
+              end: 163
+          log:
+            file: main.log
+            range:
+              start: 615
+              end: 615
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ddagger
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 164
+              end: 164
+          log:
+            file: main.log
+            range:
+              start: 616
+              end: 616
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \between
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 170
+              end: 170
+          log:
+            file: main.log
+            range:
+              start: 617
+              end: 617
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \smile
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 171
+              end: 171
+          log:
+            file: main.log
+            range:
+              start: 618
+              end: 618
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \frown
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 172
+              end: 172
+          log:
+            file: main.log
+            range:
+              start: 619
+              end: 619
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftthreetimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 174
+              end: 174
+          log:
+            file: main.log
+            range:
+              start: 620
+              end: 620
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightthreetimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 175
+              end: 175
+          log:
+            file: main.log
+            range:
+              start: 621
+              end: 621
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \pitchfork
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 176
+              end: 176
+          log:
+            file: main.log
+            range:
+              start: 623
+              end: 623
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nVDash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 182
+              end: 182
+          log:
+            file: main.log
+            range:
+              start: 624
+              end: 624
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Vvdash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 184
+              end: 184
+          log:
+            file: main.log
+            range:
+              start: 625
+              end: 625
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \therefore
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 189
+              end: 189
+          log:
+            file: main.log
+            range:
+              start: 626
+              end: 626
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \because
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 190
+              end: 190
+          log:
+            file: main.log
+            range:
+              start: 627
+              end: 627
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \measuredangle
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 202
+              end: 202
+          log:
+            file: main.log
+            range:
+              start: 628
+              end: 628
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sphericalangle
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 203
+              end: 203
+          log:
+            file: main.log
+            range:
+              start: 629
+              end: 629
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \setminus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 218
+              end: 218
+          log:
+            file: main.log
+            range:
+              start: 630
+              end: 630
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \mid
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 222
+              end: 222
+          log:
+            file: main.log
+            range:
+              start: 631
+              end: 631
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \forall
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 279
+              end: 279
+          log:
+            file: main.log
+            range:
+              start: 632
+              end: 632
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \complement
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 280
+              end: 280
+          log:
+            file: main.log
+            range:
+              start: 633
+              end: 633
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \partial
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 281
+              end: 281
+          log:
+            file: main.log
+            range:
+              start: 634
+              end: 634
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \exists
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 284
+              end: 284
+          log:
+            file: main.log
+            range:
+              start: 635
+              end: 635
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nexists
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 285
+              end: 285
+          log:
+            file: main.log
+            range:
+              start: 636
+              end: 636
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Finv
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 286
+              end: 286
+          log:
+            file: main.log
+            range:
+              start: 637
+              end: 637
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Game
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 287
+              end: 287
+          log:
+            file: main.log
+            range:
+              start: 638
+              end: 638
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \emptyset
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 288
+              end: 288
+          log:
+            file: main.log
+            range:
+              start: 639
+              end: 639
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \top
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 290
+              end: 290
+          log:
+            file: main.log
+            range:
+              start: 640
+              end: 640
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \bot
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 291
+              end: 291
+          log:
+            file: main.log
+            range:
+              start: 641
+              end: 641
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \perp
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 292
+              end: 292
+          log:
+            file: main.log
+            range:
+              start: 642
+              end: 642
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \curlywedge
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 296
+              end: 296
+          log:
+            file: main.log
+            range:
+              start: 643
+              end: 643
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \curlyvee
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 297
+              end: 297
+          log:
+            file: main.log
+            range:
+              start: 644
+              end: 644
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \in
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 299
+              end: 299
+          log:
+            file: main.log
+            range:
+              start: 645
+              end: 645
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \owns
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 300
+              end: 300
+          log:
+            file: main.log
+            range:
+              start: 646
+              end: 646
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \cap
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 312
+              end: 312
+          log:
+            file: main.log
+            range:
+              start: 647
+              end: 647
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \cup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 313
+              end: 313
+          log:
+            file: main.log
+            range:
+              start: 648
+              end: 648
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \uplus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 314
+              end: 314
+          log:
+            file: main.log
+            range:
+              start: 649
+              end: 649
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sqcap
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 315
+              end: 315
+          log:
+            file: main.log
+            range:
+              start: 650
+              end: 650
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sqcup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 316
+              end: 316
+          log:
+            file: main.log
+            range:
+              start: 651
+              end: 651
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \wedge
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 318
+              end: 318
+          log:
+            file: main.log
+            range:
+              start: 652
+              end: 652
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \vee
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 320
+              end: 320
+          log:
+            file: main.log
+            range:
+              start: 653
+              end: 653
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \barwedge
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 327
+              end: 327
+          log:
+            file: main.log
+            range:
+              start: 654
+              end: 654
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \veebar
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 328
+              end: 328
+          log:
+            file: main.log
+            range:
+              start: 655
+              end: 655
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \doublebarwedge
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 329
+              end: 329
+          log:
+            file: main.log
+            range:
+              start: 656
+              end: 656
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \doublecap
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 331
+              end: 331
+          log:
+            file: main.log
+            range:
+              start: 657
+              end: 657
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \doublecup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 333
+              end: 333
+          log:
+            file: main.log
+            range:
+              start: 658
+              end: 658
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \subset
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 344
+              end: 344
+          log:
+            file: main.log
+            range:
+              start: 659
+              end: 659
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \supset
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 345
+              end: 345
+          log:
+            file: main.log
+            range:
+              start: 660
+              end: 660
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \subseteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 348
+              end: 348
+          log:
+            file: main.log
+            range:
+              start: 661
+              end: 661
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \supseteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 349
+              end: 349
+          log:
+            file: main.log
+            range:
+              start: 662
+              end: 662
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsubseteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 350
+              end: 350
+          log:
+            file: main.log
+            range:
+              start: 663
+              end: 663
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsupseteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 351
+              end: 351
+          log:
+            file: main.log
+            range:
+              start: 664
+              end: 664
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \subsetneq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 352
+              end: 352
+          log:
+            file: main.log
+            range:
+              start: 665
+              end: 665
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \supsetneq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 353
+              end: 353
+          log:
+            file: main.log
+            range:
+              start: 666
+              end: 666
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \varsubsetneq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 354
+              end: 354
+          log:
+            file: main.log
+            range:
+              start: 667
+              end: 667
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \varsupsetneq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 355
+              end: 355
+          log:
+            file: main.log
+            range:
+              start: 668
+              end: 668
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \subseteqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 357
+              end: 357
+          log:
+            file: main.log
+            range:
+              start: 669
+              end: 669
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \supseteqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 358
+              end: 358
+          log:
+            file: main.log
+            range:
+              start: 670
+              end: 670
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsubseteqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 359
+              end: 359
+          log:
+            file: main.log
+            range:
+              start: 671
+              end: 671
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsupseteqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 360
+              end: 360
+          log:
+            file: main.log
+            range:
+              start: 672
+              end: 672
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \subsetneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 361
+              end: 361
+          log:
+            file: main.log
+            range:
+              start: 673
+              end: 673
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \supsetneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 362
+              end: 362
+          log:
+            file: main.log
+            range:
+              start: 674
+              end: 674
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \varsubsetneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 363
+              end: 363
+          log:
+            file: main.log
+            range:
+              start: 675
+              end: 675
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \varsupsetneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 364
+              end: 364
+          log:
+            file: main.log
+            range:
+              start: 676
+              end: 676
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Subset
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 366
+              end: 366
+          log:
+            file: main.log
+            range:
+              start: 677
+              end: 677
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Supset
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 367
+              end: 367
+          log:
+            file: main.log
+            range:
+              start: 678
+              end: 678
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sqsubseteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 380
+              end: 380
+          log:
+            file: main.log
+            range:
+              start: 679
+              end: 679
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \sqsupseteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 381
+              end: 381
+          log:
+            file: main.log
+            range:
+              start: 680
+              end: 680
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \triangleleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 407
+              end: 407
+          log:
+            file: main.log
+            range:
+              start: 681
+              end: 681
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \vartriangleleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 408
+              end: 408
+          log:
+            file: main.log
+            range:
+              start: 682
+              end: 682
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \triangleright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 409
+              end: 409
+          log:
+            file: main.log
+            range:
+              start: 684
+              end: 684
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \vartriangleright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 410
+              end: 410
+          log:
+            file: main.log
+            range:
+              start: 685
+              end: 686
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ntriangleleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 411
+              end: 411
+          log:
+            file: main.log
+            range:
+              start: 687
+              end: 687
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ntriangleright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 412
+              end: 412
+          log:
+            file: main.log
+            range:
+              start: 688
+              end: 688
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \trianglelefteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 413
+              end: 413
+          log:
+            file: main.log
+            range:
+              start: 689
+              end: 689
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \trianglerighteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 414
+              end: 414
+          log:
+            file: main.log
+            range:
+              start: 690
+              end: 690
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ntrianglelefteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 415
+              end: 415
+          log:
+            file: main.log
+            range:
+              start: 692
+              end: 692
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ntrianglerighteq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 416
+              end: 416
+          log:
+            file: main.log
+            range:
+              start: 694
+              end: 695
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \blacktriangledown
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 427
+              end: 427
+          log:
+            file: main.log
+            range:
+              start: 696
+              end: 697
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \blacktriangleleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 428
+              end: 428
+          log:
+            file: main.log
+            range:
+              start: 698
+              end: 699
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \blacktriangleright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 429
+              end: 429
+          log:
+            file: main.log
+            range:
+              start: 700
+              end: 701
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nless
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 437
+              end: 437
+          log:
+            file: main.log
+            range:
+              start: 702
+              end: 702
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ngtr
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 438
+              end: 438
+          log:
+            file: main.log
+            range:
+              start: 703
+              end: 703
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 439
+              end: 439
+          log:
+            file: main.log
+            range:
+              start: 704
+              end: 704
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \geq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 441
+              end: 441
+          log:
+            file: main.log
+            range:
+              start: 705
+              end: 705
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nleq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 443
+              end: 443
+          log:
+            file: main.log
+            range:
+              start: 706
+              end: 706
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ngeq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 445
+              end: 445
+          log:
+            file: main.log
+            range:
+              start: 707
+              end: 707
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lneq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 451
+              end: 451
+          log:
+            file: main.log
+            range:
+              start: 708
+              end: 708
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gneq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 452
+              end: 452
+          log:
+            file: main.log
+            range:
+              start: 709
+              end: 709
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 453
+              end: 453
+          log:
+            file: main.log
+            range:
+              start: 710
+              end: 710
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \geqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 454
+              end: 454
+          log:
+            file: main.log
+            range:
+              start: 711
+              end: 711
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nleqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 455
+              end: 455
+          log:
+            file: main.log
+            range:
+              start: 712
+              end: 712
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ngeqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 456
+              end: 456
+          log:
+            file: main.log
+            range:
+              start: 713
+              end: 713
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 457
+              end: 457
+          log:
+            file: main.log
+            range:
+              start: 714
+              end: 714
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 458
+              end: 458
+          log:
+            file: main.log
+            range:
+              start: 715
+              end: 715
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lvertneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 459
+              end: 459
+          log:
+            file: main.log
+            range:
+              start: 716
+              end: 716
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gvertneqq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 460
+              end: 460
+          log:
+            file: main.log
+            range:
+              start: 717
+              end: 717
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \eqslantless
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 461
+              end: 461
+          log:
+            file: main.log
+            range:
+              start: 718
+              end: 718
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \eqslantgtr
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 462
+              end: 462
+          log:
+            file: main.log
+            range:
+              start: 719
+              end: 719
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lessgtr
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 465
+              end: 465
+          log:
+            file: main.log
+            range:
+              start: 720
+              end: 720
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gtrless
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 466
+              end: 466
+          log:
+            file: main.log
+            range:
+              start: 721
+              end: 721
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lesseqgtr
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 467
+              end: 467
+          log:
+            file: main.log
+            range:
+              start: 722
+              end: 722
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gtreqless
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 468
+              end: 468
+          log:
+            file: main.log
+            range:
+              start: 723
+              end: 723
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lesseqqgtr
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 469
+              end: 469
+          log:
+            file: main.log
+            range:
+              start: 724
+              end: 724
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gtreqqless
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 470
+              end: 470
+          log:
+            file: main.log
+            range:
+              start: 725
+              end: 725
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lesssim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 472
+              end: 472
+          log:
+            file: main.log
+            range:
+              start: 726
+              end: 726
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gtrsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 473
+              end: 473
+          log:
+            file: main.log
+            range:
+              start: 727
+              end: 727
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lnsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 476
+              end: 476
+          log:
+            file: main.log
+            range:
+              start: 728
+              end: 728
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gnsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 477
+              end: 477
+          log:
+            file: main.log
+            range:
+              start: 729
+              end: 729
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lessapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 478
+              end: 478
+          log:
+            file: main.log
+            range:
+              start: 730
+              end: 730
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gtrapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 479
+              end: 479
+          log:
+            file: main.log
+            range:
+              start: 731
+              end: 731
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lnapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 482
+              end: 482
+          log:
+            file: main.log
+            range:
+              start: 732
+              end: 732
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gnapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 483
+              end: 483
+          log:
+            file: main.log
+            range:
+              start: 733
+              end: 733
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lessdot
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 485
+              end: 485
+          log:
+            file: main.log
+            range:
+              start: 734
+              end: 734
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \gtrdot
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 486
+              end: 486
+          log:
+            file: main.log
+            range:
+              start: 735
+              end: 735
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lll
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 488
+              end: 488
+          log:
+            file: main.log
+            range:
+              start: 736
+              end: 736
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ggg
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 489
+              end: 489
+          log:
+            file: main.log
+            range:
+              start: 737
+              end: 737
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \prec
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 498
+              end: 498
+          log:
+            file: main.log
+            range:
+              start: 738
+              end: 738
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succ
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 499
+              end: 499
+          log:
+            file: main.log
+            range:
+              start: 739
+              end: 739
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nprec
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 500
+              end: 500
+          log:
+            file: main.log
+            range:
+              start: 740
+              end: 740
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsucc
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 501
+              end: 501
+          log:
+            file: main.log
+            range:
+              start: 741
+              end: 741
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \preccurlyeq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 502
+              end: 502
+          log:
+            file: main.log
+            range:
+              start: 742
+              end: 742
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succcurlyeq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 503
+              end: 503
+          log:
+            file: main.log
+            range:
+              start: 743
+              end: 743
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \preceq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 506
+              end: 506
+          log:
+            file: main.log
+            range:
+              start: 744
+              end: 744
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succeq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 507
+              end: 507
+          log:
+            file: main.log
+            range:
+              start: 745
+              end: 745
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \npreceq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 508
+              end: 508
+          log:
+            file: main.log
+            range:
+              start: 746
+              end: 746
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nsucceq
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 509
+              end: 509
+          log:
+            file: main.log
+            range:
+              start: 747
+              end: 747
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \curlyeqprec
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 512
+              end: 512
+          log:
+            file: main.log
+            range:
+              start: 748
+              end: 748
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \curlyeqsucc
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 513
+              end: 513
+          log:
+            file: main.log
+            range:
+              start: 749
+              end: 749
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \precsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 517
+              end: 517
+          log:
+            file: main.log
+            range:
+              start: 750
+              end: 750
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 518
+              end: 518
+          log:
+            file: main.log
+            range:
+              start: 751
+              end: 751
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \precnsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 521
+              end: 521
+          log:
+            file: main.log
+            range:
+              start: 752
+              end: 752
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succnsim
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 522
+              end: 522
+          log:
+            file: main.log
+            range:
+              start: 753
+              end: 753
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \precapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 523
+              end: 523
+          log:
+            file: main.log
+            range:
+              start: 754
+              end: 754
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 524
+              end: 524
+          log:
+            file: main.log
+            range:
+              start: 755
+              end: 755
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \precnapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 527
+              end: 527
+          log:
+            file: main.log
+            range:
+              start: 756
+              end: 756
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \succnapprox
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 528
+              end: 528
+          log:
+            file: main.log
+            range:
+              start: 757
+              end: 757
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 540
+              end: 540
+          log:
+            file: main.log
+            range:
+              start: 758
+              end: 758
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 542
+              end: 542
+          log:
+            file: main.log
+            range:
+              start: 759
+              end: 759
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nwarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 546
+              end: 546
+          log:
+            file: main.log
+            range:
+              start: 760
+              end: 760
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nearrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 547
+              end: 547
+          log:
+            file: main.log
+            range:
+              start: 761
+              end: 761
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \swarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 548
+              end: 548
+          log:
+            file: main.log
+            range:
+              start: 762
+              end: 762
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \searrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 549
+              end: 549
+          log:
+            file: main.log
+            range:
+              start: 763
+              end: 763
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftrightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 550
+              end: 550
+          log:
+            file: main.log
+            range:
+              start: 764
+              end: 764
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nleftarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 552
+              end: 552
+          log:
+            file: main.log
+            range:
+              start: 765
+              end: 765
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nrightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 553
+              end: 553
+          log:
+            file: main.log
+            range:
+              start: 766
+              end: 766
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nleftrightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 554
+              end: 554
+          log:
+            file: main.log
+            range:
+              start: 767
+              end: 767
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \mapstochar
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 557
+              end: 557
+          log:
+            file: main.log
+            range:
+              start: 769
+              end: 769
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftharpoonup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 560
+              end: 560
+          log:
+            file: main.log
+            range:
+              start: 770
+              end: 770
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightharpoonup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 561
+              end: 561
+          log:
+            file: main.log
+            range:
+              start: 771
+              end: 771
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftharpoondown
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 562
+              end: 562
+          log:
+            file: main.log
+            range:
+              start: 772
+              end: 772
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightharpoondown
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 563
+              end: 563
+          log:
+            file: main.log
+            range:
+              start: 774
+              end: 775
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \upharpoonleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 564
+              end: 564
+          log:
+            file: main.log
+            range:
+              start: 776
+              end: 776
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \downharpoonleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 565
+              end: 565
+          log:
+            file: main.log
+            range:
+              start: 777
+              end: 777
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \upharpoonright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 566
+              end: 566
+          log:
+            file: main.log
+            range:
+              start: 779
+              end: 779
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \restriction
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 567
+              end: 567
+          log:
+            file: main.log
+            range:
+              start: 780
+              end: 780
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \downharpoonright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 568
+              end: 568
+          log:
+            file: main.log
+            range:
+              start: 781
+              end: 782
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftrightharpoons
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 569
+              end: 569
+          log:
+            file: main.log
+            range:
+              start: 783
+              end: 784
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Leftarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 575
+              end: 575
+          log:
+            file: main.log
+            range:
+              start: 785
+              end: 785
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Rightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 576
+              end: 576
+          log:
+            file: main.log
+            range:
+              start: 786
+              end: 786
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Leftrightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 579
+              end: 579
+          log:
+            file: main.log
+            range:
+              start: 787
+              end: 787
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nLeftarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 581
+              end: 581
+          log:
+            file: main.log
+            range:
+              start: 788
+              end: 788
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nRightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 582
+              end: 582
+          log:
+            file: main.log
+            range:
+              start: 789
+              end: 789
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \nLeftrightarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 583
+              end: 583
+          log:
+            file: main.log
+            range:
+              start: 790
+              end: 790
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftleftarrows
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 593
+              end: 593
+          log:
+            file: main.log
+            range:
+              start: 792
+              end: 792
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightrightarrows
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 594
+              end: 594
+          log:
+            file: main.log
+            range:
+              start: 793
+              end: 794
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \upuparrows
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 595
+              end: 595
+          log:
+            file: main.log
+            range:
+              start: 795
+              end: 795
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \downdownarrows
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 596
+              end: 596
+          log:
+            file: main.log
+            range:
+              start: 796
+              end: 796
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftrightarrows
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 597
+              end: 597
+          log:
+            file: main.log
+            range:
+              start: 797
+              end: 797
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightleftarrows
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 598
+              end: 598
+          log:
+            file: main.log
+            range:
+              start: 799
+              end: 799
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rhook
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 612
+              end: 612
+          log:
+            file: main.log
+            range:
+              start: 801
+              end: 801
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \lhook
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 613
+              end: 613
+          log:
+            file: main.log
+            range:
+              start: 802
+              end: 802
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \diagup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 614
+              end: 614
+          log:
+            file: main.log
+            range:
+              start: 803
+              end: 803
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \diagdown
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 615
+              end: 615
+          log:
+            file: main.log
+            range:
+              start: 804
+              end: 804
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Lsh
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 617
+              end: 617
+          log:
+            file: main.log
+            range:
+              start: 805
+              end: 805
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \Rsh
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 619
+              end: 619
+          log:
+            file: main.log
+            range:
+              start: 806
+              end: 806
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \looparrowleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 624
+              end: 624
+          log:
+            file: main.log
+            range:
+              start: 807
+              end: 807
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \looparrowright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 626
+              end: 626
+          log:
+            file: main.log
+            range:
+              start: 808
+              end: 808
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \curvearrowleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 631
+              end: 631
+          log:
+            file: main.log
+            range:
+              start: 809
+              end: 809
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \curvearrowright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 633
+              end: 633
+          log:
+            file: main.log
+            range:
+              start: 810
+              end: 810
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \circlearrowleft
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 641
+              end: 641
+          log:
+            file: main.log
+            range:
+              start: 812
+              end: 812
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \circlearrowright
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 642
+              end: 642
+          log:
+            file: main.log
+            range:
+              start: 814
+              end: 815
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \rightsquigarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 645
+              end: 645
+          log:
+            file: main.log
+            range:
+              start: 816
+              end: 816
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \leftrightsquigarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 646
+              end: 646
+          log:
+            file: main.log
+            range:
+              start: 818
+              end: 819
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \oplus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 658
+              end: 658
+          log:
+            file: main.log
+            range:
+              start: 820
+              end: 820
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ominus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 659
+              end: 659
+          log:
+            file: main.log
+            range:
+              start: 821
+              end: 821
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \otimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 661
+              end: 661
+          log:
+            file: main.log
+            range:
+              start: 822
+              end: 822
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \odot
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 663
+              end: 663
+          log:
+            file: main.log
+            range:
+              start: 823
+              end: 823
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \oslash
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 675
+              end: 675
+          log:
+            file: main.log
+            range:
+              start: 824
+              end: 824
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \boxplus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 683
+              end: 683
+          log:
+            file: main.log
+            range:
+              start: 825
+              end: 825
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \boxminus
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 684
+              end: 684
+          log:
+            file: main.log
+            range:
+              start: 826
+              end: 826
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \boxtimes
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 686
+              end: 686
+          log:
+            file: main.log
+            range:
+              start: 827
+              end: 827
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \boxdot
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 688
+              end: 688
+          log:
+            file: main.log
+            range:
+              start: 828
+              end: 828
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \intop
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 753
+              end: 753
+          log:
+            file: main.log
+            range:
+              start: 834
+              end: 834
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \ointop
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 760
+              end: 760
+          log:
+            file: main.log
+            range:
+              start: 835
+              end: 835
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \lbrace
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 842
+              end: 842
+          log:
+            file: main.log
+            range:
+              start: 836
+              end: 836
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \{'
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 846
+              end: 846
+          log:
+            file: main.log
+            range:
+              start: 837
+              end: 837
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \rbrace
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 848
+              end: 848
+          log:
+            file: main.log
+            range:
+              start: 838
+              end: 838
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \}'
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 852
+              end: 852
+          log:
+            file: main.log
+            range:
+              start: 839
+              end: 839
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \langle
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 858
+              end: 858
+          log:
+            file: main.log
+            range:
+              start: 840
+              end: 840
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \rangle
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 859
+              end: 859
+          log:
+            file: main.log
+            range:
+              start: 841
+              end: 841
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \vert
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 863
+              end: 863
+          log:
+            file: main.log
+            range:
+              start: 842
+              end: 842
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \Vert
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 865
+              end: 865
+          log:
+            file: main.log
+            range:
+              start: 843
+              end: 843
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \uparrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 868
+              end: 868
+          log:
+            file: main.log
+            range:
+              start: 844
+              end: 844
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \downarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 869
+              end: 869
+          log:
+            file: main.log
+            range:
+              start: 845
+              end: 845
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \updownarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 870
+              end: 870
+          log:
+            file: main.log
+            range:
+              start: 846
+              end: 846
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \Uparrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 871
+              end: 871
+          log:
+            file: main.log
+            range:
+              start: 847
+              end: 847
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \Downarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 872
+              end: 872
+          log:
+            file: main.log
+            range:
+              start: 848
+              end: 848
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \Updownarrow
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 873
+              end: 873
+          log:
+            file: main.log
+            range:
+              start: 849
+              end: 849
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \lgroup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 880
+              end: 880
+          log:
+            file: main.log
+            range:
+              start: 850
+              end: 850
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \rgroup
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 881
+              end: 881
+          log:
+            file: main.log
+            range:
+              start: 851
+              end: 851
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \lceil
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 882
+              end: 882
+          log:
+            file: main.log
+            range:
+              start: 852
+              end: 852
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \rceil
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 883
+              end: 883
+          log:
+            file: main.log
+            range:
+              start: 853
+              end: 853
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \lfloor
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 884
+              end: 884
+          log:
+            file: main.log
+            range:
+              start: 854
+              end: 854
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math delimiter \rfloor
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 885
+              end: 885
+          log:
+            file: main.log
+            range:
+              start: 855
+              end: 855
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \braceld
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 903
+              end: 903
+          log:
+            file: main.log
+            range:
+              start: 856
+              end: 856
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \bracerd
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 905
+              end: 905
+          log:
+            file: main.log
+            range:
+              start: 857
+              end: 857
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \bracelu
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 907
+              end: 907
+          log:
+            file: main.log
+            range:
+              start: 858
+              end: 858
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math symbol \braceru
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 909
+              end: 909
+          log:
+            file: main.log
+            range:
+              start: 859
+              end: 859
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \widehat
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 944
+              end: 944
+          log:
+            file: main.log
+            range:
+              start: 860
+              end: 860
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring math accent \widetilde
+          source:
+            file: /usr/local/texlive/2017/texmf-dist/tex/generic/mathabx/mathabx.dcl
+            range:
+              start: 946
+              end: 946
+          log:
+            file: main.log
+            range:
+              start: 861
+              end: 861
+        - name: pdfTeX
+          severity: info
           text: inputenc 2015/03/17 v1.2c Input encoding file
           source:
             file: /usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
           log:
             file: main.log
             range:
-              start: 565
-              end: 565
+              start: 863
+              end: 863
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1461,8 +5153,8 @@ files:
           log:
             file: main.log
             range:
-              start: 880
-              end: 880
+              start: 1178
+              end: 1178
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1475,8 +5167,8 @@ files:
           log:
             file: main.log
             range:
-              start: 881
-              end: 881
+              start: 1179
+              end: 1179
         - name: pdfTeX
           severity: info
           text: cite 2015/02/27 v 5.5
@@ -1485,8 +5177,8 @@ files:
           log:
             file: main.log
             range:
-              start: 882
-              end: 882
+              start: 1180
+              end: 1180
         - name: pdfTeX
           severity: info
           text: subfiles 2012/05/23 Federico Garcia
@@ -1495,8 +5187,8 @@ files:
           log:
             file: main.log
             range:
-              start: 884
-              end: 884
+              start: 1182
+              end: 1182
         - name: pdfTeX
           severity: info
           text: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -1505,8 +5197,8 @@ files:
           log:
             file: main.log
             range:
-              start: 886
-              end: 886
+              start: 1184
+              end: 1184
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1514,13 +5206,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 900
-              end: 901
+              start: 1198
+              end: 1199
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1528,13 +5220,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 902
-              end: 903
+              start: 1200
+              end: 1201
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1542,13 +5234,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 904
-              end: 905
+              start: 1202
+              end: 1203
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1556,13 +5248,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 906
-              end: 907
+              start: 1204
+              end: 1205
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1570,27 +5262,27 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 908
-              end: 909
+              start: 1206
+              end: 1207
         - severity: info
           name: pdfTeX
           category: LaTeX Font
-          text: Checking defaults for U/cmr/m/n ... okay
+          text: Checking defaults for U/mathx/m/n ... okay
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 910
-              end: 911
+              start: 1208
+              end: 1209
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1598,13 +5290,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 912
-              end: 913
+              start: 1210
+              end: 1211
         - severity: info
           name: pdfTeX
           category: Package hyperref
@@ -1612,13 +5304,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 949
-              end: 949
+              start: 1247
+              end: 1247
         - name: pdfTeX
           severity: info
           text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1627,8 +5319,8 @@ files:
           log:
             file: main.log
             range:
-              start: 951
-              end: 951
+              start: 1249
+              end: 1249
         - name: pdfTeX
           severity: info
           text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -1638,8 +5330,8 @@ files:
           log:
             file: main.log
             range:
-              start: 953
-              end: 953
+              start: 1251
+              end: 1251
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1647,13 +5339,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 957
-              end: 957
+              start: 1255
+              end: 1255
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1661,13 +5353,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 958
-              end: 958
+              start: 1256
+              end: 1256
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1675,13 +5367,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 132
-              end: 132
+              start: 133
+              end: 133
           log:
             file: main.log
             range:
-              start: 959
-              end: 959
+              start: 1257
+              end: 1257
         - name: pdfTeX
           severity: info
           text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1691,8 +5383,8 @@ files:
           log:
             file: main.log
             range:
-              start: 979
-              end: 979
+              start: 1277
+              end: 1277
         - name: pdfTeX
           severity: info
           text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -1701,8 +5393,8 @@ files:
           log:
             file: main.log
             range:
-              start: 981
-              end: 981
+              start: 1279
+              end: 1279
         - severity: info
           name: pdfTeX
           category: Package epstopdf-base
@@ -1716,8 +5408,8 @@ files:
           log:
             file: main.log
             range:
-              start: 983
-              end: 984
+              start: 1281
+              end: 1282
         - severity: info
           name: pdfTeX
           category: Package grfext
@@ -1734,86 +5426,86 @@ files:
           log:
             file: main.log
             range:
-              start: 985
-              end: 988
+              start: 1283
+              end: 1286
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 993
-              end: 994
+              start: 1291
+              end: 1292
           source:
             file: main.tex
             range:
-              start: 137
-              end: 137
+              start: 138
+              end: 138
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1005
-              end: 1006
+              start: 1303
+              end: 1304
           source:
             file: main.tex
             range:
-              start: 137
-              end: 137
+              start: 138
+              end: 138
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1015
-              end: 1016
+              start: 1313
+              end: 1314
           source:
             file: main.tex
             range:
-              start: 137
-              end: 137
+              start: 138
+              end: 138
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1028
-              end: 1029
+              start: 1326
+              end: 1327
           source:
             file: main.tex
             range:
-              start: 143
-              end: 143
+              start: 144
+              end: 144
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1040
-              end: 1041
+              start: 1338
+              end: 1339
           source:
             file: main.tex
             range:
-              start: 143
-              end: 143
+              start: 144
+              end: 144
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1050
-              end: 1051
+              start: 1348
+              end: 1349
           source:
             file: main.tex
             range:
-              start: 143
-              end: 143
+              start: 144
+              end: 144
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1826,8 +5518,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1064
-              end: 1064
+              start: 1362
+              end: 1362
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1840,86 +5532,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1068
-              end: 1068
+              start: 1366
+              end: 1366
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1075
-              end: 1076
+              start: 1373
+              end: 1374
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1087
-              end: 1088
+              start: 1385
+              end: 1386
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1097
-              end: 1098
+              start: 1395
+              end: 1396
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1110
-              end: 1111
+              start: 1408
+              end: 1409
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1122
-              end: 1123
+              start: 1420
+              end: 1421
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 150
+              end: 150
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1132
-              end: 1133
+              start: 1430
+              end: 1431
           source:
             file: main.tex
             range:
-              start: 149
-              end: 149
+              start: 150
+              end: 150
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1932,8 +5624,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1150
-              end: 1150
+              start: 1448
+              end: 1448
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1948,16 +5640,16 @@ files:
           log:
             file: main.log
             range:
-              start: 1154
-              end: 1155
+              start: 1452
+              end: 1453
         - severity: error
           name: pdfTeX
           text: Misplaced alignment tab character &
           log:
             file: main.log
             range:
-              start: 1159
-              end: 1160
+              start: 1457
+              end: 1458
           source:
             file: Subfiles/January7.tex
             range:
@@ -1969,86 +5661,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1171
-              end: 1172
+              start: 1469
+              end: 1470
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1183
-              end: 1184
+              start: 1481
+              end: 1482
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1193
-              end: 1194
+              start: 1491
+              end: 1492
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1206
-              end: 1207
+              start: 1504
+              end: 1505
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1218
-              end: 1219
+              start: 1516
+              end: 1517
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1228
-              end: 1229
+              start: 1526
+              end: 1527
           source:
             file: main.tex
             range:
-              start: 150
-              end: 150
+              start: 151
+              end: 151
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1242
-              end: 1243
+              start: 1540
+              end: 1541
           source:
             file: Subfiles/January9.tex
             range:
@@ -2060,86 +5752,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1255
-              end: 1256
+              start: 1553
+              end: 1554
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1267
-              end: 1268
+              start: 1565
+              end: 1566
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1277
-              end: 1278
+              start: 1575
+              end: 1576
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1290
-              end: 1291
+              start: 1588
+              end: 1589
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1302
-              end: 1303
+              start: 1600
+              end: 1601
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1312
-              end: 1313
+              start: 1610
+              end: 1611
           source:
             file: main.tex
             range:
-              start: 151
-              end: 151
+              start: 152
+              end: 152
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1326
-              end: 1327
+              start: 1624
+              end: 1625
           source:
             file: Subfiles/January14.tex
             range:
@@ -2151,86 +5843,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1339
-              end: 1340
+              start: 1637
+              end: 1638
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1351
-              end: 1352
+              start: 1649
+              end: 1650
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1361
-              end: 1362
+              start: 1659
+              end: 1660
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1374
-              end: 1375
+              start: 1672
+              end: 1673
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1386
-              end: 1387
+              start: 1684
+              end: 1685
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1396
-              end: 1397
+              start: 1694
+              end: 1695
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 153
+              end: 153
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1410
-              end: 1411
+              start: 1708
+              end: 1709
           source:
             file: Subfiles/January16.tex
             range:
@@ -2242,8 +5934,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1422
-              end: 1423
+              start: 1720
+              end: 1721
           source:
             file: Subfiles/January16.tex
             range:
@@ -2255,8 +5947,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1433
-              end: 1434
+              start: 1731
+              end: 1732
           source:
             file: Subfiles/January16.tex
             range:
@@ -2268,8 +5960,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1445
-              end: 1446
+              start: 1743
+              end: 1744
           source:
             file: Subfiles/January16.tex
             range:
@@ -2281,8 +5973,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1457
-              end: 1458
+              start: 1755
+              end: 1756
           source:
             file: Subfiles/January16.tex
             range:
@@ -2294,86 +5986,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1466
-              end: 1467
+              start: 1764
+              end: 1765
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1478
-              end: 1479
+              start: 1776
+              end: 1777
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1488
-              end: 1489
+              start: 1786
+              end: 1787
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1501
-              end: 1502
+              start: 1799
+              end: 1800
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1513
-              end: 1514
+              start: 1811
+              end: 1812
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1523
-              end: 1524
+              start: 1821
+              end: 1822
           source:
             file: main.tex
             range:
-              start: 153
-              end: 153
+              start: 154
+              end: 154
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1537
-              end: 1538
+              start: 1835
+              end: 1836
           source:
             file: Subfiles/January21.tex
             range:
@@ -2385,8 +6077,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1549
-              end: 1550
+              start: 1847
+              end: 1848
           source:
             file: Subfiles/January21.tex
             range:
@@ -2398,8 +6090,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1560
-              end: 1561
+              start: 1858
+              end: 1859
           source:
             file: Subfiles/January21.tex
             range:
@@ -2411,86 +6103,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1571
-              end: 1572
+              start: 1869
+              end: 1870
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1583
-              end: 1584
+              start: 1881
+              end: 1882
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1593
-              end: 1594
+              start: 1891
+              end: 1892
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1606
-              end: 1607
+              start: 1904
+              end: 1905
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1618
-              end: 1619
+              start: 1916
+              end: 1917
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1628
-              end: 1629
+              start: 1926
+              end: 1927
           source:
             file: main.tex
             range:
-              start: 154
-              end: 154
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1642
-              end: 1643
+              start: 1940
+              end: 1941
           source:
             file: Subfiles/January23.tex
             range:
@@ -2502,8 +6194,8 @@ files:
           log:
             file: main.log
             range:
-              start: 1654
-              end: 1655
+              start: 1952
+              end: 1953
           source:
             file: Subfiles/January23.tex
             range:
@@ -2515,78 +6207,78 @@ files:
           log:
             file: main.log
             range:
-              start: 1667
-              end: 1668
+              start: 1965
+              end: 1966
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1679
-              end: 1680
+              start: 1977
+              end: 1978
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1689
-              end: 1690
+              start: 1987
+              end: 1988
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1702
-              end: 1703
+              start: 2000
+              end: 2001
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1714
-              end: 1715
+              start: 2012
+              end: 2013
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1724
-              end: 1725
+              start: 2022
+              end: 2023
           source:
             file: main.tex
             range:
-              start: 155
-              end: 155
+              start: 156
+              end: 156
         - severity: warning
           name: pdfTeX
           category: Package amsmath
@@ -2598,94 +6290,94 @@ files:
           log:
             file: main.log
             range:
-              start: 1739
-              end: 1741
+              start: 2037
+              end: 2039
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1744
-              end: 1745
+              start: 2042
+              end: 2043
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1756
-              end: 1757
+              start: 2054
+              end: 2055
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1766
-              end: 1767
+              start: 2064
+              end: 2065
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1779
-              end: 1780
+              start: 2077
+              end: 2078
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1791
-              end: 1792
+              start: 2089
+              end: 2090
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1801
-              end: 1802
+              start: 2099
+              end: 2100
           source:
             file: main.tex
             range:
-              start: 156
-              end: 156
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1815
-              end: 1816
+              start: 2113
+              end: 2114
           source:
             file: Subfiles/January30.tex
             range:
@@ -2697,86 +6389,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1826
-              end: 1827
+              start: 2124
+              end: 2125
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1838
-              end: 1839
+              start: 2136
+              end: 2137
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1848
-              end: 1849
+              start: 2146
+              end: 2147
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1861
-              end: 1862
+              start: 2159
+              end: 2160
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1873
-              end: 1874
+              start: 2171
+              end: 2172
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1883
-              end: 1884
+              start: 2181
+              end: 2182
           source:
             file: main.tex
             range:
-              start: 157
-              end: 157
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: \mathcal allowed only in math mode
           log:
             file: main.log
             range:
-              start: 1898
-              end: 1899
+              start: 2196
+              end: 2197
           source:
             file: Subfiles/February4.tex
             range:
@@ -2789,86 +6481,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1912
-              end: 1913
+              start: 2210
+              end: 2211
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1924
-              end: 1925
+              start: 2222
+              end: 2223
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1934
-              end: 1935
+              start: 2232
+              end: 2233
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 1947
-              end: 1948
+              start: 2245
+              end: 2246
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 1959
-              end: 1960
+              start: 2257
+              end: 2258
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 1969
-              end: 1970
+              start: 2267
+              end: 2268
           source:
             file: main.tex
             range:
-              start: 158
-              end: 158
+              start: 159
+              end: 159
         - severity: error
           name: pdfTeX
           text: Misplaced alignment tab character &
           log:
             file: main.log
             range:
-              start: 1983
-              end: 1984
+              start: 2281
+              end: 2282
           source:
             file: Subfiles/February6.tex
             range:
@@ -2880,86 +6572,86 @@ files:
           log:
             file: main.log
             range:
-              start: 1995
-              end: 1996
+              start: 2293
+              end: 2294
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2007
-              end: 2008
+              start: 2305
+              end: 2306
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2017
-              end: 2018
+              start: 2315
+              end: 2316
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 2030
-              end: 2031
+              start: 2328
+              end: 2329
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2042
-              end: 2043
+              start: 2340
+              end: 2341
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2052
-              end: 2053
+              start: 2350
+              end: 2351
           source:
             file: main.tex
             range:
-              start: 159
-              end: 159
+              start: 160
+              end: 160
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 2066
-              end: 2067
+              start: 2364
+              end: 2365
           source:
             file: Subfiles/February11.tex
             range:
@@ -2971,8 +6663,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2076
-              end: 2077
+              start: 2374
+              end: 2375
           source:
             file: Subfiles/February11.tex
             range:
@@ -2984,8 +6676,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2088
-              end: 2089
+              start: 2386
+              end: 2387
           source:
             file: Subfiles/February11.tex
             range:
@@ -2997,78 +6689,78 @@ files:
           log:
             file: main.log
             range:
-              start: 2101
-              end: 2102
+              start: 2399
+              end: 2400
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2113
-              end: 2114
+              start: 2411
+              end: 2412
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2123
-              end: 2124
+              start: 2421
+              end: 2422
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 2136
-              end: 2137
+              start: 2434
+              end: 2435
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2148
-              end: 2149
+              start: 2446
+              end: 2447
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 161
+              end: 161
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2158
-              end: 2159
+              start: 2456
+              end: 2457
           source:
             file: main.tex
             range:
-              start: 160
-              end: 160
+              start: 161
+              end: 161
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -3081,16 +6773,16 @@ files:
           log:
             file: main.log
             range:
-              start: 2172
-              end: 2172
+              start: 2470
+              end: 2470
         - severity: error
           name: pdfTeX
           text: 'Extra }, or forgotten $'
           log:
             file: main.log
             range:
-              start: 2176
-              end: 2177
+              start: 2474
+              end: 2475
           source:
             file: Subfiles/February13.tex
             range:
@@ -3102,86 +6794,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2187
-              end: 2188
-          source:
-            file: main.tex
-            range:
-              start: 161
-              end: 161
-        - severity: error
-          name: pdfTeX
-          text: 'Missing number, treated as zero'
-          log:
-            file: main.log
-            range:
-              start: 2199
-              end: 2200
-          source:
-            file: main.tex
-            range:
-              start: 161
-              end: 161
-        - severity: error
-          name: pdfTeX
-          text: Illegal unit of measure (pt inserted)
-          log:
-            file: main.log
-            range:
-              start: 2209
-              end: 2210
-          source:
-            file: main.tex
-            range:
-              start: 161
-              end: 161
-        - severity: error
-          name: pdfTeX
-          text: Undefined control sequence
-          log:
-            file: main.log
-            range:
-              start: 2222
-              end: 2223
-          source:
-            file: main.tex
-            range:
-              start: 161
-              end: 161
-        - severity: error
-          name: pdfTeX
-          text: 'Missing number, treated as zero'
-          log:
-            file: main.log
-            range:
-              start: 2234
-              end: 2235
-          source:
-            file: main.tex
-            range:
-              start: 161
-              end: 161
-        - severity: error
-          name: pdfTeX
-          text: Illegal unit of measure (pt inserted)
-          log:
-            file: main.log
-            range:
-              start: 2244
-              end: 2245
-          source:
-            file: main.tex
-            range:
-              start: 161
-              end: 161
-        - severity: error
-          name: pdfTeX
-          text: Undefined control sequence
-          log:
-            file: main.log
-            range:
-              start: 2258
-              end: 2259
+              start: 2485
+              end: 2486
           source:
             file: main.tex
             range:
@@ -3193,8 +6807,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2270
-              end: 2271
+              start: 2497
+              end: 2498
           source:
             file: main.tex
             range:
@@ -3206,8 +6820,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2280
-              end: 2281
+              start: 2507
+              end: 2508
           source:
             file: main.tex
             range:
@@ -3219,8 +6833,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2293
-              end: 2294
+              start: 2520
+              end: 2521
           source:
             file: main.tex
             range:
@@ -3232,8 +6846,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2305
-              end: 2306
+              start: 2532
+              end: 2533
           source:
             file: main.tex
             range:
@@ -3245,21 +6859,99 @@ files:
           log:
             file: main.log
             range:
-              start: 2315
-              end: 2316
+              start: 2542
+              end: 2543
           source:
             file: main.tex
             range:
               start: 162
               end: 162
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2556
+              end: 2557
+          source:
+            file: main.tex
+            range:
+              start: 163
+              end: 163
+        - severity: error
+          name: pdfTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 2568
+              end: 2569
+          source:
+            file: main.tex
+            range:
+              start: 163
+              end: 163
+        - severity: error
+          name: pdfTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 2578
+              end: 2579
+          source:
+            file: main.tex
+            range:
+              start: 163
+              end: 163
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 2591
+              end: 2592
+          source:
+            file: main.tex
+            range:
+              start: 163
+              end: 163
+        - severity: error
+          name: pdfTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 2603
+              end: 2604
+          source:
+            file: main.tex
+            range:
+              start: 163
+              end: 163
+        - severity: error
+          name: pdfTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 2613
+              end: 2614
+          source:
+            file: main.tex
+            range:
+              start: 163
+              end: 163
         - severity: error
           name: pdfTeX
           text: 'Extra }, or forgotten $'
           log:
             file: main.log
             range:
-              start: 2329
-              end: 2330
+              start: 2627
+              end: 2628
           source:
             file: Subfiles/February27.tex
             range:
@@ -3271,8 +6963,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2340
-              end: 2341
+              start: 2638
+              end: 2639
           source:
             file: Subfiles/February27.tex
             range:
@@ -3284,86 +6976,86 @@ files:
           log:
             file: main.log
             range:
-              start: 2351
-              end: 2352
+              start: 2649
+              end: 2650
           source:
             file: main.tex
             range:
-              start: 163
-              end: 163
+              start: 164
+              end: 164
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2363
-              end: 2364
+              start: 2661
+              end: 2662
           source:
             file: main.tex
             range:
-              start: 163
-              end: 163
+              start: 164
+              end: 164
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2373
-              end: 2374
+              start: 2671
+              end: 2672
           source:
             file: main.tex
             range:
-              start: 163
-              end: 163
+              start: 164
+              end: 164
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 2386
-              end: 2387
+              start: 2684
+              end: 2685
           source:
             file: main.tex
             range:
-              start: 163
-              end: 163
+              start: 164
+              end: 164
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2398
-              end: 2399
+              start: 2696
+              end: 2697
           source:
             file: main.tex
             range:
-              start: 163
-              end: 163
+              start: 164
+              end: 164
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2408
-              end: 2409
+              start: 2706
+              end: 2707
           source:
             file: main.tex
             range:
-              start: 163
-              end: 163
+              start: 164
+              end: 164
         - severity: error
           name: pdfTeX
           text: There's no line here to end
           log:
             file: main.log
             range:
-              start: 2423
-              end: 2424
+              start: 2721
+              end: 2722
           source:
             file: Subfiles/March3.tex
             range:
@@ -3376,8 +7068,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2438
-              end: 2439
+              start: 2736
+              end: 2737
           source:
             file: Subfiles/March3.tex
             range:
@@ -3390,8 +7082,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2452
-              end: 2453
+              start: 2750
+              end: 2751
           source:
             file: Subfiles/March3.tex
             range:
@@ -3404,8 +7096,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2467
-              end: 2468
+              start: 2765
+              end: 2766
           source:
             file: Subfiles/March3.tex
             range:
@@ -3417,8 +7109,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2477
-              end: 2478
+              start: 2775
+              end: 2776
           source:
             file: Subfiles/March3.tex
             range:
@@ -3430,8 +7122,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2489
-              end: 2490
+              start: 2787
+              end: 2788
           source:
             file: Subfiles/March3.tex
             range:
@@ -3444,86 +7136,86 @@ files:
           log:
             file: main.log
             range:
-              start: 2503
-              end: 2504
+              start: 2801
+              end: 2802
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 165
+              end: 165
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2515
-              end: 2516
+              start: 2813
+              end: 2814
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 165
+              end: 165
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2525
-              end: 2526
+              start: 2823
+              end: 2824
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 165
+              end: 165
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 2538
-              end: 2539
+              start: 2836
+              end: 2837
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 165
+              end: 165
         - severity: error
           name: pdfTeX
           text: 'Missing number, treated as zero'
           log:
             file: main.log
             range:
-              start: 2550
-              end: 2551
+              start: 2848
+              end: 2849
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 165
+              end: 165
         - severity: error
           name: pdfTeX
           text: Illegal unit of measure (pt inserted)
           log:
             file: main.log
             range:
-              start: 2560
-              end: 2561
+              start: 2858
+              end: 2859
           source:
             file: main.tex
             range:
-              start: 164
-              end: 164
+              start: 165
+              end: 165
         - severity: error
           name: pdfTeX
           text: Undefined control sequence
           log:
             file: main.log
             range:
-              start: 2574
-              end: 2575
+              start: 2872
+              end: 2873
           source:
             file: Subfiles/March5.tex
             range:
@@ -3535,8 +7227,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2586
-              end: 2587
+              start: 2884
+              end: 2885
           source:
             file: Subfiles/March5.tex
             range:
@@ -3548,8 +7240,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2598
-              end: 2599
+              start: 2896
+              end: 2897
           source:
             file: Subfiles/March5.tex
             range:
@@ -3561,8 +7253,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2607
-              end: 2608
+              start: 2905
+              end: 2906
           source:
             file: Subfiles/March5.tex
             range:
@@ -3574,8 +7266,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2617
-              end: 2618
+              start: 2915
+              end: 2916
           source:
             file: Subfiles/March5.tex
             range:
@@ -3587,8 +7279,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2629
-              end: 2630
+              start: 2927
+              end: 2928
           source:
             file: Subfiles/March5.tex
             range:
@@ -3600,8 +7292,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2638
-              end: 2639
+              start: 2936
+              end: 2937
           source:
             file: Subfiles/March5.tex
             range:
@@ -3613,8 +7305,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2650
-              end: 2651
+              start: 2948
+              end: 2949
           source:
             file: Subfiles/March5.tex
             range:
@@ -3626,8 +7318,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2662
-              end: 2663
+              start: 2960
+              end: 2961
           source:
             file: Subfiles/March5.tex
             range:
@@ -3639,8 +7331,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2674
-              end: 2675
+              start: 2972
+              end: 2973
           source:
             file: Subfiles/March5.tex
             range:
@@ -3652,8 +7344,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2683
-              end: 2684
+              start: 2981
+              end: 2982
           source:
             file: Subfiles/March5.tex
             range:
@@ -3665,8 +7357,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2695
-              end: 2696
+              start: 2993
+              end: 2994
           source:
             file: Subfiles/March5.tex
             range:
@@ -3678,8 +7370,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2704
-              end: 2705
+              start: 3002
+              end: 3003
           source:
             file: Subfiles/March5.tex
             range:
@@ -3691,8 +7383,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2716
-              end: 2717
+              start: 3014
+              end: 3015
           source:
             file: Subfiles/March5.tex
             range:
@@ -3704,8 +7396,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2728
-              end: 2729
+              start: 3026
+              end: 3027
           source:
             file: Subfiles/March5.tex
             range:
@@ -3717,8 +7409,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2737
-              end: 2738
+              start: 3035
+              end: 3036
           source:
             file: Subfiles/March5.tex
             range:
@@ -3730,8 +7422,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2748
-              end: 2749
+              start: 3046
+              end: 3047
           source:
             file: Subfiles/March5.tex
             range:
@@ -3743,8 +7435,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2760
-              end: 2761
+              start: 3058
+              end: 3059
           source:
             file: Subfiles/March5.tex
             range:
@@ -3756,8 +7448,8 @@ files:
           log:
             file: main.log
             range:
-              start: 2772
-              end: 2773
+              start: 3070
+              end: 3071
           source:
             file: Subfiles/March5.tex
             range:
@@ -3769,13 +7461,208 @@ files:
           log:
             file: main.log
             range:
-              start: 2784
-              end: 2785
+              start: 3082
+              end: 3083
           source:
             file: Subfiles/March5.tex
             range:
               start: 88
               end: 88
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 3095
+              end: 3096
+          source:
+            file: main.tex
+            range:
+              start: 166
+              end: 166
+        - severity: error
+          name: pdfTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 3107
+              end: 3108
+          source:
+            file: main.tex
+            range:
+              start: 166
+              end: 166
+        - severity: error
+          name: pdfTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 3117
+              end: 3118
+          source:
+            file: main.tex
+            range:
+              start: 166
+              end: 166
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 3130
+              end: 3131
+          source:
+            file: main.tex
+            range:
+              start: 166
+              end: 166
+        - severity: error
+          name: pdfTeX
+          text: 'Missing number, treated as zero'
+          log:
+            file: main.log
+            range:
+              start: 3142
+              end: 3143
+          source:
+            file: main.tex
+            range:
+              start: 166
+              end: 166
+        - severity: error
+          name: pdfTeX
+          text: Illegal unit of measure (pt inserted)
+          log:
+            file: main.log
+            range:
+              start: 3152
+              end: 3153
+          source:
+            file: main.tex
+            range:
+              start: 166
+              end: 166
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 3166
+              end: 3167
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 36
+              end: 36
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 3178
+              end: 3179
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 64
+              end: 64
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 3187
+              end: 3188
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 64
+              end: 64
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 3206
+              end: 3207
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 111
+              end: 111
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: main.log
+            range:
+              start: 3216
+              end: 3217
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 124
+              end: 124
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: main.log
+            range:
+              start: 3227
+              end: 3228
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 124
+              end: 124
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: main.log
+            range:
+              start: 3239
+              end: 3240
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 124
+              end: 124
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: main.log
+            range:
+              start: 3250
+              end: 3251
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 124
+              end: 124
+        - severity: error
+          name: pdfTeX
+          text: Undefined control sequence
+          log:
+            file: main.log
+            range:
+              start: 3262
+              end: 3263
+          source:
+            file: Subfiles/March10.tex
+            range:
+              start: 135
+              end: 135
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3783,13 +7670,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 167
-              end: 167
+              start: 169
+              end: 169
           log:
             file: main.log
             range:
-              start: 2797
-              end: 2797
+              start: 3275
+              end: 3275
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3797,13 +7684,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 167
-              end: 167
+              start: 169
+              end: 169
           log:
             file: main.log
             range:
-              start: 2798
-              end: 2798
+              start: 3276
+              end: 3276
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3811,13 +7698,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 167
-              end: 167
+              start: 169
+              end: 169
           log:
             file: main.log
             range:
-              start: 2800
-              end: 2800
+              start: 3278
+              end: 3278
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3825,26 +7712,26 @@ files:
           source:
             file: main.tex
             range:
-              start: 167
-              end: 167
+              start: 169
+              end: 169
           log:
             file: main.log
             range:
-              start: 2801
-              end: 2801
+              start: 3279
+              end: 3279
         - severity: info
           name: pdfTeX
           category: Package rerunfilecheck
           text: >-
             File `main.out' has not changed. Checksum:
-            140DEC9CF1714F18FA44125D76D4CB43;1376.
+            32320CFA87647B19C5BDC0CFFC72333A;1507.
           source:
             file: main.tex
           log:
             file: main.log
             range:
-              start: 2802
-              end: 2803
+              start: 3280
+              end: 3281
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -3852,22 +7739,21 @@ files:
           source:
             file: main.tex
             range:
-              start: 167
-              end: 167
+              start: 169
+              end: 169
           log:
             file: main.log
             range:
-              start: 2804
-              end: 2804
+              start: 3282
+              end: 3282
       inputs: []
-      outputs:
-        - main.pdf
+      outputs: []
       calls: []
     type: ParsedLaTeXLog
   main.pdf:
-    timeStamp: 2020-03-05T20:51:37.441Z
+    timeStamp: 2020-03-10T19:51:21.398Z
     jobNames: []
-    hash: iqsuDtaihvurPUgAQxACBmKzpRUorZFGRE5RJaAUtEg=
+    hash: f4bsNDDFBHr+0nS1xfgu+/nBpoyhuAJp6EGdQ6WYOks=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions

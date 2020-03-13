@@ -1,0 +1,147 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\begin{note}
+  \hspace{1em}
+  \begin{enumerate}
+    \item $\check{H}^0(B; \Z_2) = \underbrace{\Z_2 \oplus \dots \oplus \Z_2}_{\text{\# of connected components of $B$}}$
+    \item If $B = \brc{\text{pt}}$ then
+    \[
+    \check{H}^k(B; \Z_2) =
+    \begin{cases}
+      \Z_2 & \text{if $k=0$} \\
+      0 & \text{if $k > 0$}
+    \end{cases}
+    \end{cases}
+    \]
+  \end{enumerate}
+
+\end{note}
+
+Let $(E, B, \pi, \R^r)$ be a real vector bundle. There exist unique cohomology classes in $\check{H}^i(B; \Z_2)$ that satisfy the following axioms:
+
+\begin{enumerate}[\text{Axiom} 1:]
+
+  \item To each vector bundle $E$, there corresponds a sequence of cohomology classes $w_i(E) \in \check{H}^i(B; \Z_2)$ called the \emphp{Steifel-Whitney classes} of $E$. Also, $w_0(E) = 1 \in \check{H}^0(B; \Z_2)$ and $w_i(E) = 0$ for all $i > r = \text{rank}(E)$. Finally, we call $w_i(E)$ the $i^{th}$ \emphp{Steifel-Whitney class of $E$}.
+
+  \item (Naturality). If $f: N \to B$ is a smooth map with $N$ a smooth manifold, then
+  \[
+  w_i\br{f^*E} = f^*w_i(E)
+  \] for every $i$. In fact, if $(V, N, p, \R^l)$ is a real vector bundle and $F: V \to E$ is a vector bundle isomorphism covering the map $f: N \to B$, then
+  \[
+  w_i(V) = f^*(w_i(E))
+  \] for all $i$.
+
+  \item (The Whitney Product Theorem). If $E$ and $E^\prime$ are vector bundles on $B$, then
+  \[
+  w_i(E \oplus E^\prime) = \sum_{k + l = i} w_k(E) w_l(E^\prime).
+  \] In particular,
+  \al{w_1(E \oplus E^\prime) &= w_0(E)w_1(E^\prime) + w_1(E)w_0(E^\prime) \\
+   &= w_1(E) + w_1(E^\prime) \\
+   w_2(E \oplus E^\prime) &= w_2(E) + w_1(E)w_1(E^\prime) + w_2(E^\prime),} etc.
+
+   \item (Normalization). For the tautological line bundle $\gamma_{\mb{P}^1}^1$ over $\mb{P}^1$, we have $w_1(\gamma_{\mb{P}^1}^1) = 1$.
+
+ \end{enumerate}
+
+\begin{note}
+  Axiom 4 ensures that there exist vector bundles with non-zero $i^{th}$ Steifel-Whitney classes for $i > 0$.
+\end{note}
+
+How does one prove that such classes exist? One shows that if the exist, they are unique, and then one constructs a set of cohomology classes that satisfy Axioms $1 --- 4$.
+
+\subsection{Consequences of the 4 axioms}
+
+\begin{prop}
+  If $E$, $E^\prime$ are vector bundles on $B$ that are isomorphic, then
+  \[
+  w_i(E) = w_i(E^\prime)
+  \] for all $i$.
+\end{prop}
+
+\begin{proof}
+  From Axiom 2. There exists an isomorphism $F: E \to E^\prime$ covering $\id{B}: B\to B$. Hence $w_i(E) = \id{B}^*\br{w_i(E^\prime)} = w_i(E^\prime)$ for all $i$.
+\end{proof}
+
+\begin{prop}
+  Let $E = \underline{\R}^r = B \times \R^r$ be the trivial bundle of rank $r$ over $B$. Then $w_i(\underline{\R}^r) = 0$ for all $i > 0$.
+\end{prop}
+
+\begin{proof}
+  Let $f: B \to \brc{pt}$ be the constant map and consider the trivial bundle $V = \brc{pt} \times \R^r$. Then $\underline{\R}^r = f^*(V)$. By Axiom 2,
+  \[
+  w_i(\underline{\R}^r) = f^*\br{ w_i(V)}
+  \] with $w_i(V) \in \check{H}^i(\brc{pt}, \Z_2) = 0$ for all $i$. So $w_i(\underline{\R}^r) = 0$ for all $i$.
+\end{proof}
+
+\begin{cor}
+  If $w_i(E) \neq 0$ for some $i > 0$, then $E$ is not trivial.
+\end{cor}
+
+\begin{prop}
+  $w_i\br{ \underline{\R}^s \oplus E} = w_i(E)$ for all $i$.
+\end{prop}
+
+\begin{proof}
+  By Axiom 3, we have
+  \al{
+  w_i(\br{\underline{\R}^s \oplus E}) &= \sum_{k + l = i} w_k(\underline{\R}^s)w_l(E)\\
+  &= \underbrace{w_0(\underline{\R}^s)}_{= 1}w_i(E)  + 0  \\
+  &= w_i(E).
+  }
+\end{proof}
+
+\begin{prop}
+  Suppose that $E$ has rank $r$ and possesses a nowhere-vanishing section. Then $w_r(E) = 0$. More generally, if $E$ has $l$ linearly-independent sections, then $w_{r - l + 1}(E) = \dots = w_r(E) = 0$.
+\end{prop}
+
+\begin{proof}
+  Since $E$ has $l$ linearly independent sections, they span a subbundle $V$ of $E$ of rank $l$ that is trivial. Write $E = V \oplus V^\perp \cong \underline{\R}^l \oplus V^\perp$, by picking any Riemannian metric on $E$. Then by Proposition 3, $w_i(E) = w_i(V^\perp) = 0$ for all $i > r - l$.
+\end{proof}
+
+\begin{note}
+  The converse is not true: One can show that $w_i(TS^n) = 0$ for all $i > 0$ and $n \in \N$. But, when $n$ is even, there is not even {\it one} nowhere-vanishing sections by the Hairy-Ball Theorem.
+\end{note}
+
+\subsection{Orientability and the First Steifel-Whitney Class}
+
+\begin{defn}
+  $E$ is orientable is \emphp{orientable} if and only if there exists a vector bundle atlas $\brc{\br{U_\alpha, \varphi_\alpha}}$ such that $\det\br{\ol{g}_{\alpha \beta}} > 0$ for all $\alpha, \beta$.
+\end{defn}
+
+\begin{exmp}
+  \hspace{1em}
+  \begin{enumerate}
+    \item $E = B \times \R^r$ is orientable.
+    \item If $M$ is a smooth manifold, then $TM$ is orientable $\iff$ $M$ is orientable.
+    \item Recall that a manifold $M$ is orientable iff $\bigwedge^n T^*M$ is trivial. One has similarly that:
+  \end{enumerate}
+\end{exmp}
+
+\begin{prop}
+  $E$ is orientable if and only if $\bigwedge^r E$ is trivial, where $r = \text{rank}(E)$. In particular, a line bundle is orintable if and only if it is trivial.
+\end{prop}
+
+\begin{note}
+  Not all vector bundles as orientable. For example, $\gamma^1_{\mb{P}^1}$ is not orientable (because it is non-trivial).
+\end{note}
+
+How can one define the first Steifel-Whitney class of a vector bundle $E$? Let $\brc{ \br{U_\alpha, \varphi_\alpha} }$ be a vector bundle atlas of $E$ such that $U_\alpha \cap U_\beta$ are empty or contractible. We define
+$f_{\alpha \beta } = \text{sgn}(\det(\ol{g}_{\alpha \beta})) \in \brc{\pm 1}$. Set $w_{\alpha\beta}^1 \in \Z_2$ to be the number such that $f_{\alpha\beta} = (-1)^{w_{\alphab\beta}^1}$. Then $\sigma = \brc{w_{\alpha\beta}^1 } \in C^1(B; \Z_2)$.
+Also,
+\al{
+(\delta \sigma)_{\alpha\beta\gamma} &= w^1_{\beta\gamma} + w^1_{\alpha \gamma} + w^{1}_{\beta \gamma} = 0
+}
+because $\ol{g}_{\alpha\beta} \ol{g}_{\beta\gamma} \ol{g}_{\gamma \alpha} = \text{id}$. Thus, $\det(\ol{g}_{\alpha\beta} \ol{g}_{\beta\gamma} \ol{g}_{\gamma \alpha}) = 1$.
+ So $f_{\alpha\beta} f_{\beta \gamma} f_{\gamma \alpha} = 1$. Thus, $(-1)^{w_{\alpha\beta}^1 + w_{\beta\gamma}^1 + w_{\gamma \alpha}^1} = 1$.
+
+ \begin{defn}
+   Set $w_1(E) = [\brc{w_{\alpha\beta}^1}]$ to be the first Stefel-Whitney class.
+ \end{defn}
+
+ \begin{prop}
+   $E$ is orientable iff $w_1(E) = 0$.
+ \end{prop}
+
+\end{document}

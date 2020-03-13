@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 MAR 2020 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 MAR 2020 15:50
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **main.tex
-(/Users/Brennen/Documents/GitHub/PMATH-965/main.tex
+(./main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -1192,7 +1191,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \c@lemma=\count141
 \c@cor=\count142
 \c@thm=\count143
-(/Users/Brennen/Documents/GitHub/PMATH-965/main.aux)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
@@ -1255,8 +1254,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 133.
 LaTeX Info: Redefining \pageref on input line 133.
 LaTeX Info: Redefining \nameref on input line 133.
-(/Users/Brennen/Documents/GitHub/PMATH-965/main.out) (/Users/Brennen/Documents/
-GitHub/PMATH-965/main.out)
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1288,8 +1286,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )) ABD: EveryShipout initializing macros
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:138: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.138     \hrulefill
@@ -1300,8 +1297,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:138: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.138     \hrulefill{
@@ -1310,8 +1306,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:138: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.138     \hrulefill{
@@ -1323,8 +1318,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:144: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.144     \hrulefill
@@ -1335,8 +1329,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:144: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.144     \hrulefill{
@@ -1345,8 +1338,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:144: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.144     \hrulefill{
@@ -1358,7 +1350,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/main.toc
+(./main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1370,8 +1362,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:150: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.150 \lecture{1}{January}{7}
@@ -1382,8 +1373,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:150: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.150 \lecture{1}{January}{7}
@@ -1392,8 +1382,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:150: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.150 \lecture{1}{January}{7}
@@ -1405,8 +1394,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:150: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.150 \lecture{1}{January}{7}
@@ -1417,8 +1405,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:150: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.150 \lecture{1}{January}{7}
@@ -1427,8 +1414,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:150: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.150 \lecture{1}{January}{7}
@@ -1440,7 +1426,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January7.tex
+(./Subfiles/January7.tex
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
@@ -1454,8 +1440,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January7.tex:50: Misplaced a
-lignment tab character &.
+! Misplaced alignment tab character &.
 l.50         (z_0, z_1) &
                          = \lambda \br{ \frac{z}{\sqrt{2(1-x)}} , \sqrt{\fra...
 I can't figure out why you would want to use a tab mark
@@ -1466,8 +1451,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ) [2]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:151: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.151 \lecture{2}{January}{9}
@@ -1478,8 +1462,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:151: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.151 \lecture{2}{January}{9}
@@ -1488,8 +1471,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:151: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.151 \lecture{2}{January}{9}
@@ -1501,8 +1483,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:151: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.151 \lecture{2}{January}{9}
@@ -1513,8 +1494,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:151: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.151 \lecture{2}{January}{9}
@@ -1523,8 +1503,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:151: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.151 \lecture{2}{January}{9}
@@ -1536,9 +1515,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January9.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January9.tex:28: Undefined c
-ontrol sequence.
+(./Subfiles/January9.tex
+! Undefined control sequence.
 <recently read> \varephi 
                          
 l.28 ...t B$ of $b$ and a diffeomorphism $\varephi
@@ -1550,8 +1528,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3]) [4]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:152: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.152 \lecture{3}{January}{14}
@@ -1562,8 +1539,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:152: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.152 \lecture{3}{January}{14}
@@ -1572,8 +1548,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:152: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.152 \lecture{3}{January}{14}
@@ -1585,8 +1560,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:152: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.152 \lecture{3}{January}{14}
@@ -1597,8 +1571,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:152: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.152 \lecture{3}{January}{14}
@@ -1607,8 +1580,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:152: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.152 \lecture{3}{January}{14}
@@ -1620,9 +1592,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January14.tex [5]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January14.tex:103: Undefined
- control sequence.
+(./Subfiles/January14.tex [5]
+! Undefined control sequence.
 <argument> U_\alpha , \varhi 
                              _\alpha 
 l.103 ...as $ \brc{ \br{U_\alpha, \varhi_\alpha} }
@@ -1634,8 +1605,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) [6]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:153: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.153 \lecture{4}{January}{16}
@@ -1646,8 +1616,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:153: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.153 \lecture{4}{January}{16}
@@ -1656,8 +1625,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:153: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.153 \lecture{4}{January}{16}
@@ -1669,8 +1637,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:153: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.153 \lecture{4}{January}{16}
@@ -1681,8 +1648,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:153: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.153 \lecture{4}{January}{16}
@@ -1691,8 +1657,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:153: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.153 \lecture{4}{January}{16}
@@ -1704,9 +1669,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January16.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January16.tex:26: Undefined 
-control sequence.
+(./Subfiles/January16.tex
+! Undefined control sequence.
 <argument> U_\alpha , \varphi _\slpha 
                                       
 l.26 \item $\brc{ \br{U_\alpha, \varphi_\slpha } }
@@ -1717,8 +1681,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January16.tex:26: Missing { 
-inserted.
+! Missing { inserted.
 <to be read again> 
                    \right 
 l.26 \item $\brc{ \br{U_\alpha, \varphi_\slpha } }
@@ -1728,8 +1691,7 @@ You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January16.tex:26: Missing } 
-inserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.26 \item $\brc{ \br{U_\alpha, \varphi_\slpha } }
@@ -1740,8 +1702,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January16.tex:56: Undefined 
-control sequence.
+! Undefined control sequence.
 <argument> U_\alpha \capU 
                           _\beta 
 l.56 ...\cap U_\beta} = H\rst{U_\alpha\capU_\beta}
@@ -1752,8 +1713,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January16.tex:56: Double sub
-script.
+! Double subscript.
 <argument> U_\alpha \capU _
                            \beta 
 l.56 ...\cap U_\beta} = H\rst{U_\alpha\capU_\beta}
@@ -1761,8 +1721,7 @@ l.56 ...\cap U_\beta} = H\rst{U_\alpha\capU_\beta}
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 [7]) [8]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:154: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.154 \lecture{5}{January}{21}
@@ -1773,8 +1732,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:154: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.154 \lecture{5}{January}{21}
@@ -1783,8 +1741,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:154: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.154 \lecture{5}{January}{21}
@@ -1796,8 +1753,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:154: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.154 \lecture{5}{January}{21}
@@ -1808,8 +1764,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:154: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.154 \lecture{5}{January}{21}
@@ -1818,8 +1773,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:154: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.154 \lecture{5}{January}{21}
@@ -1831,9 +1785,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January21.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January21.tex:13: Undefined 
-control sequence.
+(./Subfiles/January21.tex
+! Undefined control sequence.
 <argument> \R ^{n+1} \setmins 
                               \brc {0}
 l.13 ...thbb{P}^1 = \br{\R^{n+1} \setmins \brc{0}}
@@ -1844,8 +1797,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January21.tex:44: Misplaced 
-alignment tab character &.
+! Misplaced alignment tab character &.
 l.44 \varphi_i\rst{E_{[x]}} : E_{[x]} &
                                        \mapsto \brc{[x]} \times \R^1
 I can't figure out why you would want to use a tab mark
@@ -1855,8 +1807,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January21.tex:47: Undefined 
-control sequence.
+! Undefined control sequence.
 l.47 ...R$. Then $v + \alpha v^\prime = (t+\alphat
                                                   ^\prime)\br{x_1/x_i, \dots...
 The control sequence at the end of the top line
@@ -1866,8 +1817,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [9]) [10]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:155: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.155 \lecture{6}{January}{23}
@@ -1878,8 +1828,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:155: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.155 \lecture{6}{January}{23}
@@ -1888,8 +1837,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:155: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.155 \lecture{6}{January}{23}
@@ -1901,8 +1849,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:155: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.155 \lecture{6}{January}{23}
@@ -1913,8 +1860,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:155: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.155 \lecture{6}{January}{23}
@@ -1923,8 +1869,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:155: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.155 \lecture{6}{January}{23}
@@ -1936,9 +1881,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January23.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January23.tex:23: Undefined 
-control sequence.
+(./Subfiles/January23.tex
+! Undefined control sequence.
 <argument> \varphi _\alpha \circ \sigma _\apha 
                                                : U_\alpha &\to U_\alpha \tim...
 l.23  b &\mapsto (b, \overline{\sigma}_\alpha(b))}
@@ -1949,8 +1893,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January23.tex:23: Undefined 
-control sequence.
+! Undefined control sequence.
 <argument> \varphi _\alpha \circ \sigma _\apha 
                                                : U_\alpha &\to U_\alpha \tim...
 l.23  b &\mapsto (b, \overline{\sigma}_\alpha(b))}
@@ -1962,8 +1905,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [11] [12]) [13]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:156: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.156 \lecture{7}{January}{28}
@@ -1974,8 +1916,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:156: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.156 \lecture{7}{January}{28}
@@ -1984,8 +1925,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:156: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.156 \lecture{7}{January}{28}
@@ -1997,8 +1937,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:156: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.156 \lecture{7}{January}{28}
@@ -2009,8 +1948,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:156: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.156 \lecture{7}{January}{28}
@@ -2019,8 +1957,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:156: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.156 \lecture{7}{January}{28}
@@ -2032,15 +1969,14 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January28.tex [14]
+(./Subfiles/January28.tex [14]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 104.
 
 [15]) [16]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:157: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.157 \lecture{8}{January}{30}
@@ -2051,8 +1987,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:157: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.157 \lecture{8}{January}{30}
@@ -2061,8 +1996,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:157: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.157 \lecture{8}{January}{30}
@@ -2074,8 +2008,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:157: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.157 \lecture{8}{January}{30}
@@ -2086,8 +2019,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:157: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.157 \lecture{8}{January}{30}
@@ -2096,8 +2028,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:157: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.157 \lecture{8}{January}{30}
@@ -2109,9 +2040,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January30.tex [17]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/January30.tex:89: Undefined 
-control sequence.
+(./Subfiles/January30.tex [17]
+! Undefined control sequence.
 l.89 ...$\brc{e_i^\alpha}$. Note that on $U_\alhpa
                                                    \cap U_\beta$, the change...
 The control sequence at the end of the top line
@@ -2121,8 +2051,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [18]) [19]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:158: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.158 \lecture{9}{February}{4}
@@ -2133,8 +2062,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:158: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.158 \lecture{9}{February}{4}
@@ -2143,8 +2071,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:158: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.158 \lecture{9}{February}{4}
@@ -2156,8 +2083,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:158: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.158 \lecture{9}{February}{4}
@@ -2168,8 +2094,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:158: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.158 \lecture{9}{February}{4}
@@ -2178,8 +2103,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:158: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.158 \lecture{9}{February}{4}
@@ -2191,10 +2115,9 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February4.tex
+(./Subfiles/February4.tex
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February4.tex:39: LaTeX Erro
-r: \mathcal allowed only in math mode.
+! LaTeX Error: \mathcal allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2207,8 +2130,7 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [20] [21]) [22]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:159: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.159 \lecture{10}{February}{6}
@@ -2219,8 +2141,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:159: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.159 \lecture{10}{February}{6}
@@ -2229,8 +2150,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:159: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.159 \lecture{10}{February}{6}
@@ -2242,8 +2162,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:159: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.159 \lecture{10}{February}{6}
@@ -2254,8 +2173,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:159: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.159 \lecture{10}{February}{6}
@@ -2264,8 +2182,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:159: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.159 \lecture{10}{February}{6}
@@ -2277,9 +2194,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February6.tex [23]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February6.tex:140: Misplaced
- alignment tab character &.
+(./Subfiles/February6.tex [23]
+! Misplaced alignment tab character &.
 l.140         D: \Omega^0(E) &
                               \to \Omega^1(E)
 I can't figure out why you would want to use a tab mark
@@ -2290,8 +2206,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [24]) [25]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.160 \lecture{11}{February}{11}
@@ -2302,8 +2217,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.160 \lecture{11}{February}{11}
@@ -2312,8 +2226,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.160 \lecture{11}{February}{11}
@@ -2325,8 +2238,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.160 \lecture{11}{February}{11}
@@ -2337,8 +2249,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.160 \lecture{11}{February}{11}
@@ -2347,8 +2258,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:160: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.160 \lecture{11}{February}{11}
@@ -2360,9 +2270,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February11.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February11.tex:16: Undefined
- control sequence.
+(./Subfiles/February11.tex
+! Undefined control sequence.
 l.16   D(\omega \ot \sigma ) = d\omeg
                                       a\ot \sigma + (-1)^p \omega \wedge D(\...
 The control sequence at the end of the top line
@@ -2371,8 +2280,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February11.tex:39: Undefined
- control sequence.
+! Undefined control sequence.
 <argument> ...omega ) \ot \sigma } \\ &= d(a\lpha 
                                                   \wedge \omega )\ot \sigma ...
 l.39   }
@@ -2383,8 +2291,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February11.tex:39: Undefined
- control sequence.
+! Undefined control sequence.
 <argument> ...omega ) \ot \sigma } \\ &= d(a\lpha 
                                                   \wedge \omega )\ot \sigma ...
 l.39   }
@@ -2396,8 +2303,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [26] [27]) [28]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:161: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.161 \lecture{12}{February}{13}
@@ -2408,8 +2314,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:161: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.161 \lecture{12}{February}{13}
@@ -2418,8 +2323,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:161: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.161 \lecture{12}{February}{13}
@@ -2431,8 +2335,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:161: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.161 \lecture{12}{February}{13}
@@ -2443,8 +2346,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:161: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.161 \lecture{12}{February}{13}
@@ -2453,8 +2355,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:161: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.161 \lecture{12}{February}{13}
@@ -2466,13 +2367,12 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February13.tex
+(./Subfiles/February13.tex
 LaTeX Font Info:    Try loading font information for U+euf on input line 28.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [29] [30]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February13.tex:128: Extra },
- or forgotten $.
+! Extra }, or forgotten $.
 l.128 ...es on $B$, then $\sect{\Hom{}{E_1, E_2}}}
                                                   $ is identified with the set
 I've deleted a group-closing symbol because it seems to be
@@ -2482,8 +2382,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ) [31]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:162: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.162 \lecture{13}{February}{25}
@@ -2494,8 +2393,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:162: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.162 \lecture{13}{February}{25}
@@ -2504,8 +2402,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:162: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.162 \lecture{13}{February}{25}
@@ -2517,8 +2414,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:162: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.162 \lecture{13}{February}{25}
@@ -2529,8 +2425,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:162: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.162 \lecture{13}{February}{25}
@@ -2539,8 +2434,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:162: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.162 \lecture{13}{February}{25}
@@ -2552,9 +2446,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February25.tex [32]) [33]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:163: Undefined control seque
-nce.
+(./Subfiles/February25.tex [32]) [33]
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.163 \lecture{14}{February}{27}
@@ -2565,8 +2458,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:163: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.163 \lecture{14}{February}{27}
@@ -2575,8 +2467,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:163: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.163 \lecture{14}{February}{27}
@@ -2588,8 +2479,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:163: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.163 \lecture{14}{February}{27}
@@ -2600,8 +2490,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:163: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.163 \lecture{14}{February}{27}
@@ -2610,8 +2499,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:163: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.163 \lecture{14}{February}{27}
@@ -2623,9 +2511,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February27.tex [34]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February27.tex:99: Extra }, 
-or forgotten $.
+(./Subfiles/February27.tex [34]
+! Extra }, or forgotten $.
 l.99 ...rtl{}{x_1}}\rst{e}, \partl{}{x_2}\rst{e} }
                                                   $ and $V_e = \text{span}\b...
 I've deleted a group-closing symbol because it seems to be
@@ -2635,8 +2522,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [35]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/February27.tex:129: Undefine
-d control sequence.
+! Undefined control sequence.
 l.129     Note that $D \simga
                              = 0$ if and only if $D_X \sigma = 0$ for all $X...
 The control sequence at the end of the top line
@@ -2646,8 +2532,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) [36]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:164: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.164 \lecture{15}{March}{3}
@@ -2658,8 +2543,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:164: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.164 \lecture{15}{March}{3}
@@ -2668,8 +2552,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:164: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.164 \lecture{15}{March}{3}
@@ -2681,8 +2564,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:164: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.164 \lecture{15}{March}{3}
@@ -2693,8 +2575,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:164: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.164 \lecture{15}{March}{3}
@@ -2703,8 +2584,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:164: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.164 \lecture{15}{March}{3}
@@ -2716,10 +2596,9 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex
+(./Subfiles/March3.tex
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex:52: LaTeX Error: 
-There's no line here to end.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2733,8 +2612,7 @@ or  <return>  to continue without it.
 
 [37]
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex:70: LaTeX Error: 
-\begin{exmp} on input line 51 ended by \end{enumerate}.
+! LaTeX Error: \begin{exmp} on input line 51 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2747,8 +2625,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex:71: LaTeX Error: 
-\begin{document} on input line 3 ended by \end{exmp}.
+! LaTeX Error: \begin{document} on input line 3 ended by \end{exmp}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2762,8 +2639,7 @@ or  <return>  to continue without it.
 
 Runaway argument?
 {proof 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex:121: Paragraph en
-ded before \end was complete.
+! Paragraph ended before \end was complete.
 <to be read again> 
                    \par 
 l.121 
@@ -2772,8 +2648,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex:134: Misplaced al
-ignment tab character &.
+! Misplaced alignment tab character &.
 l.134 ...artl{}{x_i} \br{ g(\sigma_1, \sigma_2)} &
                                                   = \partl{}{x_i}\br{\ol{\si...
 I can't figure out why you would want to use a tab mark
@@ -2784,8 +2659,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March3.tex:161: LaTeX Error:
- \begin{proof} on input line 118 ended by \end{document}.
+! LaTeX Error: \begin{proof} on input line 118 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -2798,8 +2672,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) [38]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:165: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.165 \lecture{16}{March}{5}
@@ -2810,8 +2683,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:165: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.165 \lecture{16}{March}{5}
@@ -2820,8 +2692,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:165: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.165 \lecture{16}{March}{5}
@@ -2833,8 +2704,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:165: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.165 \lecture{16}{March}{5}
@@ -2845,8 +2715,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:165: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.165 \lecture{16}{March}{5}
@@ -2855,8 +2724,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:165: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.165 \lecture{16}{March}{5}
@@ -2868,9 +2736,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Undefined con
-trol sequence.
+(./Subfiles/March5.tex
+! Undefined control sequence.
 <argument>  & g\br {\nabla ^1_X Y, Z} = g\nr 
                                              { \nabla _X^2 Y, Z} \\ \implies...
 l.53   }
@@ -2881,8 +2748,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing } ins
-erted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.53   }
@@ -2893,8 +2759,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing $ ins
-erted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.53   }
@@ -2902,8 +2767,7 @@ l.53   }
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing { ins
-erted.
+! Missing { inserted.
 <inserted text> 
                 {
 l.53   }
@@ -2912,8 +2776,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Extra }, or f
-orgotten $.
+! Extra }, or forgotten $.
 <recently read> }
                  
 l.53   }
@@ -2924,8 +2787,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing $ ins
-erted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.53   }
@@ -2933,8 +2795,7 @@ l.53   }
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing } ins
-erted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.53   }
@@ -2945,8 +2806,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Undefined con
-trol sequence.
+! Undefined control sequence.
 <argument>  & g\br {\nabla ^1_X Y, Z} = g\nr 
                                              { \nabla _X^2 Y, Z} \\ \implies...
 l.53   }
@@ -2957,8 +2817,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing } ins
-erted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.53   }
@@ -2969,8 +2828,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing $ ins
-erted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.53   }
@@ -2978,8 +2836,7 @@ l.53   }
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Extra }, or f
-orgotten $.
+! Extra }, or forgotten $.
 <recently read> }
                  
 l.53   }
@@ -2990,8 +2847,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing $ ins
-erted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.53   }
@@ -2999,8 +2855,7 @@ l.53   }
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing \endg
-roup inserted.
+! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
 l.53   }
@@ -3011,8 +2866,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing } ins
-erted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.53   }
@@ -3023,8 +2877,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Misplaced \om
-it.
+! Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
 l.53   }
@@ -3032,8 +2885,7 @@ l.53   }
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:53: Missing { ins
-erted.
+! Missing { inserted.
 <inserted text> 
                 {
 l.53   }
@@ -3043,8 +2895,7 @@ the current column of the current alignment.
 Try to go on, since this might almost work.
 
 [39]
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:88: Misplaced \sp
-an.
+! Misplaced \span.
 <argument> \span 
                  
 l.88 ...ubset \sect{U, E}$ such that $\text{\span}
@@ -3055,8 +2906,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:88: Misplaced \sp
-an.
+! Misplaced \span.
 <argument> \firstchoice@false \span 
                                     
 l.88 ...ubset \sect{U, E}$ such that $\text{\span}
@@ -3067,8 +2917,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:88: Misplaced \sp
-an.
+! Misplaced \span.
 <argument> \firstchoice@false \span 
                                     
 l.88 ...ubset \sect{U, E}$ such that $\text{\span}
@@ -3079,8 +2928,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March5.tex:88: Misplaced \sp
-an.
+! Misplaced \span.
 <argument> \firstchoice@false \span 
                                     
 l.88 ...ubset \sect{U, E}$ such that $\text{\span}
@@ -3092,8 +2940,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ) [40]
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:166: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.166 \lecture{17}{March}{10}
@@ -3104,8 +2951,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:166: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.166 \lecture{17}{March}{10}
@@ -3114,8 +2960,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:166: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.166 \lecture{17}{March}{10}
@@ -3127,8 +2972,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:166: Undefined control seque
-nce.
+! Undefined control sequence.
 \hrulefill ...rs \hrule height 1pt\hfill \kern \z 
                                                   
 l.166 \lecture{17}{March}{10}
@@ -3139,8 +2983,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:166: Missing number, treated
- as zero.
+! Missing number, treated as zero.
 <to be read again> 
                    {
 l.166 \lecture{17}{March}{10}
@@ -3149,8 +2992,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/main.tex:166: Illegal unit of measure
- (pt inserted).
+! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
 l.166 \lecture{17}{March}{10}
@@ -3162,9 +3004,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-(/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:36: Undefined co
-ntrol sequence.
+(./Subfiles/March10.tex
+! Undefined control sequence.
 <recently read> \U 
                    
 l.36 ...U_\alpha}$ open cover of $B$ such that $\U
@@ -3175,8 +3016,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:64: Missing $ in
-serted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.64     Z^
@@ -3184,8 +3024,7 @@ l.64     Z^
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:64: Missing $ in
-serted.
+! Missing $ inserted.
 <inserted text> 
                 $
 l.64 ... the set of \emphp{k-cocycles} for $k \geq
@@ -3203,8 +3042,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:111: Undefined c
-ontrol sequence.
+! Undefined control sequence.
 l.111 ... \cap \tilde{U}_{\alpha_k} \neq \emtpyset
                                                   $.
 The control sequence at the end of the top line
@@ -3213,8 +3051,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:124: Missing { i
-nserted.
+! Missing { inserted.
 <to be read again> 
                    $
 l.124 ...ist unique cohomology classes in $\check^
@@ -3224,8 +3061,7 @@ You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:124: Missing } i
-nserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.124 ...ist unique cohomology classes in $\check^
@@ -3236,8 +3072,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:124: Missing { i
-nserted.
+! Missing { inserted.
 <to be read again> 
                    }
 l.124 ...ist unique cohomology classes in $\check^
@@ -3247,8 +3082,7 @@ You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:124: Missing } i
-nserted.
+! Missing } inserted.
 <inserted text> 
                 }
 l.124 ...cohomology classes in $\check^i(B; \Z_2)$
@@ -3259,33 +3093,248 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/Brennen/Documents/GitHub/PMATH-965/Subfiles/March10.tex:135: Undefined c
-ontrol sequence.
-<recently read> \gamm 
-                      
-l.135     \item (Normalization). If $\gamm
-                                          _1^1$ is the tautological line bun...
+) [42]
+! Undefined control sequence.
+\hrulefill ...rs \hrule height 1pt\hfill \kern \z 
+                                                  
+l.167 \lecture{18}{March}{12}
+                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [42]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
-(/Users/Brennen/Documents/GitHub/PMATH-965/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.167 \lecture{18}{March}{12}
+                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.167 \lecture{18}{March}{12}
+                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+\hrulefill ...rs \hrule height 1pt\hfill \kern \z 
+                                                  
+l.167 \lecture{18}{March}{12}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.167 \lecture{18}{March}{12}
+                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.167 \lecture{18}{March}{12}
+                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+(./Subfiles/March12.tex
+! Misplaced \crcr.
+\endarray ->\crcr 
+                  \egroup \egroup 
+l.16     \end{cases}
+                    
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten $.
+\endarray ->\crcr \egroup 
+                          \egroup 
+l.16     \end{cases}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\endarray ->\crcr \egroup \egroup 
+                                  
+l.16     \end{cases}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra \right.
+\endcases ->\endarray \right .
+                              
+l.16     \end{cases}
+                    
+I'm ignoring a \right that had no matching \left.
+
+
+! LaTeX Error: \begin{equation*} on input line 10 ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16     \end{cases}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16     \end{cases}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.16     \end{cases}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17     \]
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{enumerate} on input line 7 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17     \]
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17     \]
+           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.17     \]
+           
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: \begin{note} on input line 5 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18   \end{enumerate}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} on input line 3 ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \end{note}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[43]
+! Undefined control sequence.
+l.131 ... that $f_{\alpha\beta} = (-1)^{w_{\alphab
+                                                  \beta}^1}$. Then $\sigma =...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Extra \endgroup.
+\subfile ...p \skip@preamble \input {#1}\endgroup 
+                                                  
+l.167 \lecture{18}{March}{12}
+                             
+Things are pretty mixed up, but I think the worst is over.
+
+[44]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 32320CFA87647B19C5BDC0CFFC72333A;1507.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+(rerunfilecheck)             Checksum: 65ED327C258DADC42D267FE7C4E24B46;1684.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
- 18777 strings out of 492995
- 354851 string characters out of 6132704
+ 18800 strings out of 492995
+ 353117 string characters out of 6132704
  419907 words of memory out of 5000000
- 21715 multiletter control sequences out of 15000+600000
+ 21716 multiletter control sequences out of 15000+600000
  12872 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,82p,870b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3310,10 +3359,10 @@ l/texlive/2017/texmf-dist/fonts/type1/public/mathabx-type1/mathb7.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (42 pages, 402147 bytes).
+Output written on main.pdf (44 pages, 412283 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
- 214 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
